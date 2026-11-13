@@ -1,0 +1,158 @@
+[
+  {
+    "slug": "architecture-v2-bregenz-25",
+    "url": "https://architecture-v2-bregenz-25.jackylin.chatgpt.site",
+    "version": 5,
+    "commit": "7862f25d37b2ba78dd740aa96d5d69a59b7b8c77"
+  },
+  {
+    "slug": "architecture-v2-olivetti-24",
+    "url": "https://architecture-v2-olivetti-24.jackylin.chatgpt.site",
+    "version": 5,
+    "commit": "290858a8c12056ec0d8cecfd5a8251debaa646bd"
+  },
+  {
+    "slug": "architecture-v2-kimbell-23",
+    "url": "https://architecture-v2-kimbell-23.jackylin.chatgpt.site",
+    "version": 5,
+    "commit": "2b32cb40107b7464d9de07c9817f1da47b2cc737"
+  },
+  {
+    "slug": "architecture-v2-hiroshima-22",
+    "url": "https://architecture-v2-hiroshima-22.jackylin.chatgpt.site",
+    "version": 6,
+    "commit": "158e97af33ee3b6a90f3387a102878085b12b272"
+  },
+  {
+    "slug": "architecture-v2-paper-church-21",
+    "url": "https://architecture-v2-paper-church-21.jackylin.chatgpt.site",
+    "version": 6,
+    "commit": "b686fccf3d2d8e09d603a237a6ba2dd0aa5857f5"
+  },
+  {
+    "slug": "architecture-v2-zollverein-20",
+    "url": "https://architecture-v2-zollverein-20.jackylin.chatgpt.site",
+    "version": 5,
+    "commit": "1b9e9245c6206fecbfccc27af0f76b008f770300"
+  },
+  {
+    "slug": "architecture-v2-bordeaux-19",
+    "url": "https://architecture-v2-bordeaux-19.jackylin.chatgpt.site",
+    "version": 8,
+    "commit": "02f2b8fa6b96683f64eab04601761c1b1480b835"
+  },
+  {
+    "slug": "architecture-v2-serpentine-18",
+    "url": "https://architecture-v2-serpentine-18.jackylin.chatgpt.site",
+    "version": 6,
+    "commit": "1044e40375d1d94d800ec7a609b4ea0037ef3b27"
+  },
+  {
+    "slug": "architecture-v2-light-17",
+    "url": "https://architecture-v2-light-17.jackylin.chatgpt.site",
+    "version": 6,
+    "commit": "613758bd19db71ec371cdb7c39b63c8768e771c2"
+  },
+  {
+    "slug": "architecture-v2-boa-nova-16",
+    "url": "https://architecture-v2-boa-nova-16.jackylin.chatgpt.site",
+    "version": 6,
+    "commit": "66965832413de267f5378399e0e4caab6fc6d668"
+  },
+  {
+    "slug": "architecture-v2-zueblin-15",
+    "url": "https://architecture-v2-zueblin-15.jackylin.chatgpt.site",
+    "version": 5,
+    "commit": "993cd05c76605e39e5ac67b14867a960bd3fb9f8"
+  },
+  {
+    "slug": "architecture-v2-vitra-14",
+    "url": "https://architecture-v2-vitra-14.jackylin.chatgpt.site",
+    "version": 6,
+    "commit": "b2b79217573543cb9429f831a3a05285d3c8a87d"
+  },
+  {
+    "slug": "architecture-v2-aerospace-13",
+    "url": "https://architecture-v2-aerospace-13.jackylin.chatgpt.site",
+    "version": 5,
+    "commit": "ef3524c71d92c1f49437b906ca2636dc938c26ce"
+  },
+  {
+    "slug": "architecture-v2-retti-12",
+    "url": "https://architecture-v2-retti-12.jackylin.chatgpt.site",
+    "version": 6,
+    "commit": "a8b58d95ea9fb9993a4f7d6b89b43e3167601748"
+  },
+  {
+    "slug": "architecture-v2-gunma-11",
+    "url": "https://architecture-v2-gunma-11.jackylin.chatgpt.site",
+    "version": 6,
+    "commit": "8367f8152f689e66ac71b138ad2815b46e975fa9"
+  },
+  {
+    "slug": "architecture-v2-menil-10",
+    "url": "https://architecture-v2-menil-10.jackylin.chatgpt.site",
+    "version": 6,
+    "commit": "bc13f3177ad968e3c95b0cfb0f2a7726dede22cc"
+  },
+  {
+    "slug": "architecture-v2-douglas-09",
+    "url": "https://architecture-v2-douglas-09.jackylin.chatgpt.site",
+    "version": 6,
+    "commit": "390b9442c962b41d173b69cf3730203adc9afd98"
+  },
+  {
+    "slug": "architecture-v2-luce-08",
+    "url": "https://architecture-v2-luce-08.jackylin.chatgpt.site",
+    "version": 6,
+    "commit": "2389321b925d684b04d3eb2133d55cef3ad8c8d0"
+  },
+  {
+    "slug": "architecture-v2-saynatsalo-07",
+    "url": "https://architecture-v2-saynatsalo-07.jackylin.chatgpt.site",
+    "version": 5,
+    "commit": "ae6d959fe401fa8351e633868ebdcd3d4d02657b"
+  },
+  {
+    "slug": "architecture-v2-unity-06",
+    "url": "https://architecture-v2-unity-06.jackylin.chatgpt.site",
+    "version": 4,
+    "commit": "1abdee4b942b579a544695bc9e07508a4ee9ea86"
+  },
+  {
+    "slug": "architecture-v2-savoye-05",
+    "url": "https://architecture-v2-savoye-05.jackylin.chatgpt.site",
+    "version": 6,
+    "commit": "5ff7b0281cd741a76f8cf0d466b392783422bf6f"
+  },
+  {
+    "slug": "architecture-v2-schroder-03",
+    "url": "https://architecture-v2-schroder-03.jackylin.chatgpt.site",
+    "version": 7,
+    "commit": "e816d81346eaf1c757d1a349d7b61f61f17bcadc"
+  },
+  {
+    "slug": "architecture-v2-batllo-02",
+    "url": "https://architecture-v2-batllo-02.jackylin.chatgpt.site",
+    "version": 5,
+    "commit": "29ce36479f56a87bf5f381fd3f27fc1233b7d875"
+  },
+  {
+    "slug": "architecture-v2-tassel-01",
+    "url": "https://architecture-v2-tassel-01.jackylin.chatgpt.site",
+    "version": 7,
+    "commit": "ceeba2d249cb0d6440a43dbbb6687ff44b215bde"
+  },
+  {
+    "slug": "architecture-tours-25-v2",
+    "url": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+    "version": 3,
+    "commit": "f2e1233cf6a86329f3716cb1291c2f7628b60f95"
+  },
+  {
+    "slug": "architecture-v2-farnsworth-04",
+    "url": "https://architecture-v2-farnsworth-04.jackylin.chatgpt.site",
+    "version": 11,
+    "commit": "226e6a66adae6920300eeda02909e3605614f8f5"
+  }
+]

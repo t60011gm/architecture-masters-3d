@@ -1,0 +1,110 @@
+{
+  "era": "1994–1998設計建造；官方項目原建圖集，攝影個別年月未標",
+  "ceiling": "電梯書房為裸露平整混凝土樓板，電梯開口貫穿樓層；玻璃起居層上方為厚重上層量體底面，非均質懸吊格柵天花。",
+  "confidence": {
+    "ceiling": "高",
+    "fixture_type": "中高：圓形嵌燈和桌燈直接可見；細桿式閱讀燈中",
+    "fixture_positions": "中：相對電梯／書桌可辨，絕對坐標為模型映射"
+  },
+  "sources": [
+    {
+      "title": "OMA Maison à Bordeaux官方項目",
+      "url": "https://www.oma.com/projects/maison-a-bordeaux",
+      "evidence": "1994–1998；三層空間、3×3.5m移動平台、項目圖集。"
+    },
+    {
+      "title": "OMA Pierre Paulin Program",
+      "url": "https://www.oma.com/projects/pierre-paulin-program",
+      "evidence": "不同時期家具展示，作年代排除而非原始燈型依據。"
+    }
+  ],
+  "summary": "沿裸露混凝土樓板保留電梯開口；僅補一個有照片燈型依據的局部嵌入下照示意，位置依教學模型映射。",
+  "notes": [
+    "官方書房圖可辨電梯開口旁一只圓形嵌入下照燈及桌上可調工作燈；起居層另有細桿／拉索式可調閱讀燈，夜景是局部照明。燈具品牌、總數及完整配線圖未取得。",
+    "後來的Pierre Paulin家具展示是另一時期，不拿其可移動燈具充作1998竣工配置。",
+    "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+    "本輪只重建一個小圓嵌燈的代表性示意，不宣稱原建只有一盞；桌燈與可動閱讀燈因模型錨點不足未增造。",
+    "嵌燈對應電梯開口外側、既有混凝土樓板底；不是把整個鋁地板或開口發光。",
+    "直接光依相機所在樓層選樣，以減少無投影面光穿過樓板；這是視點樓層剔除，不是真實遮蔽或光線穿透計算。遠處燈具外觀仍保留。"
+  ],
+  "emissiveMaterials": [],
+  "lights": [
+    {
+      "type": "spot",
+      "position": [
+        20.7,
+        2.63,
+        -7.9
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 65,
+      "distance": 7,
+      "angle": 52,
+      "penumbra": 0.65,
+      "shadow": true,
+      "name": "Lift-side study downlight — representative teaching placement",
+      "cameraYMin": 0,
+      "cameraYMax": 2.68
+    }
+  ],
+  "additions": [
+    {
+      "type": "cylinder",
+      "name": "Source-informed recessed trim; mapped estimate",
+      "position": [
+        20.7,
+        2.665,
+        -7.9
+      ],
+      "radius": 0.115,
+      "height": 0.018,
+      "color": "#eeeeea",
+      "metalness": 0.25,
+      "roughness": 0.5,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Recessed diffuser; mapped estimate",
+      "position": [
+        20.7,
+        2.654,
+        -7.9
+      ],
+      "radius": 0.09,
+      "height": 0.004,
+      "color": "#fff4e1",
+      "emissive": "#fff0d8",
+      "emissiveIntensity": 1.3,
+      "collision": false
+    }
+  ],
+  "maxActiveLights": {
+    "high": 4,
+    "low": 2
+  },
+  "researchRecord": {
+    "building": "Maison à Bordeaux｜OMA",
+    "originalLighting": "官方書房圖可辨電梯開口旁一只圓形嵌入下照燈及桌上可調工作燈；起居層另有細桿／拉索式可調閱讀燈，夜景是局部照明。燈具品牌、總數及完整配線圖未取得。",
+    "laterConditions": "後來的Pierre Paulin家具展示是另一時期，不拿其可移動燈具充作1998竣工配置。",
+    "modelActions": {
+      "retain": [
+        "裸露混凝土樓板及電梯開口",
+        "書桌／書櫃"
+      ],
+      "add": [
+        "電梯開口旁小型圓形嵌燈的最簡幾何及真下照光；位置對照模型後明標估算"
+      ],
+      "disable": [
+        "將brushed aluminium floor材質全部發光",
+        "通用天花spot矩陣"
+      ]
+    },
+    "coordinateBasis": "Decoded retained GLB world coordinates; not a historical survey"
+  }
+}

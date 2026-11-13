@@ -1,0 +1,501 @@
+{
+  "summary": "保留不同樓層白色平天花與挑空；現況照片可證的嵌入下照型式，將既有兩層燈口接上寬角直接光。",
+  "era": "1973完工",
+  "ceiling": "白色光滑水平頂面配多層挑空／樓板開洞；沿湖玻璃幕牆與上部天窗形成強日光。；大廳挑空頂與餐廳低天花分層，燈具不能都放在單一高度。",
+  "confidence": "天花：高；現況燈具形態：高；1973精確配置：中低；光度：未取得",
+  "sources": [
+    {
+      "title": "The Interior",
+      "url": "https://www.douglashouse.org/interior",
+      "evidence": "現況內部照片、挑空／天窗和不同層視野"
+    },
+    {
+      "title": "The Story",
+      "url": "https://www.douglashouse.org/story",
+      "evidence": "1973完工與兩度修復"
+    },
+    {
+      "title": "The Restorations",
+      "url": "https://www.douglashouse.org/restorations",
+      "evidence": "1985後與2008起修復，不能將現況直接當原狀"
+    }
+  ],
+  "notes": [
+    "1973 Meier作品及多層挑空、採光開口有官方文字與圖像支持。",
+    "1985後修復一次；現任屋主2007購入後，自2008展開長期全面修復。官方室內照片展示修復後狀態。",
+    "這件可以有實體嵌入下照燈，因為有清楚照片證據；但不應把該燈陣套用到其他作品，也不能無條件宣稱1973原燈。",
+    "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+    "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+    "既有24燈口分布是教學模型，並非1973反射天花圖核定的24盞；只能確認現況照片中的燈型與分層照明。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "Warm recessed light",
+      "intensity": 1.6,
+      "color": "#ffe5c5"
+    }
+  ],
+  "lights": [
+    {
+      "type": "spot",
+      "position": [
+        0.99948,
+        2.46498,
+        1.59993
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        0.99948,
+        2.46498,
+        -0.10025
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        0.99948,
+        2.46498,
+        -1.80044
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "position": [
+        0.99948,
+        2.46498,
+        -3.49925
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        2.69967,
+        2.46498,
+        1.59993
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        2.69967,
+        2.46498,
+        -0.10025
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        2.69967,
+        2.46498,
+        -1.80044
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        2.69967,
+        2.46498,
+        -3.49925
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        4.77065,
+        2.46498,
+        1.59993
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        4.77065,
+        2.46498,
+        -0.10025
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        4.77065,
+        2.46498,
+        -1.80044
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        4.77065,
+        2.46498,
+        -3.49925
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        0.99948,
+        7.90612,
+        1.59993
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        0.99948,
+        7.90612,
+        -0.10025
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        0.99948,
+        7.90612,
+        -1.80044
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        0.99948,
+        7.90612,
+        -3.49925
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        2.69967,
+        7.90612,
+        1.59993
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        2.69967,
+        7.90612,
+        -0.10025
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        2.69967,
+        7.90612,
+        -1.80044
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "position": [
+        2.69967,
+        7.90612,
+        -3.49925
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        4.77065,
+        7.90612,
+        1.59993
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        4.77065,
+        7.90612,
+        -0.10025
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        4.77065,
+        7.90612,
+        -1.80044
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        4.77065,
+        7.90612,
+        -3.49925
+      ],
+      "color": "#ffdfb5",
+      "intensity": 55,
+      "distance": 7,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": false
+    }
+  ],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  }
+}

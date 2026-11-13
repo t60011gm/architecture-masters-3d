@@ -1,0 +1,233 @@
+{
+  "summary": "四片混凝土殼與屋脊天窗保持；參考2024修復後低位上投照明，新增低矮遮光燈體及直接洗殼光。",
+  "era": "1963建築；人工光參考2024修復後策略，非1963原燈復刻",
+  "ceiling": "四片混凝土曲面殼體向上收束，內側菱形深肋格與屋脊狹長玻璃天窗構成天花／牆體整體；沒有傳統水平吊頂。；屋脊一線天與端部高玻璃窗是日光來源，需保留暗／亮梯度。",
+  "confidence": "天花：高；當代照明策略：高；原始燈具：未知；光度：未取得",
+  "sources": [
+    {
+      "title": "Luce Chapel Reopens After Restoration",
+      "url": "https://thupr.thu.edu.tw/EN/newsdetail.php?c=57&id=411",
+      "evidence": "1963落成、2022起兩年修復、2024重啟"
+    },
+    {
+      "title": "靜謐之光｜路思義教堂",
+      "url": "https://taipeidaward.taipei/Post/182397",
+      "evidence": "現代化照明、內部間接反射／遮光、四曲面與一線天"
+    }
+  ],
+  "notes": [
+    "1963曲面殼體／屋脊採光確定；人工燈具配置保留未知。",
+    "校方2024公告確認兩年修復完成；臺北設計獎官方刊載CosmoC團隊說明，明示引入現代燈具、間接光沿曲面反射、遮光與非對稱光學。",
+    "以現況間接光做教學渲染時，須標「2024修復後照明策略參考」，不可標「1963原設計燈具」。",
+    "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+    "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+    "六個低位遮光盒及其座標僅為策略的教學近似，沒有原型尺寸證據。光束直接照亮殼面；此引擎不計算殼面反射回室內的間接光，因此不等同修復現場照明或亮度。"
+  ],
+  "emissiveMaterials": [],
+  "lights": [
+    {
+      "type": "spot",
+      "position": [
+        -6.4,
+        0.43,
+        -5
+      ],
+      "color": "#ffdfb5",
+      "intensity": 280,
+      "distance": 23,
+      "direction": [
+        -0.25,
+        1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "position": [
+        6.4,
+        0.43,
+        -5
+      ],
+      "color": "#ffdfb5",
+      "intensity": 280,
+      "distance": 23,
+      "direction": [
+        0.25,
+        1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "position": [
+        -8.7,
+        0.43,
+        -11
+      ],
+      "color": "#ffdfb5",
+      "intensity": 280,
+      "distance": 23,
+      "direction": [
+        -0.25,
+        1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "position": [
+        8.7,
+        0.43,
+        -11
+      ],
+      "color": "#ffdfb5",
+      "intensity": 280,
+      "distance": 23,
+      "direction": [
+        0.25,
+        1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "position": [
+        -11.6,
+        0.43,
+        -22
+      ],
+      "color": "#ffdfb5",
+      "intensity": 280,
+      "distance": 23,
+      "direction": [
+        -0.25,
+        1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "position": [
+        11.6,
+        0.43,
+        -22
+      ],
+      "color": "#ffdfb5",
+      "intensity": 280,
+      "distance": 23,
+      "direction": [
+        0.25,
+        1,
+        0
+      ],
+      "angle": 55,
+      "penumbra": 0.7,
+      "shadow": true
+    }
+  ],
+  "additions": [
+    {
+      "type": "box",
+      "position": [
+        -6.4,
+        0.35,
+        -5
+      ],
+      "size": [
+        0.35,
+        0.12,
+        0.18
+      ],
+      "color": "#383b3a"
+    },
+    {
+      "type": "box",
+      "position": [
+        6.4,
+        0.35,
+        -5
+      ],
+      "size": [
+        0.35,
+        0.12,
+        0.18
+      ],
+      "color": "#383b3a"
+    },
+    {
+      "type": "box",
+      "position": [
+        -8.7,
+        0.35,
+        -11
+      ],
+      "size": [
+        0.35,
+        0.12,
+        0.18
+      ],
+      "color": "#383b3a"
+    },
+    {
+      "type": "box",
+      "position": [
+        8.7,
+        0.35,
+        -11
+      ],
+      "size": [
+        0.35,
+        0.12,
+        0.18
+      ],
+      "color": "#383b3a"
+    },
+    {
+      "type": "box",
+      "position": [
+        -11.6,
+        0.35,
+        -22
+      ],
+      "size": [
+        0.35,
+        0.12,
+        0.18
+      ],
+      "color": "#383b3a"
+    },
+    {
+      "type": "box",
+      "position": [
+        11.6,
+        0.35,
+        -22
+      ],
+      "size": [
+        0.35,
+        0.12,
+        0.18
+      ],
+      "color": "#383b3a"
+    }
+  ],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  }
+}

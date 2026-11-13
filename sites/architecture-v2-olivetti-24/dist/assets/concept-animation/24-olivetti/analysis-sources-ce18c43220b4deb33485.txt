@@ -1,0 +1,51 @@
+Olivetti 展示店
+120秒／1280×720／12fps／設計概念動畫
+非比例教學重構；動畫變換是分析編排，不代表歷史設計或施工順序。
+
+0–12秒｜深店面現形
+先讀出深店面的光與到達問題
+近側牆面與天花退去，以開放軸測揭示完整縱深；不標爭議總長
+
+12–28秒｜夾層留空
+增加樓面不必堵住整體空間
+兩側夾層按實際輪廓顯現，中間挑空保留；上下視線接通
+
+28–46秒｜石階錯列
+踏階的錯位同時影響路徑與視覺重量
+各踏階從分析排列態移到原有錯位，支持關係以淡線保留
+
+46–64秒｜入口觀看次序
+雕塑、水盤與展示先後可分開閱讀
+在既有Basin位置加入標明Viani雕塑位置的抽象定位符號，再對照原入口至石階路徑；不複製雕塑形體
+
+64–82秒｜材料作接縫
+細部把材料差異轉成可感知的邊界
+前側玻璃接縫處的石、木、玻璃與金屬示意樣段短距離分開再合回
+
+82–102秒｜地坪引光
+材料反光與色彩調整狹長空間的感受
+地坪分析色帶由近至遠顯現，入口水盆出現簡化水面；不模擬反射，雕塑未重建
+
+102–120秒｜展示與身體
+樓梯、展台和觀看位置共同組織展示
+在既有夾層增加一組明示為教學示意的展台、產品簡形與人物，對照眼高及手部；不宣稱復原原有陳列
+
+資料來源
+Il negozio Olivetti di Carlo Scarpa nelle Collezioni del MAXXI Architettura
+https://fai-internal.s3.eu-west-1.amazonaws.com/Negozio+Olivetti_ok_+Maxxi.pdf
+Il piano terra — FAI guide
+https://fai-website.imgix.net/uploads/2020/05/22070459/Il-piano-terra.pdf
+L’architettura — FAI guide
+https://fai-website.imgix.net/uploads/2020/05/22070826/Larchitettura2.pdf
+Il piano superiore — FAI guide
+https://fai-website.imgix.net/uploads/2020/05/22070407/Il-piano-superiore.pdf
+FAI_site
+https://fondoambiente.it/luoghi/negozio-olivetti
+
+新版教學簡報對照
+24_卡羅斯卡帕_50分鐘_圖像分析更新版_v3.pptx
+參照頁碼：4、5、7、8、9、10
+
+圖像與分析說明
+畫面為重新建立的教學性三維示意；幾何分解、移動、箭頭與光線符號是分析方法，不是原建築的歷史施工或設計過程。
+未經測繪校準，不能用於施工、無障礙合規、結構、照度或性能判定。

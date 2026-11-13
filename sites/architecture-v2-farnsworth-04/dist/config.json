@@ -1,0 +1,347 @@
+{
+  "number": 4,
+  "title": "範斯沃斯住宅",
+  "architect": "密斯・凡德羅",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 16878468,
+  "bounds": {
+    "min": [
+      -6.6866,
+      -0.09,
+      -8.9471
+    ],
+    "max": [
+      23.5794,
+      5.3888,
+      8.5719
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "Camera_Exterior_SW",
+      "source_scene": "01_Exterior",
+      "type": "exterior",
+      "fov": 33.4,
+      "label": "建築外觀",
+      "position": [
+        -16.0,
+        7.3,
+        25.0
+      ],
+      "target": [
+        8.4464,
+        2.6494,
+        -0.18760000000000066
+      ],
+      "floor_y": -0.02,
+      "eye_height": 7.32,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -16.0,
+        7.3,
+        25.0
+      ]
+    },
+    {
+      "source_name": "Camera_Interior_Living",
+      "source_scene": "01_Exterior",
+      "type": "interior",
+      "fov": 55.11,
+      "label": "起居空間",
+      "position": [
+        8.05,
+        3.2502,
+        -0.67
+      ],
+      "target": [
+        12.75437,
+        3.05605,
+        -2.35262
+      ],
+      "floor_y": 1.6002,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        8.05,
+        3.2502,
+        -0.67
+      ]
+    },
+    {
+      "source_name": "Camera_Interior_Kitchen",
+      "source_scene": "01_Exterior",
+      "type": "interior",
+      "fov": 67.38,
+      "label": "廚房與服務核心",
+      "position": [
+        17.95,
+        3.2502,
+        -8.49
+      ],
+      "target": [
+        13.45646,
+        2.95333,
+        -6.31745
+      ],
+      "floor_y": 1.6002,
+      "eye_height": 1.65,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        17.95,
+        3.2502,
+        -8.49
+      ]
+    },
+    {
+      "label": "露臺與白色鋼架",
+      "type": "exterior",
+      "navigation": "view",
+      "position": [
+        2.5,
+        3.6,
+        11
+      ],
+      "target": [
+        12.5,
+        2.8,
+        -3.5
+      ],
+      "fov": 56
+    }
+  ],
+  "focus": "浮動平臺、八柱鋼架、服務核心、客廳與廚房",
+  "dimensions": "HABS IL-1105圖3–8：主樓板23.574375×8.7376 m；下露臺16.8402×6.90245 m；室內淨高2.8702 m。",
+  "uncertainty": "文字與圖面尺寸差異保留；家具、五金、基礎與機電非製造／施工級，陳設不等於某一日現況。",
+  "materials": "洞石、白漆鋼、木核心與玻璃均為程序表現；地景與家具依圖像近似，未量測材料光學。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 修正7張同型單椅的椅背與彎管支撐相對方向；另依使用者確認，將壁爐旁兩張單椅各原地轉180度，保持座面中心及其他5椅不變。家具為教學詮釋，並非歷史陳設查證。 Primavera 核心保留其木種標註，細部木紋暫以白楓木貼皮外觀近似；衣櫃採柚木紋理，並非原家具表面實測。",
+  "credit": null,
+  "sources": [
+    {
+      "url": "https://www.loc.gov/item/il0323/",
+      "title": "美國國會圖書館／National Park Service，2009 measured drawings，2010 addendum"
+    },
+    {
+      "url": "https://edithfarnsworthhouse.org/history-farnsworth-house/",
+      "title": "OFFICIAL-HISTORY"
+    },
+    {
+      "title": "Light beige travertine · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Travertine009"
+    },
+    {
+      "title": "White painted plaster · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_plaster_02"
+    },
+    {
+      "title": "Teak veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/teak_veneer"
+    },
+    {
+      "title": "Pale white maple veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_maple_veneer"
+    },
+    {
+      "title": "Short natural green lawn · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Grass001"
+    },
+    {
+      "title": "Fine neutral grey gravel · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Gravel043"
+    },
+    {
+      "title": "Fine upholstery leather detail · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/leather_white"
+    },
+    {
+      "title": "Fine linen weave detail · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_linen"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [
+    {
+      "name": "Interior_bounce_fill",
+      "type": "AREA",
+      "position": [
+        13.0,
+        4.12,
+        -4.0
+      ],
+      "color": [
+        1.0,
+        0.8999999761581421,
+        0.7599999904632568
+      ],
+      "energy": 80.0
+    }
+  ],
+  "legacyUrl": "https://architecture-farnsworth-04.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/04-farnsworth/model.glb",
+    "source_sha256": "1848a3d389210d725c5edf5b136b275f7286da668f593fc63b0145abb82842f0",
+    "sha256": "8aba9d2225163b028caa86a79708bb3e49da68dc1cf20cc7dc88af06fff478bd",
+    "reason": "修正7張同型單椅的椅背與彎管支撐相對方向；另依使用者確認，將壁爐旁兩張單椅各原地轉180度，保持座面中心及其他5椅不變。家具為教學詮釋，並非歷史陳設查證。"
+  },
+  "pbrProfiles": {
+    "Painted steel | warm white": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.3,
+      "color": "#e7e8e3"
+    },
+    "Lath and plaster ceiling": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.08,
+      "color": "#ece9df",
+      "clearLegacyMap": true
+    },
+    "Travertine | procedural pores and horizontal grain": {
+      "kind": "mineral",
+      "historicalFamily": "travertine",
+      "texture": "travertine",
+      "metalness": 0,
+      "roughness": 0.85,
+      "normalScale": 0.3
+    },
+    "Clear quarter-inch plate glass": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "Brushed stainless steel": {
+      "kind": "metal",
+      "historicalFamily": "stainless_chrome",
+      "metalness": 0.8399999737739563,
+      "roughness": 0.2199999988079071
+    },
+    "Roof fine gravel": {
+      "kind": "mineral",
+      "historicalFamily": "aggregate_gravel",
+      "texture": "gravel",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "Primavera veneer | vertical bookmatched grain": {
+      "kind": "wood",
+      "historicalFamily": "primavera_veneer",
+      "texture": "pale_veneer",
+      "tint": "#f3e3c2",
+      "roughness": 0.85,
+      "normalScale": 0.16,
+      "rotation": 90
+    },
+    "Black leather": {
+      "kind": "leather",
+      "historicalFamily": "leather",
+      "texture": "leather",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.7,
+      "normalScale": 0.18
+    },
+    "Enameled sanitaryware": {
+      "kind": "ceramic",
+      "historicalFamily": "ceramic",
+      "metalness": 0,
+      "roughness": 0.18000000715255737
+    },
+    "Sink dark reflection": {
+      "kind": "preserve",
+      "historicalFamily": "authored_reflection_detail"
+    },
+    "Service equipment painted gray": {
+      "kind": "paint",
+      "historicalFamily": "painted_finish",
+      "metalness": 0,
+      "roughness": 0.550000011920929
+    },
+    "Teak wardrobe": {
+      "kind": "wood",
+      "historicalFamily": "teak",
+      "texture": "teak",
+      "roughness": 0.85,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "Tobacco leather | representative later display": {
+      "kind": "leather",
+      "historicalFamily": "leather",
+      "texture": "leather",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.7,
+      "normalScale": 0.18
+    },
+    "Curtain ivory": {
+      "kind": "fabric",
+      "historicalFamily": "fabric",
+      "texture": "linen",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Meadow | restrained natural variation": {
+      "kind": "landscape",
+      "historicalFamily": "grass",
+      "texture": "grass",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "Tree bark": {
+      "kind": "preserve",
+      "historicalFamily": "bark",
+      "metalness": 0
+    },
+    "Foliage_0": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Foliage_1": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Foliage_2": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Foliage_3": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Foliage_4": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "summary": "保留外露機庫結構與大型天窗；10條既有模型線燈只作夜景教學假設，尚無1984原燈具證據。",
+  "era": {
+    "original": "1984；不是Sacramento Aerospace Museum of California或San Diego館",
+    "restoration_or_current": "1998–2002室內改動，2012紀錄時閉館"
+  },
+  "ceiling": "多層通高的機庫式大空間，外露鋼梁及空間構架；高低不同的棚式與平屋頂、大型凸起天窗。",
+  "confidence": {
+    "roof_structure": "高",
+    "daylight": "高",
+    "artificial_fixture": "低／未證實"
+  },
+  "sources": [
+    {
+      "title": "City of Los Angeles：Historic-Cultural Monument nomination 2012",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2012/12-0957_RPT_CHC_06-19-2012.pdf",
+      "evidence": "政府完整保護提名，描述外露梁／空間構架、上層入口通高展廳、大天窗及1998–2002內部改動；內部非2012實勘。",
+      "kind": "官方／一手資料"
+    },
+    {
+      "title": "Los Angeles Conservancy：Air and Space Gallery",
+      "url": "https://www.laconservancy.org/learn/historic-places/air-and-space-gallery-california-science-center/",
+      "evidence": "專業保育組織確認Gehry1984機庫式大空間與基地脈絡。",
+      "kind": "保育機構"
+    },
+    {
+      "title": "Getty：10 Frank Gehry buildings to see in Los Angeles",
+      "url": "https://www.getty.edu/news/10-frank-gehry-buildings-to-see-in-los-angeles/",
+      "evidence": "Getty檔案機構對正確建築身分與外觀的辨識。",
+      "kind": "官方／一手資料"
+    }
+  ],
+  "notes": [
+    "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+    "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+    "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+    "保護提名報告說明無法入內調查，因此其內部描述據已出版照片、剖面與文字；不能宣稱實測或最新內況。",
+    "保留裸露結構及天窗；不填假平頂。",
+    "建築為洛杉磯1984 California Aerospace Museum，不是其他城市的同名館。政府2012提名的內部描述來自出版照片、剖面與文字，非當時入內實測。",
+    "人工照明類型、原始數量、位置均未證實；本版保留GLB既有10條線件並配向下直接面光，明示為教學夜景，不宣稱歷史照明復原。若研究目標限定原貌，應關閉室內燈。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "PBR | warm lamp emission",
+      "color": "#fff0d8",
+      "intensity": 2.2
+    }
+  ],
+  "lights": [
+    {
+      "type": "area",
+      "position": [
+        -14.99936,
+        19.72296,
+        10.99979
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 1200,
+      "width": 1.3997,
+      "height": 0.16919,
+      "name": "Unverified model linear fixture 1; teaching-only night light"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.99936,
+        19.72296,
+        2
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 1200,
+      "width": 1.3997,
+      "height": 0.16919,
+      "name": "Unverified model linear fixture 2; teaching-only night light"
+    },
+    {
+      "type": "area",
+      "position": [
+        -4.99979,
+        19.72296,
+        10.99979
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 1200,
+      "width": 1.3997,
+      "height": 0.16919,
+      "name": "Unverified model linear fixture 3; teaching-only night light"
+    },
+    {
+      "type": "area",
+      "position": [
+        -4.99979,
+        19.72296,
+        2
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 1200,
+      "width": 1.3997,
+      "height": 0.16919,
+      "name": "Unverified model linear fixture 4; teaching-only night light"
+    },
+    {
+      "type": "area",
+      "position": [
+        4.99979,
+        19.72296,
+        10.99979
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 1200,
+      "width": 1.3997,
+      "height": 0.16919,
+      "name": "Unverified model linear fixture 5; teaching-only night light"
+    },
+    {
+      "type": "area",
+      "position": [
+        4.99979,
+        19.72296,
+        2
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 1200,
+      "width": 1.3997,
+      "height": 0.16919,
+      "name": "Unverified model linear fixture 6; teaching-only night light"
+    },
+    {
+      "type": "area",
+      "position": [
+        14.99936,
+        19.72296,
+        10.99979
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 1200,
+      "width": 1.3997,
+      "height": 0.16919,
+      "name": "Unverified model linear fixture 7; teaching-only night light"
+    },
+    {
+      "type": "area",
+      "position": [
+        14.99936,
+        19.72296,
+        2
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 1200,
+      "width": 1.3997,
+      "height": 0.16919,
+      "name": "Unverified model linear fixture 8; teaching-only night light"
+    },
+    {
+      "type": "area",
+      "position": [
+        25.00064,
+        19.72296,
+        10.99979
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 1200,
+      "width": 1.3997,
+      "height": 0.16919,
+      "name": "Unverified model linear fixture 9; teaching-only night light"
+    },
+    {
+      "type": "area",
+      "position": [
+        25.00064,
+        19.72296,
+        2
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 1200,
+      "width": 1.3997,
+      "height": 0.16919,
+      "name": "Unverified model linear fixture 10; teaching-only night light"
+    }
+  ],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  },
+  "researchStatus": {
+    "record": "historical-lighting-research-1.0",
+    "checked_geometry": "CPU Three GLTFLoader + Meshopt; world transforms retained",
+    "photometry": "teaching estimates only",
+    "gpu_visual_acceptance": false
+  }
+}

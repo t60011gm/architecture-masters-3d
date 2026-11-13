@@ -1,0 +1,447 @@
+{
+  "number": 5,
+  "title": "薩伏伊別墅",
+  "architect": "勒・柯比意",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 3155360,
+  "bounds": {
+    "min": [
+      -0.14,
+      -2.72,
+      -20.2906
+    ],
+    "max": [
+      19.14,
+      9.35,
+      1.2906
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "01 Exterior entrance",
+      "source_scene": "01 Full architectural model",
+      "type": "exterior",
+      "fov": 31.89,
+      "label": "建築外觀",
+      "position": [
+        34.0,
+        12.0,
+        -40.0
+      ],
+      "target": [
+        9.5,
+        3.3149999999999995,
+        -9.5
+      ],
+      "floor_y": -0.2145,
+      "eye_height": 12.215,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        34.0,
+        12.0,
+        -40.0
+      ]
+    },
+    {
+      "source_name": "02 Exterior garden",
+      "source_scene": "01 Full architectural model",
+      "type": "exterior",
+      "fov": 31.89,
+      "label": "建築外觀",
+      "position": [
+        -25.0,
+        11.0,
+        26.0
+      ],
+      "target": [
+        9.5,
+        3.3149999999999995,
+        -9.5
+      ],
+      "floor_y": -0.2145,
+      "eye_height": 11.215,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -25.0,
+        11.0,
+        26.0
+      ]
+    },
+    {
+      "source_name": "03 Garden terrace",
+      "source_scene": "01 Full architectural model",
+      "type": "exterior",
+      "fov": 51.28,
+      "label": "外觀視角",
+      "position": [
+        0.8,
+        4.78,
+        -2.4
+      ],
+      "target": [
+        9.5,
+        3.3149999999999995,
+        -9.5
+      ],
+      "floor_y": 3.1106,
+      "eye_height": 1.669,
+      "clearance_035m": true,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        0.8,
+        4.78,
+        -2.4
+      ]
+    },
+    {
+      "source_name": "04 Living room",
+      "source_scene": "01 Full architectural model",
+      "type": "interior",
+      "fov": 57.22,
+      "label": "起居空間",
+      "position": [
+        2.0,
+        4.81996,
+        -15.0
+      ],
+      "target": [
+        6.68366,
+        4.70485,
+        -16.74645
+      ],
+      "floor_y": 3.17,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        2.0,
+        4.79,
+        -15.0
+      ]
+    }
+  ],
+  "focus": "柱網、連續坡道、屋頂花園、完整模型與上層剖視",
+  "dimensions": "CMN／FLC柱網4.75 m；研究剖面坡道段8.625 m、中間平台+1.588 m、主層+3.17 m、屋頂+6.60 m、屏牆頂+9.35 m。",
+  "uncertainty": "基於1930歷史狀態研究並參照修復色彩；門窗、牆厚、樓梯、家具與景觀含推定，地下設備未完整重建。",
+  "materials": "白色礦物塗料、綠牆、陶磚與玻璃為程序PBR；透明陰影和照明是展示近似。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 逐件修正椅背傾角、座向、支架與地面接觸；補齊桌椅遺漏支撐並以實體接合驗證",
+  "credit": "勒・柯比意與Pierre Jeanneret",
+  "sources": [
+    {
+      "url": "https://uvadoc.uva.es/handle/10324/66393",
+      "title": "Savoye as built"
+    },
+    {
+      "url": "https://www.fondationlecorbusier.fr/wp-content/uploads/2022/05/2049_3993.pdf",
+      "title": "www.fondationlecorbusier.fr"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "White painted plaster · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_plaster_02"
+    },
+    {
+      "title": "White oak veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_oak_veneer"
+    },
+    {
+      "title": "Short natural green lawn · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Grass001"
+    },
+    {
+      "title": "Fine neutral grey gravel · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Gravel043"
+    },
+    {
+      "title": "Fine upholstery leather detail · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/leather_white"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [
+    {
+      "name": "Living room linear luminaire",
+      "type": "AREA",
+      "position": [
+        7.6,
+        5.98,
+        -16.08
+      ],
+      "color": [
+        1.0,
+        0.8899999856948853,
+        0.699999988079071
+      ],
+      "energy": 180.0
+    },
+    {
+      "name": "Interior discreet ambient",
+      "type": "AREA",
+      "position": [
+        14.0,
+        6.1,
+        -10.0
+      ],
+      "color": [
+        1.0,
+        0.9100000262260437,
+        0.7699999809265137
+      ],
+      "energy": 150.0
+    },
+    {
+      "name": "Interior discreet ambient.001",
+      "type": "AREA",
+      "position": [
+        14.0,
+        6.1,
+        -4.0
+      ],
+      "color": [
+        1.0,
+        0.9100000262260437,
+        0.7699999809265137
+      ],
+      "energy": 100.0
+    },
+    {
+      "name": "Interior discreet ambient.002",
+      "type": "AREA",
+      "position": [
+        18.0,
+        6.1,
+        -8.0
+      ],
+      "color": [
+        1.0,
+        0.9100000262260437,
+        0.7699999809265137
+      ],
+      "energy": 100.0
+    },
+    {
+      "name": "Interior discreet ambient.003",
+      "type": "AREA",
+      "position": [
+        18.0,
+        6.1,
+        -18.0
+      ],
+      "color": [
+        1.0,
+        0.9100000262260437,
+        0.7699999809265137
+      ],
+      "energy": 140.0
+    },
+    {
+      "name": "Interior discreet ambient.004",
+      "type": "AREA",
+      "position": [
+        13.0,
+        2.6,
+        -11.0
+      ],
+      "color": [
+        1.0,
+        0.9100000262260437,
+        0.7699999809265137
+      ],
+      "energy": 110.0
+    }
+  ],
+  "legacyUrl": "https://architecture-savoye-05.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/05-savoye/model.glb",
+    "source_sha256": "a630403d2c92ca4b9a15a6f20b4720faba1f9865732233422aacbb5e8e3c8c98",
+    "sha256": "5863afff7aabb0e33aad3a6f91ef4c35ea149488bcba00a9f026633dc43197ce",
+    "reason": "逐件修正椅背傾角、座向、支架與地面接觸；補齊桌椅遺漏支撐並以實體接合驗證"
+  },
+  "pbrProfiles": {
+    "Mown grass procedural base": {
+      "kind": "landscape",
+      "historicalFamily": "grass",
+      "texture": "grass",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "Crushed light aggregate approach": {
+      "kind": "mineral",
+      "historicalFamily": "aggregate_gravel",
+      "texture": "gravel",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "Oak parquet - satin": {
+      "kind": "wood",
+      "historicalFamily": "oak",
+      "texture": "oak",
+      "roughness": 0.9,
+      "normalScale": 0.22,
+      "rotation": 90
+    },
+    "Context leaf 0": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Context leaf 1": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Context leaf 2": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Context leaf 3": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Small 150mm ceramic floor modules": {
+      "kind": "ceramic",
+      "historicalFamily": "ceramic",
+      "metalness": 0,
+      "roughness": 0.45
+    },
+    "Ground floor deep green render": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    },
+    "Interior warm white": {
+      "kind": "paint",
+      "historicalFamily": "painted_finish",
+      "metalness": 0,
+      "roughness": 0.6
+    },
+    "Clear architectural glazing": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "Painted joinery - soft grey": {
+      "kind": "paint",
+      "historicalFamily": "painted_joinery",
+      "metalness": 0,
+      "roughness": 0.3799999952316284
+    },
+    "Reinforced concrete understructure": {
+      "kind": "mineral",
+      "historicalFamily": "concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Warm white mineral render": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    },
+    "Dark metal fittings": {
+      "kind": "metal",
+      "historicalFamily": "metal",
+      "metalness": 0.8,
+      "roughness": 0.3199999928474426
+    },
+    "Drawing-derived 750mm terrace paving modules": {
+      "kind": "mineral",
+      "historicalFamily": "paving_stone",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.18,
+      "roughness": 0.95
+    },
+    "Polychromy - soft rose": {
+      "kind": "paint",
+      "historicalFamily": "painted_finish",
+      "metalness": 0,
+      "roughness": 0.6
+    },
+    "Polychromy - bleu charron": {
+      "kind": "paint",
+      "historicalFamily": "painted_finish",
+      "metalness": 0,
+      "roughness": 0.6
+    },
+    "White kitchen ceramic": {
+      "kind": "ceramic",
+      "historicalFamily": "ceramic",
+      "metalness": 0,
+      "roughness": 0.28999999165534973
+    },
+    "Planter soil": {
+      "kind": "preserve",
+      "historicalFamily": "soil_landscape",
+      "metalness": 0
+    },
+    "Plant foliage": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Blue ceramic tile glaze": {
+      "kind": "ceramic",
+      "historicalFamily": "glazed_ceramic",
+      "metalness": 0,
+      "roughness": 0.25999999046325684
+    },
+    "Grey linoleum ramp": {
+      "kind": "preserve",
+      "historicalFamily": "linoleum"
+    },
+    "Dark leather upholstery": {
+      "kind": "leather",
+      "historicalFamily": "leather",
+      "texture": "leather",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.7,
+      "normalScale": 0.18
+    },
+    "Polished chromium steel": {
+      "kind": "metal",
+      "historicalFamily": "stainless_chrome",
+      "metalness": 0.949999988079071,
+      "roughness": 0.17000000178813934
+    },
+    "Warm opal glass lighting": {
+      "kind": "preserve",
+      "historicalFamily": "emissive_diffuser"
+    }
+  }
+}

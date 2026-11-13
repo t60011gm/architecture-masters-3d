@@ -1,0 +1,269 @@
+{
+  "number": 18,
+  "title": "2002 蛇形藝廊展亭",
+  "architect": "伊東豐雄",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 768856,
+  "bounds": {
+    "min": [
+      -11.6,
+      -0.02,
+      -11.6
+    ],
+    "max": [
+      11.6,
+      5.1,
+      11.6
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "CAM_18_Checkpoint",
+      "source_scene": "18_Ito_Daylight",
+      "type": "exterior",
+      "fov": 26.99,
+      "label": "外觀視角",
+      "position": [
+        25.0,
+        13.0,
+        -28.0
+      ],
+      "target": [
+        0.0,
+        2.54,
+        0.0
+      ],
+      "floor_y": -0.0055,
+      "eye_height": 13.005,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        25.0,
+        13.0,
+        -28.0
+      ]
+    },
+    {
+      "source_name": "CAM_18_Exterior_NE",
+      "source_scene": "18_Ito_Daylight",
+      "type": "exterior",
+      "fov": 35.05,
+      "label": "建築外觀",
+      "position": [
+        25.0,
+        9.0,
+        -28.0
+      ],
+      "target": [
+        0.0,
+        2.54,
+        0.0
+      ],
+      "floor_y": -0.0055,
+      "eye_height": 9.005,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        25.0,
+        9.0,
+        -28.0
+      ]
+    },
+    {
+      "source_name": "CAM_18_Interior",
+      "source_scene": "18_Ito_Daylight",
+      "type": "interior",
+      "fov": 55.11,
+      "label": "室內空間",
+      "position": [
+        5.9,
+        2.05039,
+        -5.3
+      ],
+      "target": [
+        2.54573,
+        2.24642,
+        -1.59724
+      ],
+      "floor_y": 0.4004,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        5.9,
+        2.05,
+        -5.3
+      ]
+    }
+  ],
+  "focus": "原圖板網、角部折返、透明／不透明面、室內",
+  "dimensions": "JA當年資料309.76 m²、原出版鋼板構造深550 mm；面積資料是計算依據，不是線性標註。",
+  "uncertainty": "Balmond340 m²及其他5.3／6.7 m高度基準未解；抬高地坪0.40 m、鋼厚分配、細部及家具推定。",
+  "materials": "鋼板、10 mm玻璃、草坪島與接縫為展示近似；物件分片數不等於原380板件施工清單。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 完成全家具支撐與接合修正；局部地坪修補屬教學重建，原參觀動線與空間比例保留",
+  "credit": "伊東豐雄、Cecil Balmond與Arup",
+  "sources": [
+    {
+      "url": "https://www.tozai-as.or.jp/mytech/06/06_ito03.html",
+      "title": "ITO_2006"
+    },
+    {
+      "url": "https://backnumber.japan-architect.co.jp/english/2maga/ja/ja0048/work/37.html",
+      "title": "JA48"
+    },
+    {
+      "url": "https://balmondstudio.com/work/serpentine-pavilion-2002.php",
+      "title": "BALMOND"
+    },
+    {
+      "url": "https://vimeo.com/102108416",
+      "title": "BALMOND_VIDEO"
+    },
+    {
+      "url": "https://www.serpentinegalleries.org/whats-on/serpentine-gallery-pavilion-2002-toyo-ito-and-cecil-balmond-arup/",
+      "title": "SERPENTINE"
+    },
+    {
+      "url": "https://block.arch.ethz.ch/eq/files/TEIV_FS20_L2_EN_1582904571.pdf",
+      "title": "ETH"
+    },
+    {
+      "url": "https://www.archiweb.cz/en/b/serpentine-gallery-pavilion-2002",
+      "title": "ARCHIWEB2002"
+    },
+    {
+      "url": "https://www.scribd.com/document/794952159/Serpentine-Gallery-Pavilion-2002",
+      "title": "Serpentine Gallery Pavilion 2002: Toyo Ito with Arup"
+    },
+    {
+      "url": "https://www.domusweb.it/en/architecture/2019/06/21/twenty-tests-of-serpentine-pavilion.html",
+      "title": "DOMUS2019"
+    },
+    {
+      "url": "https://aaltodoc.aalto.fi/bitstreams/4191f1f3-0ad6-4c67-b97f-399d45740daf/download",
+      "title": "Design through wrapping behaviour, Janne Keskinen"
+    },
+    {
+      "title": "Short natural green lawn · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Grass001"
+    },
+    {
+      "title": "Fine neutral grey gravel · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Gravel043"
+    },
+    {
+      "title": "Fine linen weave detail · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_linen"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [],
+  "legacyUrl": "https://architecture-serpentine-18.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/18-serpentine/model.glb",
+    "source_sha256": "1d0068e7daacdd7b7048eceb94dd7591131c770334e2903473924d086402dfa7",
+    "sha256": "9aaf93a386fa11dfe1f1f156ee90e5dff2839c8fda0485e3d2e88e3232ec30c1",
+    "reason": "完成全家具支撐與接合修正；局部地坪修補屬教學重建，原參觀動線與空間比例保留"
+  },
+  "pbrProfiles": {
+    "04 Silver grey painted plywood": {
+      "kind": "paint",
+      "historicalFamily": "painted_timber",
+      "metalness": 0,
+      "roughness": 0.5199999809265137
+    },
+    "05 Dark floor steel": {
+      "kind": "metal",
+      "historicalFamily": "metal",
+      "metalness": 0.8,
+      "roughness": 0.4399999976158142
+    },
+    "09 Grass - procedural": {
+      "kind": "landscape",
+      "historicalFamily": "grass",
+      "texture": "grass",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "13 Pale park gravel": {
+      "kind": "mineral",
+      "historicalFamily": "aggregate_gravel",
+      "texture": "gravel",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "01 White painted steel blades": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.30000001192092896
+    },
+    "02 White aluminium cassette skins 3mm": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.3400000035762787
+    },
+    "03 Clear glass - individual outer panes": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "08 Illustrative white tables": {
+      "kind": "paint",
+      "historicalFamily": "furniture_finish",
+      "metalness": 0,
+      "roughness": 0.3499999940395355
+    },
+    "06 Brushed aluminium furniture": {
+      "kind": "metal",
+      "historicalFamily": "aluminium",
+      "metalness": 0.8,
+      "roughness": 0.2800000011920929
+    },
+    "07 Illustrative green polymer seats": {
+      "kind": "preserve",
+      "historicalFamily": "polymer"
+    },
+    "11 Illustrative beanbags": {
+      "kind": "fabric",
+      "historicalFamily": "fabric",
+      "texture": "linen",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "10 Joint sealant": {
+      "kind": "preserve",
+      "historicalFamily": "sealant"
+    },
+    "14 Tree trunks": {
+      "kind": "preserve",
+      "historicalFamily": "bark",
+      "metalness": 0
+    },
+    "15 Tree canopy": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    }
+  }
+}

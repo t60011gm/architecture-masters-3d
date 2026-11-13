@@ -1,0 +1,1302 @@
+{
+  "era": "2006原建；官方攝影師項目標2010；Folkwang自2010使用",
+  "ceiling": "各層高度不同的裸露平板混凝土樓板；高廳9.8m，地面層約4.5m；露天屋頂庭院不是全棟室內天窗。",
+  "confidence": {
+    "ceiling": "高",
+    "fixture_type": "中高：2010餐廳照片可辨；2006原始狀態中低",
+    "fixture_positions": "地面層中；上層低"
+  },
+  "sources": [
+    {
+      "title": "Zollverein官方SANAA大樓",
+      "url": "https://www.zollverein.de/eventlocations/sanaa/",
+      "evidence": "樓層高度與134窗；高廳照片。"
+    },
+    {
+      "title": "Iwan Baan官方攝影項目",
+      "url": "https://iwan.com/portfolio/sanaa-zollverein-school/",
+      "evidence": "項目頁標2010；餐廳照片的直接攝影來源。"
+    },
+    {
+      "title": "Iwan Baan餐廳原圖",
+      "url": "https://b2832891.assetcdn.net/2.0/2832891/wp-content/uploads/2013/07/SANAA-Zollverein-7406.jpg",
+      "evidence": "像素檢視可辨圓形齊平下照燈；URL上傳年2013不當攝影年。"
+    },
+    {
+      "title": "Folkwang官方建築傳單",
+      "url": "https://www.folkwang-uni.de/fileadmin/medien/Die%20Hochschule/Einzelbilder/Standorte/SANAA/folkwang_sanaa_flyer.pdf",
+      "evidence": "2006建築、2010使用及樓層組織。"
+    }
+  ],
+  "summary": "保留56個既有圓形燈口與裸混凝土樓板；地面層燈型有2010官方攝影依據，上層數量與配置僅為教學模型推估。",
+  "notes": [
+    "原建2006燈表未取得。攝影師2010官方作品照中地面層餐廳裸露板底可見疏落小圓形齊平／嵌入下照燈；不支持外露射燈軌道或吊燈。",
+    "2010使用照片證明當時燈型，不能保證全是2006未換燈。其他上層的精確燈距、數量未確認。",
+    "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+    "56個既有圓盤幾何沒有新增；照片能確認地面層圓形燈型，不等於核實上層56盞的原建總數、規則間距或2006原燈管。",
+    "直接光依相機所在樓層選樣，以減少無投影面光穿過樓板；這是視點樓層剔除，不是真實遮蔽或光線穿透計算。遠處燈具外觀仍保留。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "Luminous diffuser",
+      "color": "#fff6e6",
+      "intensity": 1.4
+    }
+  ],
+  "lights": [
+    {
+      "type": "spot",
+      "position": [
+        -11.00017,
+        4.43474,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 1 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        -11.00017,
+        4.43474,
+        3.00005
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 2 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        -11.00017,
+        4.43474,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 3 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        4.43474,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 4 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        4.43474,
+        3.00005
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 5 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        4.43474,
+        -5.00008
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": true,
+      "name": "Existing circular diffuser 6 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        4.43474,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 7 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        5.00008,
+        4.43474,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 8 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        5.00008,
+        4.43474,
+        -5.00008
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 9 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        5.00008,
+        4.43474,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 10 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        4.43474,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 11 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        4.43474,
+        3.00005
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 12 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        4.43474,
+        -5.00008
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 13 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        4.43474,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 140,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 14 — model layout",
+      "cameraYMin": 0,
+      "cameraYMax": 4.499
+    },
+    {
+      "type": "spot",
+      "position": [
+        -11.00017,
+        15.1327,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 15 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        -11.00017,
+        15.1327,
+        3.00005
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 16 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        -11.00017,
+        15.1327,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 17 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        15.1327,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 18 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        15.1327,
+        3.00005
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 19 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        15.1327,
+        -5.00008
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": true,
+      "name": "Existing circular diffuser 20 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        15.1327,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 21 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        5.00008,
+        15.1327,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 22 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        5.00008,
+        15.1327,
+        -5.00008
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 23 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        5.00008,
+        15.1327,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 24 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        15.1327,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 25 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        15.1327,
+        3.00005
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 26 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        15.1327,
+        -5.00008
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 27 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        15.1327,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 28 — model layout",
+      "cameraYMin": 5.4,
+      "cameraYMax": 15.199
+    },
+    {
+      "type": "spot",
+      "position": [
+        -11.00017,
+        21.03421,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 29 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        -11.00017,
+        21.03421,
+        3.00005
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 30 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        -11.00017,
+        21.03421,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 31 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        21.03421,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 32 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        21.03421,
+        3.00005
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 33 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        21.03421,
+        -5.00008
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": true,
+      "name": "Existing circular diffuser 34 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        21.03421,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 35 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        5.00008,
+        21.03421,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 36 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        5.00008,
+        21.03421,
+        -5.00008
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 37 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        5.00008,
+        21.03421,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 38 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        21.03421,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 39 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        21.03421,
+        3.00005
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 40 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        21.03421,
+        -5.00008
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 41 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        21.03421,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 42 — model layout",
+      "cameraYMin": 16.1,
+      "cameraYMax": 21.099
+    },
+    {
+      "type": "spot",
+      "position": [
+        -11.00017,
+        25.08356,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 43 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    },
+    {
+      "type": "spot",
+      "position": [
+        -11.00017,
+        25.08356,
+        3.00005
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 44 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    },
+    {
+      "type": "spot",
+      "position": [
+        -11.00017,
+        25.08356,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 45 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        25.08356,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 46 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        25.08356,
+        3.00005
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 47 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        25.08356,
+        -5.00008
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": true,
+      "name": "Existing circular diffuser 48 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    },
+    {
+      "type": "spot",
+      "position": [
+        -3.00005,
+        25.08356,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 49 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    },
+    {
+      "type": "spot",
+      "position": [
+        5.00008,
+        25.08356,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 50 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    },
+    {
+      "type": "spot",
+      "position": [
+        5.00008,
+        25.08356,
+        -5.00008
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 51 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    },
+    {
+      "type": "spot",
+      "position": [
+        5.00008,
+        25.08356,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 52 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        25.08356,
+        11.00017
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 53 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        25.08356,
+        3.00005
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 54 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        25.08356,
+        -5.00008
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 55 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    },
+    {
+      "type": "spot",
+      "position": [
+        13.0002,
+        25.08356,
+        -13.0002
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 220,
+      "distance": 15,
+      "angle": 58,
+      "penumbra": 0.75,
+      "shadow": false,
+      "name": "Existing circular diffuser 56 — model layout",
+      "cameraYMin": 22,
+      "cameraYMax": 25.15
+    }
+  ],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  },
+  "researchRecord": {
+    "building": "Zollverein School｜SANAA",
+    "originalLighting": "原建2006燈表未取得。攝影師2010官方作品照中地面層餐廳裸露板底可見疏落小圓形齊平／嵌入下照燈；不支持外露射燈軌道或吊燈。",
+    "laterConditions": "2010使用照片證明當時燈型，不能保證全是2006未換燈。其他上層的精確燈距、數量未確認。",
+    "modelActions": {
+      "retain": [
+        "56個Luminous diffuser，y約4.47/15.16/21.07/25.11",
+        "裸露混凝土板底"
+      ],
+      "add": [],
+      "disable": [
+        "另疊加可見spot筒／軌道",
+        "將窗框鋁材當燈"
+      ]
+    },
+    "coordinateBasis": "Decoded retained GLB world coordinates; not a historical survey"
+  }
+}

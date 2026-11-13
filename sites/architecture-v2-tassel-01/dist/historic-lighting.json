@@ -1,0 +1,134 @@
+{
+  "summary": "樓梯黃銅曲枝乳白玻璃燈：沿用既有燈罩與支架，加入全向直接照明；保留分房間木格天花與採光頂。",
+  "era": "1893（官方建築清冊）",
+  "ceiling": "主樓梯廳為外露細鐵柱、拱形鐵構與有機壁畫；上層階梯空間有玻璃採光頂。；客廳／餐廳是木格天花與外露金屬梁；客廳格紋橫向、餐廳縱向，不能把所有房間做同一平天花。",
+  "confidence": "天花：高；燈具形態：高；原始精確位置：中；光度：未取得",
+  "sources": [
+    {
+      "title": "Hôtel Tassel – Inventaire du patrimoine architectural",
+      "url": "https://monument.heritage.brussels/fr/Bruxelles_Extension_Sud/Rue_Paul_Emile_Janson/6/15890",
+      "evidence": "1893設計、1982修復起始、木格天花方向、黃銅枝燈、2006照片"
+    }
+  ],
+  "notes": [
+    "1893 Horta；構造與裝飾整合，人工燈也延續植物曲線。",
+    "Jean Delhaye於1976購入，1982開始修復；官方燈具近照標2006，不能當1893現場照。",
+    "前廳照片可見亮點，但未能證明其為原設計嵌燈；不建議據此加現代spot。",
+    "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+    "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+    "九個燈罩為現有教學模型配置，並非確證1893原燈數；未將前廳未知亮點新增成嵌燈。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "Opal_lamp_warm_glow",
+      "intensity": 2,
+      "color": "#ffdfb5"
+    }
+  ],
+  "lights": [
+    {
+      "type": "point",
+      "position": [
+        1.54991,
+        2.66993,
+        -7.01017
+      ],
+      "color": "#ffdfb5",
+      "intensity": 25,
+      "distance": 5
+    },
+    {
+      "type": "point",
+      "position": [
+        1.11518,
+        2.66993,
+        -7.26112
+      ],
+      "color": "#ffdfb5",
+      "intensity": 25,
+      "distance": 5
+    },
+    {
+      "type": "point",
+      "position": [
+        1.11518,
+        2.66993,
+        -6.75899
+      ],
+      "color": "#ffdfb5",
+      "intensity": 25,
+      "distance": 5
+    },
+    {
+      "type": "point",
+      "position": [
+        -0.87015,
+        4.01998,
+        -9.92999
+      ],
+      "color": "#ffdfb5",
+      "intensity": 25,
+      "distance": 5
+    },
+    {
+      "type": "point",
+      "position": [
+        -1.30487,
+        4.01998,
+        -10.18117
+      ],
+      "color": "#ffdfb5",
+      "intensity": 25,
+      "distance": 5
+    },
+    {
+      "type": "point",
+      "position": [
+        -1.30487,
+        4.01998,
+        -9.67881
+      ],
+      "color": "#ffdfb5",
+      "intensity": 25,
+      "distance": 5
+    },
+    {
+      "type": "point",
+      "position": [
+        2.28997,
+        5.94004,
+        -8.95009
+      ],
+      "color": "#ffdfb5",
+      "intensity": 25,
+      "distance": 5
+    },
+    {
+      "type": "point",
+      "position": [
+        1.85501,
+        5.94004,
+        -9.20128
+      ],
+      "color": "#ffdfb5",
+      "intensity": 25,
+      "distance": 5
+    },
+    {
+      "type": "point",
+      "position": [
+        1.85501,
+        5.94004,
+        -8.69891
+      ],
+      "color": "#ffdfb5",
+      "intensity": 25,
+      "distance": 5
+    }
+  ],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  }
+}

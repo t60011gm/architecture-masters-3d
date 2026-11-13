@@ -1,0 +1,66 @@
+[
+  {
+    "path": "sites/architecture-v2-farnsworth-04/dist/model.glb",
+    "size": 16878468,
+    "sha256": "8aba9d2225163b028caa86a79708bb3e49da68dc1cf20cc7dc88af06fff478bd",
+    "parts": [
+      "sites/architecture-v2-farnsworth-04/dist/backup-parts/model.glb/000.part",
+      "sites/architecture-v2-farnsworth-04/dist/backup-parts/model.glb/001.part"
+    ]
+  },
+  {
+    "path": "sites/architecture-v2-hiroshima-22/dist/model.glb",
+    "size": 11777464,
+    "sha256": "60b8d6647eae2a254ad427b03131a9fcee2cfa4bd8561200156f8979cf56ea5d",
+    "parts": [
+      "sites/architecture-v2-hiroshima-22/dist/backup-parts/model.glb/000.part",
+      "sites/architecture-v2-hiroshima-22/dist/backup-parts/model.glb/001.part"
+    ]
+  },
+  {
+    "path": "sites/architecture-v2-light-17/dist/model.glb",
+    "size": 11661496,
+    "sha256": "2bb35def51a112ae6fe8f87b47677544580a05713bb2985dbad1e039c34c939f",
+    "parts": [
+      "sites/architecture-v2-light-17/dist/backup-parts/model.glb/000.part",
+      "sites/architecture-v2-light-17/dist/backup-parts/model.glb/001.part"
+    ]
+  },
+  {
+    "path": "sites/architecture-v2-luce-08/dist/model.glb",
+    "size": 25644636,
+    "sha256": "01ebf319e9834c8b986d932bf489f24a1d2bbf37e23a5e91333ac63279a9b965",
+    "parts": [
+      "sites/architecture-v2-luce-08/dist/backup-parts/model.glb/000.part",
+      "sites/architecture-v2-luce-08/dist/backup-parts/model.glb/001.part",
+      "sites/architecture-v2-luce-08/dist/backup-parts/model.glb/002.part"
+    ]
+  },
+  {
+    "path": "sites/architecture-v2-menil-10/dist/model.glb",
+    "size": 17086772,
+    "sha256": "0f737deaefcd8ec5ec13b5ba3b6c04980905a2c89259b9cfc02faa17e9e655d7",
+    "parts": [
+      "sites/architecture-v2-menil-10/dist/backup-parts/model.glb/000.part",
+      "sites/architecture-v2-menil-10/dist/backup-parts/model.glb/001.part"
+    ]
+  },
+  {
+    "path": "sites/architecture-v2-paper-church-21/dist/model.glb",
+    "size": 12746964,
+    "sha256": "81db7be5a9097607dc691a1192e83d188f25389a58f6c3f05ddf1cf425e14e0e",
+    "parts": [
+      "sites/architecture-v2-paper-church-21/dist/backup-parts/model.glb/000.part",
+      "sites/architecture-v2-paper-church-21/dist/backup-parts/model.glb/001.part"
+    ]
+  },
+  {
+    "path": "sites/architecture-v2-zueblin-15/dist/model.glb",
+    "size": 17025548,
+    "sha256": "e9c640cf46bd4f496203ab0b7e0133afc9513269baefbaac2347829344ac9c43",
+    "parts": [
+      "sites/architecture-v2-zueblin-15/dist/backup-parts/model.glb/000.part",
+      "sites/architecture-v2-zueblin-15/dist/backup-parts/model.glb/001.part"
+    ]
+  }
+]

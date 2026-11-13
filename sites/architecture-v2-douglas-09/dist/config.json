@@ -1,0 +1,577 @@
+{
+  "number": 9,
+  "title": "道格拉斯住宅",
+  "architect": "理查・麥爾",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 7305424,
+  "bounds": {
+    "min": [
+      -3.98,
+      -7.15,
+      -6.59
+    ],
+    "max": [
+      20.4385,
+      11.352,
+      8.1755
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "DH_Camera_West_Hero",
+      "source_scene": "DH_01_Daylight",
+      "type": "exterior",
+      "fov": 31.89,
+      "label": "外觀視角",
+      "position": [
+        -28.0,
+        17.0,
+        27.0
+      ],
+      "target": [
+        8.22925,
+        2.101,
+        0.7927499999999998
+      ],
+      "floor_y": -14.4569,
+      "eye_height": 31.457,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -28.0,
+        17.0,
+        27.0
+      ]
+    },
+    {
+      "source_name": "DH_Camera_Entry_Bridge",
+      "source_scene": "DH_01_Daylight",
+      "type": "exterior",
+      "fov": 41.11,
+      "label": "入口空間",
+      "position": [
+        30.0,
+        15.0,
+        9.0
+      ],
+      "target": [
+        8.22925,
+        2.101,
+        0.7927499999999998
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        30.0,
+        15.0,
+        9.0
+      ]
+    },
+    {
+      "source_name": "DH_Camera_Living",
+      "source_scene": "DH_01_Daylight",
+      "type": "interior",
+      "fov": 53.13,
+      "label": "起居空間",
+      "position": [
+        3.8,
+        4.39116,
+        -4.72
+      ],
+      "target": [
+        0.95327,
+        4.3634,
+        -0.6096
+      ],
+      "floor_y": 2.7412,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        3.8,
+        4.34,
+        -4.72
+      ]
+    },
+    {
+      "source_name": "DH_Camera_Upper_Gallery",
+      "source_scene": "DH_01_Daylight",
+      "type": "interior",
+      "fov": 53.13,
+      "label": "展廳",
+      "position": [
+        3.65,
+        7.11036,
+        -0.1
+      ],
+      "target": [
+        0.36107,
+        4.39569,
+        -2.71026
+      ],
+      "floor_y": 5.4604,
+      "eye_height": 1.65,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        3.65,
+        7.0,
+        -0.1
+      ]
+    },
+    {
+      "source_name": "DH_Camera_South_Terraces",
+      "source_scene": "DH_01_Daylight",
+      "type": "exterior",
+      "fov": 35.05,
+      "label": "南側外觀",
+      "position": [
+        -15.0,
+        4.7,
+        19.0
+      ],
+      "target": [
+        8.22925,
+        2.101,
+        0.7927499999999998
+      ],
+      "floor_y": -12.3494,
+      "eye_height": 17.049,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -15.0,
+        4.7,
+        19.0
+      ]
+    }
+  ],
+  "focus": "上方入口橋、湖側挑高客廳、坡地與剖切",
+  "dimensions": "1975原刊圖示比例尺0／5／10 ft；公開279 m²為背景資料，未用於拉伸模型。",
+  "uncertainty": "後續分析13×9 m與原圖推算不合，差異保留；坡地外圍、入口橋、梯級及家具含推定。",
+  "materials": "按原刊採白漆木構與鋼柱；PBR粗糙度、木紋、窗玻璃及燈具光度為視覺估值。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 完成全家具逐件檢查：修正椅座朝向、桌椅櫃架支撐及固定家具接合；新增細部為教學近似重建",
+  "credit": null,
+  "sources": [
+    {
+      "url": "https://www.usmodernist.org/PA/PA-1975-07.pdf",
+      "title": "PA1975"
+    },
+    {
+      "url": "https://www.douglashouse.org/plans",
+      "title": "OWNER_PLANS"
+    },
+    {
+      "url": "https://meierarchitects.us/project/douglas-house",
+      "title": "ARCHITECT"
+    },
+    {
+      "url": "https://www.douglashouse.org/details",
+      "title": "OWNER_DETAILS"
+    },
+    {
+      "url": "https://www.douglashouse.org/exterior",
+      "title": "OWNER_EXTERIOR"
+    },
+    {
+      "url": "https://www.douglashouse.org/interior",
+      "title": "OWNER_INTERIOR"
+    },
+    {
+      "url": "https://www.douglashouse.org/story",
+      "title": "OWNER_STORY"
+    },
+    {
+      "url": "https://pdfs.semanticscholar.org/128c/8dd7d6dd354f2a78ec2b5cd15ef692381190.pdf",
+      "title": "The Hidden Geometry of the Douglas House"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "White painted plaster · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_plaster_02"
+    },
+    {
+      "title": "White oak veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_oak_veneer"
+    },
+    {
+      "title": "Dark asphalt · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/clean_asphalt"
+    },
+    {
+      "title": "Pale white maple veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_maple_veneer"
+    },
+    {
+      "title": "Fine upholstery leather detail · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/leather_white"
+    },
+    {
+      "title": "Fine linen weave detail · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_linen"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [
+    {
+      "name": "Daylight | lake broad bounce",
+      "type": "AREA",
+      "position": [
+        -12.0,
+        12.0,
+        1.0
+      ],
+      "color": [
+        0.699999988079071,
+        0.8600000143051147,
+        1.0
+      ],
+      "energy": 1600.0
+    },
+    {
+      "name": "Warm interior wash L0",
+      "type": "AREA",
+      "position": [
+        3.6,
+        2.35,
+        3.6
+      ],
+      "color": [
+        1.0,
+        0.7900000214576721,
+        0.5400000214576721
+      ],
+      "energy": 36.0
+    },
+    {
+      "name": "Warm interior wash L0.001",
+      "type": "AREA",
+      "position": [
+        3.6,
+        2.35,
+        -0.8
+      ],
+      "color": [
+        1.0,
+        0.7900000214576721,
+        0.5400000214576721
+      ],
+      "energy": 36.0
+    },
+    {
+      "name": "Warm interior wash L0.002",
+      "type": "AREA",
+      "position": [
+        3.6,
+        2.35,
+        -3.0
+      ],
+      "color": [
+        1.0,
+        0.7900000214576721,
+        0.5400000214576721
+      ],
+      "energy": 36.0
+    },
+    {
+      "name": "Warm interior wash L1",
+      "type": "AREA",
+      "position": [
+        3.6,
+        5.07,
+        3.6
+      ],
+      "color": [
+        1.0,
+        0.7900000214576721,
+        0.5400000214576721
+      ],
+      "energy": 36.0
+    },
+    {
+      "name": "Warm interior wash L1.001",
+      "type": "AREA",
+      "position": [
+        3.6,
+        5.07,
+        -0.8
+      ],
+      "color": [
+        1.0,
+        0.7900000214576721,
+        0.5400000214576721
+      ],
+      "energy": 36.0
+    },
+    {
+      "name": "Warm interior wash L1.002",
+      "type": "AREA",
+      "position": [
+        3.6,
+        5.07,
+        -3.0
+      ],
+      "color": [
+        1.0,
+        0.7900000214576721,
+        0.5400000214576721
+      ],
+      "energy": 36.0
+    },
+    {
+      "name": "Warm interior wash L2",
+      "type": "AREA",
+      "position": [
+        3.6,
+        7.79,
+        3.6
+      ],
+      "color": [
+        1.0,
+        0.7900000214576721,
+        0.5400000214576721
+      ],
+      "energy": 36.0
+    },
+    {
+      "name": "Warm interior wash L2.001",
+      "type": "AREA",
+      "position": [
+        3.6,
+        7.79,
+        -0.8
+      ],
+      "color": [
+        1.0,
+        0.7900000214576721,
+        0.5400000214576721
+      ],
+      "energy": 36.0
+    },
+    {
+      "name": "Warm interior wash L2.002",
+      "type": "AREA",
+      "position": [
+        3.6,
+        7.79,
+        -3.0
+      ],
+      "color": [
+        1.0,
+        0.7900000214576721,
+        0.5400000214576721
+      ],
+      "energy": 36.0
+    }
+  ],
+  "legacyUrl": "https://architecture-douglas-09.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/09-douglas/model.glb",
+    "source_sha256": "553a6a21b6d461699d01b28e78ccb21015e97b8c2c382c61bafa9c2b0ec47b3d",
+    "sha256": "95d8168df0b2e88f8b822e71661a1d4d7eb224a1ce93a6ad4e3abc276bd94bc0",
+    "reason": "完成全家具逐件檢查：修正椅座朝向、桌椅櫃架支撐及固定家具接合；新增細部為教學近似重建"
+  },
+  "pbrProfiles": {
+    "Painted redwood | white satin": {
+      "kind": "paint",
+      "historicalFamily": "painted_timber",
+      "metalness": 0,
+      "roughness": 0.47999998927116394
+    },
+    "Oak flooring | procedural grain": {
+      "kind": "wood",
+      "historicalFamily": "oak",
+      "texture": "oak",
+      "roughness": 0.9,
+      "normalScale": 0.22,
+      "rotation": 90
+    },
+    "Weathered redwood decking": {
+      "kind": "wood",
+      "historicalFamily": "redwood",
+      "texture": "pale_veneer",
+      "useColor": false,
+      "roughness": 0.9,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "Built-up membrane": {
+      "kind": "preserve",
+      "historicalFamily": "roof_membrane"
+    },
+    "Clear fixed and operable glazing": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "Michigan deciduous bark": {
+      "kind": "preserve",
+      "historicalFamily": "bark",
+      "metalness": 0
+    },
+    "Entry door | original blue": {
+      "kind": "paint",
+      "historicalFamily": "painted_joinery",
+      "metalness": 0,
+      "roughness": 0.3199999928474426
+    },
+    "Stainless steel | flues": {
+      "kind": "metal",
+      "historicalFamily": "stainless_chrome",
+      "metalness": 0.9200000166893005,
+      "roughness": 0.2199999988079071
+    },
+    "Interior gypsum | warm white": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    },
+    "Painted steel | tubular rails": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.30000001192092896
+    },
+    "White-painted brick fireplace": {
+      "kind": "mineral",
+      "historicalFamily": "painted_brick",
+      "texture": "concrete",
+      "useColor": false,
+      "roughness": 0.95,
+      "normalScale": 0.18
+    },
+    "Black leather seating": {
+      "kind": "leather",
+      "historicalFamily": "leather",
+      "texture": "leather",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.7,
+      "normalScale": 0.18
+    },
+    "Wool rug natural": {
+      "kind": "fabric",
+      "historicalFamily": "fabric",
+      "texture": "linen",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Guest bedroom linen": {
+      "kind": "fabric",
+      "historicalFamily": "fabric",
+      "texture": "linen",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Master bedroom linen": {
+      "kind": "fabric",
+      "historicalFamily": "fabric",
+      "texture": "linen",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Child bedroom south linen": {
+      "kind": "fabric",
+      "historicalFamily": "fabric",
+      "texture": "linen",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Child bedroom middle linen": {
+      "kind": "fabric",
+      "historicalFamily": "fabric",
+      "texture": "linen",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Child bedroom north linen": {
+      "kind": "fabric",
+      "historicalFamily": "fabric",
+      "texture": "linen",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Warm recessed light": {
+      "kind": "preserve",
+      "historicalFamily": "emissive_diffuser"
+    },
+    "Woodland soil | procedural": {
+      "kind": "preserve",
+      "historicalFamily": "soil_landscape",
+      "metalness": 0
+    },
+    "Lake Michigan | water": {
+      "kind": "water",
+      "historicalFamily": "water",
+      "metalness": 0,
+      "ior": 1.333,
+      "roughness": 0.1599999964237213
+    },
+    "Asphalt": {
+      "kind": "mineral",
+      "historicalFamily": "asphalt",
+      "texture": "asphalt",
+      "roughness": 1,
+      "normalScale": 0.3
+    },
+    "Context leaf shade 0": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Context leaf shade 1": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Context leaf shade 2": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Context leaf shade 3": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    }
+  }
+}

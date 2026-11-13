@@ -1,0 +1,15 @@
+/* Only the new rail panel is styled. Existing canvas, controls, and layout are untouched. */
+#concept-animation { margin-bottom: 24px; border-bottom: 1px solid var(--line, #dce1e7); }
+#concept-animation > summary { color: var(--ink, #20252d); }
+#concept-animation .concept-animation-content { padding: 0 0 18px; min-width: 0; }
+#concept-animation h2 { font-size: .9375rem; line-height: 1.5; margin: 0 0 10px; overflow-wrap: anywhere; }
+#concept-animation p { font-size: .8125rem; line-height: 1.65; margin: 10px 0; overflow-wrap: anywhere; }
+#concept-animation-disclaimer { color: #6a543c; background: #faf7f2; border-left: 3px solid #d2a469; padding: 8px 10px; }
+#concept-animation-video { display: block; width: 100%; max-width: 100%; height: auto; aspect-ratio: 16 / 9; background: #171d25; border-radius: 6px; }
+#concept-animation-video:fullscreen { width: 100%; height: 100%; max-width: none; object-fit: contain; border-radius: 0; }
+#concept-animation-help { color: var(--muted, #68717c); }
+#concept-animation-error { color: #9b2424; }
+#concept-animation .concept-animation-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+#concept-animation .concept-animation-actions a { font-size: .8125rem; line-height: 1.6; text-underline-offset: 3px; overflow-wrap: anywhere; }
+#concept-animation-close { min-height: 44px; margin-left: auto; }
+#concept-animation summary:focus-visible, #concept-animation video:focus-visible, #concept-animation a:focus-visible, #concept-animation button:focus-visible { outline: 3px solid #a5671e; outline-offset: 3px; }

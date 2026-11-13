@@ -1,0 +1,49 @@
+施洛德住宅｜同一層樓，如何有兩種生活？
+120秒／1280×720／12fps／設計概念動畫
+非比例教學重構；動畫變換是分析編排，不代表歷史設計或施工順序。
+
+0–12秒｜固定與可變
+同一層樓，如何同時是大空間與小房間？
+Gerrit Rietveld ＋ Truus Schröder · Utrecht · 1924｜教學重構，非歷史施工順序
+
+12–28秒｜樓梯作錨
+隔間收起，樓梯與服務核心仍固定
+保留原有樓梯洞口；滑牆路徑為簡化機構示意，非實測五金
+
+28–46秒｜展開房間
+可動隔間分段滑出，開放層轉為分隔狀態
+館方記載日間開放、夜間分成臥室；面板數量與行程為教學簡化
+
+46–64秒｜收回邊界
+隔間依序退回，同一面積重新連成一片
+地面短虛線是先前房界的分析標記，不是建築構件
+
+64–82秒｜打開轉角
+兩向窗扇開啟，轉角邊界隨之改變
+窗扇與鉸鏈為機構概念示意；橙色視線為定性圖解
+
+82–102秒｜平面成外觀
+牆片、欄板與屋面重組為立體構成
+分析組裝，不是施工順序；紅、藍、黃對應特定線條與構件
+
+102–120秒｜一屋兩態
+固定基準、可動邊界與日常操作
+視覺遮擋不等於隔音；操作、維護與家人協議也是彈性的條件
+
+資料來源
+Rietveld Schröder House｜房屋生活史與共同設計
+https://www.rietveldschroderhuis.nl/en/explore/biography-of-the-house
+Rietveld Schröder House｜空間檔案
+https://www.rietveldschroderhuis.nl/en/explore/spatial-archive
+ICOMOS｜2000 世界遺產評估
+https://whc.unesco.org/document/154710
+Rietveld Schröder House｜Colour, Form and Space
+https://www.rietveldschroderhuis.nl/en/explore/colour-form-and-space
+
+新版教學簡報對照
+03_里特維德_50分鐘_圖像分析更新版_v2.pptx
+參照頁碼：4、6、7、8、19、20、21、24、25、28
+
+圖像與分析說明
+畫面為重新建立的教學性三維示意；幾何分解、移動、箭頭與光線符號是分析方法，不是原建築的歷史施工或設計過程。
+未經測繪校準，不能用於施工、無障礙合規、結構、照度或性能判定。

@@ -1,0 +1,149 @@
+{
+  "summary": "保持連續深色木頂；只啟用7個低處桌燈，高處2片共材質薄平面不發光，不增設天花燈。",
+  "era": {
+    "original": "1958–1963設計建成；1962等完工紀年依來源口徑不同",
+    "restoration_or_current": "後續修復與2014餐廳重新啟用；Open House列1962／1991／2014"
+  },
+  "ceiling": "深色Afzelia木材的斜／折面頂，與地板、天窗木作整合；設計避免在頂面安裝突出的燈具。",
+  "confidence": {
+    "ceiling": "高",
+    "table_lighting": "高，訪談研究＋室內圖",
+    "precise_count_position": "低，餐桌安排會變動"
+  },
+  "sources": [
+    {
+      "title": "Nelson Mota：Boa Nova Teahouse and Restaurant, 1958–1963（2019）",
+      "url": "https://pure.tudelft.nl/ws/portalfiles/portal/84971936/MOTA_N._Boa_Nova_Teahouse_in_Cafes_and_Restaurants_Routledge_2019_.pdf",
+      "evidence": "學術作者據2012建築師訪談並附內觀，明確討論Afzelia木頂、天窗、桌燈與避免頂面附掛燈具；圖文pp284–285。",
+      "kind": "研究者／建築師訪談一手研究"
+    },
+    {
+      "title": "Open House Porto 2018：Casa de Chá da Boa Nova",
+      "url": "https://2018.openhouseporto.com/places/casa-cha/",
+      "evidence": "Casa da Arquitectura建築開放日資料；列1962／1991／2014，說明燈具、桌椅等整體設計。",
+      "kind": "官方／一手資料"
+    }
+  ],
+  "notes": [
+    "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+    "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+    "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+    "官方建築開放日資料確認原設計燈具、桌椅與空間的一體性。",
+    "2011–2014修復不同階段在來源紀年有差異；現代餐廳桌燈的數量、桌位不是原1963實測。",
+    "保留連續木頂，不新增吊燈／spot；以既有桌燈幾何啟用柔和低處真實光源。",
+    "桌燈主導與避免頂面附掛燈具的策略有Siza訪談研究支持；餐桌位置、7盞數量和暖光參數是既有教學模型，不是1963逐盞測繪。",
+    "Warm table lamp shades共9個構件，只選world y小於2m的7個桌燈。高處y約4.203m的兩片薄平面用途待查，不因材質名字而視作燈具。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "Warm table lamp shades",
+      "color": "#fff0d8",
+      "intensity": 2.2,
+      "maxY": 2
+    }
+  ],
+  "lights": [
+    {
+      "type": "point",
+      "position": [
+        1.75016,
+        1.20999,
+        -4.22987
+      ],
+      "color": "#ffe6bf",
+      "intensity": 12,
+      "distance": 6,
+      "shadow": true,
+      "name": "Existing low table lamp 3"
+    },
+    {
+      "type": "point",
+      "position": [
+        3.84907,
+        1.20999,
+        -4.22987
+      ],
+      "color": "#ffe6bf",
+      "intensity": 12,
+      "distance": 6,
+      "shadow": true,
+      "name": "Existing low table lamp 4"
+    },
+    {
+      "type": "point",
+      "position": [
+        5.94798,
+        1.20999,
+        -4.22987
+      ],
+      "color": "#ffe6bf",
+      "intensity": 12,
+      "distance": 6,
+      "shadow": true,
+      "name": "Existing low table lamp 5"
+    },
+    {
+      "type": "point",
+      "position": [
+        8.05223,
+        1.20999,
+        -4.22987
+      ],
+      "color": "#ffe6bf",
+      "intensity": 12,
+      "distance": 6,
+      "shadow": true,
+      "name": "Existing low table lamp 6"
+    },
+    {
+      "type": "point",
+      "position": [
+        14.32226,
+        1.49038,
+        -1.54881
+      ],
+      "color": "#ffe6bf",
+      "intensity": 12,
+      "distance": 6,
+      "shadow": true,
+      "name": "Existing low table lamp 7"
+    },
+    {
+      "type": "point",
+      "position": [
+        16.51997,
+        1.49038,
+        -0.69964
+      ],
+      "color": "#ffe6bf",
+      "intensity": 12,
+      "distance": 6,
+      "shadow": true,
+      "name": "Existing low table lamp 8"
+    },
+    {
+      "type": "point",
+      "position": [
+        18.7711,
+        1.49038,
+        0.14954
+      ],
+      "color": "#ffe6bf",
+      "intensity": 12,
+      "distance": 6,
+      "shadow": true,
+      "name": "Existing low table lamp 9"
+    }
+  ],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  },
+  "researchStatus": {
+    "record": "historical-lighting-research-1.0",
+    "checked_geometry": "CPU Three GLTFLoader + Meshopt; world transforms retained",
+    "photometry": "teaching estimates only",
+    "gpu_visual_acceptance": false
+  }
+}

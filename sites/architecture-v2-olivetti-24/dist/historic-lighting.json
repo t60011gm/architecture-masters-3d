@@ -1,0 +1,342 @@
+{
+  "era": "1957–1958原建；2010–2011保育修復；現有FAI圖像是修復後",
+  "ceiling": "側面夾層下是深色非洲柚木塊／板天花，中央通高至淺色抹灰上層頂；上層走道與天花有細分橫梁，不是統一現代嵌燈格網。",
+  "confidence": {
+    "ceiling": "高：FAI官方導覽及圖像",
+    "fixture_type": "高：具名FAI策展人同期文字轉載＋官方圖；原燈管更換史中低",
+    "fixture_positions": "高：壁縫與展台；烏木燈滑動位置非固定歷史座標"
+  },
+  "sources": [
+    {
+      "title": "FAI官方Olivetti",
+      "url": "https://fondoambiente.it/luoghi/negozio-olivetti",
+      "evidence": "官方歷史與修復後照片。"
+    },
+    {
+      "title": "FAI修復專文",
+      "url": "https://fondoambiente.it/news/negozio-olivetti-dietro-le-quinte-di-unicona-del-novecento",
+      "evidence": "2010保育修復，Gretchen Alexander、Renata Codello、Tobia Scarpa參與。"
+    },
+    {
+      "title": "FAI上層官方導覽",
+      "url": "https://fai-website.imgix.net/uploads/2020/05/22070407/Il-piano-superiore.pdf",
+      "evidence": "柚木、上層灰泥顏色與修復。"
+    },
+    {
+      "title": "FAI地面層官方導覽",
+      "url": "https://fai-website.imgix.net/uploads/2020/05/22070459/Il-piano-terra.pdf",
+      "evidence": "地面層與夾層構成。"
+    },
+    {
+      "title": "具名策展與修復者同期原文之轉載",
+      "url": "https://www.archilovers.com/projects/37469/negozio-olivetti.html",
+      "evidence": "2011.4.20；建築介紹署Lucia Borromeo Dina，另載Gretchen Alexander第一人稱修復文。垂直螢光、磨砂玻璃與鋼索烏木燈明文；平台非官方，故作具名第一手文字轉載，與FAI影像交叉核實。"
+    },
+    {
+      "title": "Olivetti歷史檔案協會重開消息",
+      "url": "https://www.archiviostoricolivetti.it/news/riapre-il-negozio-olivetti-di-venezia/",
+      "evidence": "1958.11.26開幕與2011重開；協會參與修復技術支援。"
+    }
+  ],
+  "summary": "沿用13片磨砂玻璃出光片與5個烏木燈殼；分別呈現垂直壁縫、上層展示長條和向下工作光，保留柚木天花。",
+  "notes": [
+    "修復同期策展文字記載：威尼斯灰泥板間垂直螢光燈由磨砂玻璃保護；另有在鋼索上可滑動的烏木燈。FAI修復後官方照片證實垂直發光玻璃和上層沿展台的長條漫射帶。原1958精確燈泡及照度尚未取得。",
+    "FAI證實2010修復檢查了後增電氣、照明變更、遺失家具；2011重開。現況照片不能逐顆證明1958原件，修復保留／復原原構想與燈體應分開記錄。",
+    "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+    "13片中包含6片垂直壁燈、2片上層長條及5個烏木燈底部出光片；不是再額外加5盞，避免重複計數。",
+    "照片為修復後狀態，原構想與現存更換燈管分開記錄；烏木燈可滑動，其模型位置不等於1958歷史固定座標。面光不產生投影，牆面遮蔽與照度只作即時顯示近似。",
+    "直接光依相機所在樓層選樣，以減少無投影面光穿過樓板；這是視點樓層剔除，不是真實遮蔽或光線穿透計算。遠處燈具外觀仍保留。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "Acid etched glass warm emission",
+      "color": "#fff0d4",
+      "intensity": 1.45
+    }
+  ],
+  "lights": [
+    {
+      "type": "area",
+      "position": [
+        6.24947,
+        1.21003,
+        -3.3221
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "color": "#ffeacc",
+      "intensity": 350,
+      "name": "Existing Scarpa diffuser 1",
+      "width": 0.11993774136752666,
+      "height": 1.6199590934040704,
+      "cameraYMin": 0.1,
+      "cameraYMax": 2.439
+    },
+    {
+      "type": "area",
+      "position": [
+        6.24947,
+        1.21003,
+        -5.37203
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "color": "#ffeacc",
+      "intensity": 350,
+      "name": "Existing Scarpa diffuser 2",
+      "width": 0.12033753383875201,
+      "height": 1.6199590934040704,
+      "cameraYMin": 0.1,
+      "cameraYMax": 2.439
+    },
+    {
+      "type": "area",
+      "position": [
+        6.24947,
+        1.21003,
+        -7.37199
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "color": "#ffeacc",
+      "intensity": 350,
+      "name": "Existing Scarpa diffuser 3",
+      "width": 0.11993774136752666,
+      "height": 1.6199590934040704,
+      "cameraYMin": 0.1,
+      "cameraYMax": 2.439
+    },
+    {
+      "type": "area",
+      "position": [
+        6.24947,
+        1.21003,
+        -9.37216
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "color": "#ffeacc",
+      "intensity": 350,
+      "name": "Existing Scarpa diffuser 4",
+      "width": 0.11993774136752755,
+      "height": 1.6199590934040704,
+      "cameraYMin": 0.1,
+      "cameraYMax": 2.439
+    },
+    {
+      "type": "area",
+      "position": [
+        6.24947,
+        1.21003,
+        -11.37192
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "color": "#ffeacc",
+      "intensity": 350,
+      "name": "Existing Scarpa diffuser 5",
+      "width": 0.11993774136752755,
+      "height": 1.6199590934040704,
+      "cameraYMin": 0.1,
+      "cameraYMax": 2.439
+    },
+    {
+      "type": "area",
+      "position": [
+        6.24947,
+        1.21003,
+        -13.37208
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "color": "#ffeacc",
+      "intensity": 350,
+      "name": "Existing Scarpa diffuser 6",
+      "width": 0.11993774136752755,
+      "height": 1.6199590934040704,
+      "cameraYMin": 0.1,
+      "cameraYMax": 2.439
+    },
+    {
+      "type": "area",
+      "position": [
+        6.27945,
+        3.63997,
+        -8.99995
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "color": "#ffeacc",
+      "intensity": 220,
+      "name": "Existing Scarpa diffuser 7",
+      "width": 8.900179994412984,
+      "height": 0.23028046342565212,
+      "cameraYMin": 2.44,
+      "cameraYMax": 5.2
+    },
+    {
+      "type": "area",
+      "position": [
+        0.13465,
+        3.63997,
+        -8.99995
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "color": "#ffeacc",
+      "intensity": 220,
+      "name": "Existing Scarpa diffuser 8",
+      "width": 8.900179994412984,
+      "height": 0.23028046342565212,
+      "cameraYMin": 2.44,
+      "cameraYMax": 5.2
+    },
+    {
+      "type": "area",
+      "position": [
+        1.25007,
+        1.71737,
+        -0.9999
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#ffeacc",
+      "intensity": 750,
+      "name": "Existing Scarpa diffuser 9",
+      "width": 0.35021820479318055,
+      "height": 0.10514541993219861,
+      "cameraYMin": 0.1,
+      "cameraYMax": 2.439
+    },
+    {
+      "type": "area",
+      "position": [
+        0.52005,
+        1.71737,
+        -3.99994
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#ffeacc",
+      "intensity": 750,
+      "name": "Existing Scarpa diffuser 10",
+      "width": 0.35021820479317967,
+      "height": 0.1051454199321995,
+      "cameraYMin": 0.1,
+      "cameraYMax": 2.439
+    },
+    {
+      "type": "area",
+      "position": [
+        5.74993,
+        1.71737,
+        -7.50013
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#ffeacc",
+      "intensity": 750,
+      "name": "Existing Scarpa diffuser 11",
+      "width": 0.3498184123219543,
+      "height": 0.1051454199321995,
+      "cameraYMin": 0.1,
+      "cameraYMax": 2.439
+    },
+    {
+      "type": "area",
+      "position": [
+        5.74993,
+        1.71737,
+        -10.00003
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#ffeacc",
+      "intensity": 750,
+      "name": "Existing Scarpa diffuser 12",
+      "width": 0.3498184123219543,
+      "height": 0.1051454199321995,
+      "cameraYMin": 0.1,
+      "cameraYMax": 2.439
+    },
+    {
+      "type": "area",
+      "position": [
+        5.74993,
+        1.71737,
+        -12.20009
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#ffeacc",
+      "intensity": 750,
+      "name": "Existing Scarpa diffuser 13",
+      "width": 0.3498184123219543,
+      "height": 0.1051454199321995,
+      "cameraYMin": 0.1,
+      "cameraYMax": 2.439
+    }
+  ],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  },
+  "researchRecord": {
+    "building": "Negozio Olivetti Venice｜Carlo Scarpa",
+    "originalLighting": "修復同期策展文字記載：威尼斯灰泥板間垂直螢光燈由磨砂玻璃保護；另有在鋼索上可滑動的烏木燈。FAI修復後官方照片證實垂直發光玻璃和上層沿展台的長條漫射帶。原1958精確燈泡及照度尚未取得。",
+    "laterConditions": "FAI證實2010修復檢查了後增電氣、照明變更、遺失家具；2011重開。現況照片不能逐顆證明1958原件，修復保留／復原原構想與燈體應分開記錄。",
+    "modelActions": {
+      "retain": [
+        "13個磨砂玻璃出光片",
+        "5個烏木滑動燈殼",
+        "柚木夾層底和抹灰天花"
+      ],
+      "add": [],
+      "disable": [
+        "額外天花spot網格",
+        "把整片木天花做發光板"
+      ]
+    },
+    "coordinateBasis": "Decoded retained GLB world coordinates; not a historical survey"
+  }
+}

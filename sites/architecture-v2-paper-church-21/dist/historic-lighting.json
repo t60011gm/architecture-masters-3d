@@ -1,0 +1,64 @@
+{
+  "era": "原神戶1995–2005；2005解體，台灣Paper Dome官方另列2008",
+  "ceiling": "58根紙管形成橢圓柱圈，輕質膜屋頂／膜天花，周圍波紋聚碳酸酯外皮；原室內照可見膜面張力線與中央支撐，不是木格柵平頂。",
+  "confidence": {
+    "ceiling": "高：原項目及照片",
+    "fixture_type": "低：亮點無法分類",
+    "fixture_positions": "低：僅環形邊緣相對位置"
+  },
+  "sources": [
+    {
+      "title": "坂茂原神戶歷史項目",
+      "url": "https://shigerubanarchitects.com/old/works/1995_paper-church/index.html",
+      "evidence": "明列1995–2005(disassembled)、58紙管與移往台灣。"
+    },
+    {
+      "title": "原神戶室內原圖",
+      "url": "https://shigerubanarchitects.com/old/works/1995_paper-church/church_int1.jpg",
+      "evidence": "直接檢視像素；膜面與柱圈證據。"
+    },
+    {
+      "title": "坂茂台灣Paper Dome",
+      "url": "https://shigerubanarchitects.com/works/cultural/paper-dome-taiwan/",
+      "evidence": "官方另列2008，與原神戶分期。"
+    },
+    {
+      "title": "坂茂Takatori Catholic Church",
+      "url": "https://shigerubanarchitects.com/works/cultural/takatori-catholic-church/",
+      "evidence": "2007新建日本教堂，非原1995燈具證據。"
+    }
+  ],
+  "summary": "原神戶1995–2005固定人工燈型未能核實；停用10顆模型推估燈的自發光與真光，保留自然光及夜間環境光。",
+  "notes": [
+    "原神戶官方室內照片在柱圈屋頂邊緣有微小亮點，但解析度不足以辨燈型或精確數量。中央豎向構件為結構／張拉系統，不能當吊燈。",
+    "台灣遷建Paper Dome、2007新建日本Takatori Catholic Church均須獨立；後者鋼倒錐及膜鼓不屬1995原教會。",
+    "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+    "人工燈停用不表示原作沒有電燈；只是現有證據不足以可靠重建。",
+    "夜景只呈現環境天空／微弱月光，不補不存在的射燈陣列，也不將膜面、玻璃或鋁板當成電燈。"
+  ],
+  "emissiveMaterials": [],
+  "lights": [],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  },
+  "researchRecord": {
+    "building": "Paper Church Kobe｜坂茂",
+    "originalLighting": "原神戶官方室內照片在柱圈屋頂邊緣有微小亮點，但解析度不足以辨燈型或精確數量。中央豎向構件為結構／張拉系統，不能當吊燈。",
+    "laterConditions": "台灣遷建Paper Dome、2007新建日本Takatori Catholic Church均須獨立；後者鋼倒錐及膜鼓不屬1995原教會。",
+    "modelActions": {
+      "retain": [
+        "既有紙管、膜面及中央支撐"
+      ],
+      "add": [],
+      "disable": [
+        "Warm lamp glass在歷史人工照明模式的自發光與真光",
+        "中央結構改成吊燈",
+        "從台灣現況移植的燈型"
+      ]
+    },
+    "coordinateBasis": "Decoded retained GLB world coordinates; not a historical survey"
+  },
+  "artificialLightingStatus": "disabled-insufficient-historical-fixture-evidence"
+}

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Boa Nova 茶屋・史料照明 WebGPU 版</title>
+  <meta name="description" content="建築大師代表作的互動3D教育性重建，探索外觀、結構與室內空間。">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23171d25'/%3E%3Cpath d='M6 10h20v3H6zm2 5h3v11H8zm13 0h3v11h-3zM6 26h20' stroke='%23e3a654' fill='%23e3a654'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three":"./webgpu-vendor/three.webgpu.js","three/webgpu":"./webgpu-vendor/three.webgpu.js","three/tsl":"./webgpu-vendor/three.tsl.js"}}</script>
+
+<!-- CONCEPT_VIDEO_STYLES_START -->
+<link rel="stylesheet" href="./assets/concept-animation/16-boa-nova/player-large-d94211e85986dad25460.css">
+<!-- CONCEPT_VIDEO_STYLES_END -->
+<style id="webgpu-fallback-controls">#retry{background:#182635;color:#ffffff;border:1px solid #d8e4ee;padding:10px 16px;border-radius:6px;cursor:pointer}#retry:hover{background:#2d435a}#retry:focus-visible{outline:3px solid #f0be7c;outline-offset:3px}</style></head>
+<body>
+  <header class="topbar">
+    <a id="index-link" class="index-link" href="#" aria-label="回到25件建築導覽">建築漫遊 <span>25</span></a>
+    <div class="title-group"><span id="model-number" class="eyebrow"></span><h1 id="title">Boa Nova 茶屋</h1><p id="architect"></p></div>
+    <a id="legacy-link" class="legacy-link" href="#" target="_blank" rel="noopener">查看舊版</a><button id="fullscreen" class="square-button" title="全螢幕" aria-label="切換全螢幕"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M3 16v5h5"/></svg></button>
+  </header>
+  <main>
+    <section id="viewport" aria-label="互動三維建築模型">
+      <canvas id="model-canvas" tabindex="0" aria-label="3D模型。外觀模式拖曳旋轉、滾輪縮放；室內模式拖曳環視，WASD或方向鍵移動"></canvas>
+      <div id="loading" class="loading"><img id="poster" src="./poster.webp" alt="模型外觀預覽"><div class="loading-shade"></div><div class="loading-copy"><span class="eyebrow">互動模型</span><strong id="load-label">準備空間中</strong><progress id="load-progress" max="100" value="0" aria-label="模型載入進度"></progress><p id="load-detail">新版光影載入中，可先參考既有模型形體</p><button id="retry" hidden>重新載入</button></div></div>
+      <div class="viewport-top"><span id="view-label">外觀總覽</span><span id="quality-label"></span></div>
+      <div id="walk-hint" class="walk-hint" hidden>拖曳環視 · WASD／方向鍵步行 · Esc 回到外觀</div>
+      <div id="touch-walk" class="touch-walk" hidden><button data-move="forward" aria-label="向前走">前</button><div><button data-move="left" aria-label="向左走">左</button><button data-move="back" aria-label="向後走">後</button><button data-move="right" aria-label="向右走">右</button></div></div>
+      <div class="viewport-bottom"><div class="view-actions"><button id="reset" class="light-button">回到外觀</button><button id="walk" class="light-button" aria-pressed="false">步行模式</button></div><p id="hint">拖曳旋轉 · 滾輪縮放 · 右鍵平移</p></div>
+      <p id="status" class="toast" role="status" aria-live="polite"></p>
+    </section>
+    <aside class="rail" aria-label="導覽與模型資料">
+<!-- CONCEPT_VIDEO_PANEL_START -->
+<details id="concept-animation" data-work-id="16-boa-nova">
+  <summary id="concept-animation-summary">120 秒概念動畫</summary>
+  <div class="concept-animation-content">
+    <h2 id="concept-animation-title">Boa Nova 茶屋｜120 秒概念動畫</h2>
+    <p id="concept-animation-disclaimer">教育性概念分析｜非等比例實測重建。動畫的組合、拆解與變形用於解釋空間原理，並非歷史設計或施工順序。</p>
+    <video id="concept-animation-video" controls preload="metadata" playsinline aria-labelledby="concept-animation-title" aria-describedby="concept-animation-disclaimer concept-animation-help">
+      <source src="./assets/concept-animation/16-boa-nova/concept-404889fbf1533cddb505.mp4" type="video/mp4">
+        <track kind="subtitles" srclang="zh-Hant" label="繁體中文" src="./assets/concept-animation/16-boa-nova/captions-zh-Hant-0d171e620b8711facceb.vtt">
+      您的瀏覽器未支援影片播放，請使用下方連結開啟 MP4。
+    </video>
+    <button id="concept-animation-enlarge" type="button" aria-haspopup="dialog" aria-expanded="false">⛶ 放大動畫</button>
+    <p id="concept-animation-help">按「放大動畫」開啟大型視窗；可再選擇全螢幕。繁體中文字幕預設關閉，可在字幕選單開啟。</p>
+    <p id="concept-animation-error" role="status" hidden>影片暫時無法播放，請重新載入，或使用下方連結開啟 MP4。</p>
+    <div class="concept-animation-actions"><a href="./assets/concept-animation/16-boa-nova/concept-404889fbf1533cddb505.mp4" target="_blank" rel="noopener">以完整視窗開啟影片（MP4）</a><button id="concept-animation-close" type="button">收起動畫</button></div>
+    <p class="concept-animation-reference"><a id="concept-animation-source-link" href="./assets/concept-animation/16-boa-nova/analysis-sources-bd48ce79e16edd35d366.txt" download="16-boa-nova-analysis-sources.txt" type="text/plain">下載分析說明與資料來源（TXT）</a></p>
+  </div>
+</details>
+<!-- CONCEPT_VIDEO_PANEL_END -->
+
+      <section class="tour-section"><div class="section-label"><h2>空間導覽</h2><span id="stop-count"></span></div><p class="subtle">選擇視點，走進建築的空間序列</p><div id="waypoints" class="waypoints"></div></section>
+      <a class="legacy-link" href="./index.html">← 回到穩定版</a><section class="light-section" data-historic-engine="1">
+<p class="notice">史料照明版 · 實際後端：<strong id="backend-status" role="status">偵測中</strong><br>支援時採用 WebGPU，否則使用 WebGL 2 備援。即時直接光＋環境光＋螢幕空間 AO；沒有間接光反彈、全域光照或硬體光線追蹤。玻璃透射與環境反射不是完整場景鏡面反射。</p>
+<p id="performance-status" class="subtle">切換畫質與光線均保留目前視角</p><p class="subtle"><a href="./webgpu.html?backend=webgl">以 WebGL 2 開啟</a> · <a href="./index.html">穩定版對照</a></p>
+<h2>光線</h2><div class="segmented" role="group" aria-label="照明情境"><button data-light="day" aria-pressed="true">日景</button><button data-light="warm" aria-pressed="false">午後</button><button data-light="night" aria-pressed="false">夜景</button></div>
+<button id="indoor-lights" class="light-button" aria-pressed="true" disabled>室內燈：開</button><p id="lighting-state" class="subtle" role="status">載入照明設定</p>
+<p class="notice">保持連續深色木頂；只啟用7個低處桌燈，高處2片共材質薄平面不發光，不增設天花燈。</p><details id="historic-lighting-sources"><summary>天花、燈具史料與推估範圍</summary><div class="details-content">
+<p>年代：original：1958–1963設計建成；1962等完工紀年依來源口徑不同；restoration_or_current：後續修復與2014餐廳重新啟用；Open House列1962／1991／2014</p><p>天花與構造：深色Afzelia木材的斜／折面頂，與地板、天窗木作整合；設計避免在頂面安裝突出的燈具。</p><p>證據信心：ceiling：高；table_lighting：高，訪談研究＋室內圖；precise_count_position：低，餐桌安排會變動</p><p>新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。</p>
+<p>有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。</p>
+<p>所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。</p>
+<p>官方建築開放日資料確認原設計燈具、桌椅與空間的一體性。</p>
+<p>2011–2014修復不同階段在來源紀年有差異；現代餐廳桌燈的數量、桌位不是原1963實測。</p>
+<p>保留連續木頂，不新增吊燈／spot；以既有桌燈幾何啟用柔和低處真實光源。</p>
+<p>桌燈主導與避免頂面附掛燈具的策略有Siza訪談研究支持；餐桌位置、7盞數量和暖光參數是既有教學模型，不是1963逐盞測繪。</p>
+<p>Warm table lamp shades共9個構件，只選world y小於2m的7個桌燈。高處y約4.203m的兩片薄平面用途待查，不因材質名字而視作燈具。</p><ul><li><a href="https://pure.tudelft.nl/ws/portalfiles/portal/84971936/MOTA_N._Boa_Nova_Teahouse_in_Cafes_and_Restaurants_Routledge_2019_.pdf" target="_blank" rel="noopener noreferrer">Nelson Mota：Boa Nova Teahouse and Restaurant, 1958–1963（2019）</a><p>學術作者據2012建築師訪談並附內觀，明確討論Afzelia木頂、天窗、桌燈與避免頂面附掛燈具；圖文pp284–285。</p></li>
+<li><a href="https://2018.openhouseporto.com/places/casa-cha/" target="_blank" rel="noopener noreferrer">Open House Porto 2018：Casa de Chá da Boa Nova</a><p>Casa da Arquitectura建築開放日資料；列1962／1991／2014，說明燈具、桌椅等整體設計。</p></li></ul>
+<p>燈位使用既有教學模型世界座標；未明示為實測的尺寸、色溫、光通量、配光與位置均為教學推估。發光表面須搭配直接光源才會照亮鄰近物件。少量光樣本、視點附近光源上限及螢幕空間 AO 均屬即時顯示近似，不能作照度或歷史亮度量測。</p>
+<p>流暢模式仍保留真實直接光，停用室內投影；高畫質限制同時投影的室內光源。面光源不產生投影。遠處保留燈具外觀，直接光依目前視點選擇。</p>
+</div></details><label class="quality-choice">畫質 <select id="quality"><option value="high">高畫質 · HDR＋GTAO</option><option value="low">流暢 · 直接光</option></select></label><label class="brightness-choice">畫面亮度<input id="brightness" type="range" min="0.6" max="1.6" value="1" step="0.05" aria-label="畫面亮度"></label></section>
+      <section class="focus-section"><h2>觀看重點</h2><p id="focus"></p></section>
+      <details id="information"><summary>模型、來源與精度</summary><div class="details-content"><p class="notice">這是供教學與空間理解使用的重建模型，並非完整竣工實測。家具、材質和局部細節含詮釋性補充。</p><p id="dimensions"></p><p id="uncertainty"></p><p id="materials"></p><p id="credit"></p><h3>參考來源</h3><ul id="sources"></ul><p class="technical-note">新版使用 HDR 環境照明、表面法線與粗糙度貼圖，以及接觸陰影。天空為照明情境，非基地實景；即時光影並非完整路徑追蹤。步行以現有模型表面偵測障礙；不同樓層可直接選擇導覽視點。</p></div></details>
+      <details><summary>操作說明</summary><div class="details-content"><p>外觀：滑鼠拖曳旋轉，滾輪縮放，右鍵拖曳平移。手機以單指旋轉、雙指縮放或平移。</p><p>室內：選擇室內視點後，拖曳環視。使用WASD、方向鍵或畫面方向鈕步行。遇到牆面、家具或落差會停止；請改選其他視點。</p><p>「回到外觀」可隨時重設視角。「流暢」會降低陰影及解析度，適合較舊裝置。</p></div></details>
+    </aside>
+  </main>
+  <noscript><p>此互動模型需要啟用JavaScript。請開啟後重新整理。</p></noscript>
+  <script type="module" src="./webgpu-bootstrap.js"></script>
+
+<!-- CONCEPT_VIDEO_SCRIPT_START -->
+<script src="./assets/concept-animation/16-boa-nova/player-large-786895575142c98f6932.js" defer></script>
+<!-- CONCEPT_VIDEO_SCRIPT_END -->
+</body></html>

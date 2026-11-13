@@ -1,0 +1,371 @@
+{
+  "number": 7,
+  "title": "珊納特賽羅市政廳",
+  "architect": "阿瓦・阿爾托",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 7642308,
+  "bounds": {
+    "min": [
+      -50.0,
+      -0.73,
+      -48.0
+    ],
+    "max": [
+      50.0,
+      18.4,
+      48.0
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "Camera_Exterior_SouthEast",
+      "source_scene": "01_Exterior",
+      "type": "exterior",
+      "fov": 28.07,
+      "label": "建築外觀",
+      "position": [
+        59.0,
+        39.0,
+        67.0
+      ],
+      "target": [
+        0.0,
+        8.834999999999999,
+        0.0
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        59.0,
+        39.0,
+        67.0
+      ]
+    },
+    {
+      "source_name": "Camera_Courtyard_GrassStair",
+      "source_scene": "01_Exterior",
+      "type": "interior",
+      "fov": 51.28,
+      "label": "樓梯空間",
+      "position": [
+        3.0,
+        4.64986,
+        8.0
+      ],
+      "target": [
+        1.49527,
+        4.82541,
+        3.23503
+      ],
+      "floor_y": 2.9999,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        3.0,
+        4.7,
+        8.0
+      ]
+    },
+    {
+      "source_name": "Camera_Council_Interior",
+      "source_scene": "01_Exterior",
+      "type": "interior",
+      "fov": 61.93,
+      "label": "室內空間",
+      "position": [
+        12.8,
+        8.91024,
+        3.25
+      ],
+      "target": [
+        16.33946,
+        10.43494,
+        0.06448
+      ],
+      "floor_y": 7.2602,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        12.8,
+        8.7,
+        3.25
+      ]
+    },
+    {
+      "source_name": "Camera_Butterfly_Roof",
+      "source_scene": "01_Exterior",
+      "type": "exterior",
+      "fov": 57.22,
+      "label": "外觀視角",
+      "position": [
+        13.3,
+        9.3,
+        2.7
+      ],
+      "target": [
+        0.0,
+        8.834999999999999,
+        0.0
+      ],
+      "floor_y": 8.0553,
+      "eye_height": 1.245,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        13.3,
+        9.3,
+        2.7
+      ]
+    },
+    {
+      "source_name": "Camera_Library_Interior",
+      "source_scene": "01_Exterior",
+      "type": "interior",
+      "fov": 55.11,
+      "label": "室內空間",
+      "position": [
+        -11.3,
+        5.02982,
+        15.6
+      ],
+      "target": [
+        -6.30979,
+        4.99104,
+        15.28973
+      ],
+      "floor_y": 3.3798,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -11.3,
+        4.95,
+        15.6
+      ]
+    }
+  ],
+  "focus": "抬高庭院、草階、議事廳蝴蝶屋架、圖書館",
+  "dimensions": "YKSA原圖0–30 m比例尺及50.00 m基地尺寸；基金會剖面庭院+98.00、行政+98.65、圖書館+98.35 m（街道+95.00）。",
+  "uncertainty": "入口往議事廳樓梯、轉折與淨高尚屬簡化；屋架節點、家具、地形及住宅廚衛非完整施工重建。",
+  "materials": "紅磚270×75 mm是視覺模數，非全棟已驗證磚規格；程序木材、花崗岩與植栽為表現。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 逐件修正椅背傾角、座向、支架與地面接觸；補齊桌椅遺漏支撐並以實體接合驗證",
+  "credit": "保留Elsa／Elissa Aalto的施工協作脈絡",
+  "sources": [
+    {
+      "url": "https://www.alvaraalto.fi/en/architecture/saynatsalo-town-hall/",
+      "title": "AALTO"
+    },
+    {
+      "url": "https://yksa.disec.fi/Yksa4/download/173178161608900/file/a302f1aa-5ffc-406d-b08a-02a121e477fa/",
+      "title": "Anne Mäkinen, MATKAKERTOMUS 8.10.1993"
+    },
+    {
+      "url": "https://en.docomomo.fi/projects/saynatsalo-town-hall/",
+      "title": "DOCOMOMO"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "White painted plaster · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_plaster_02"
+    },
+    {
+      "title": "Pale white maple veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_maple_veneer"
+    },
+    {
+      "title": "Short natural green lawn · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Grass001"
+    },
+    {
+      "title": "Fine neutral grey gravel · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Gravel043"
+    },
+    {
+      "title": "Fine upholstery leather detail · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/leather_white"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [
+    {
+      "name": "Council_window_bounce",
+      "type": "AREA",
+      "position": [
+        17.8,
+        12.0,
+        -3.8
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "energy": 1100.0
+    }
+  ],
+  "legacyUrl": "https://architecture-saynatsalo-07.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/07-saynatsalo/model.glb",
+    "source_sha256": "c2dd71156528a45585ee1288867ffe43cff12879a996f1279cebc96f1022697b",
+    "sha256": "a34a54a2dc36a368d7aaa97d7f7e9ea2620ada2c8fe3740490848c4fa7b4ee2e",
+    "reason": "逐件修正椅背傾角、座向、支架與地面接觸；補齊桌椅遺漏支撐並以實體接合驗證"
+  },
+  "pbrProfiles": {
+    "PBR_Lawn": {
+      "kind": "landscape",
+      "historicalFamily": "grass",
+      "texture": "grass",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "PBR_Fine_gravel": {
+      "kind": "mineral",
+      "historicalFamily": "aggregate_gravel",
+      "texture": "gravel",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "PBR_Concrete_foundation": {
+      "kind": "mineral",
+      "historicalFamily": "concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "PBR_Cool_granite": {
+      "kind": "mineral",
+      "historicalFamily": "granite",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.18,
+      "roughness": 0.95
+    },
+    "PBR_Reflecting_pool": {
+      "kind": "water",
+      "historicalFamily": "water",
+      "metalness": 0,
+      "ior": 1.333,
+      "roughness": 0.11999999731779099
+    },
+    "PBR_Red_handmade_brick": {
+      "kind": "mineral",
+      "historicalFamily": "brick",
+      "texture": "concrete",
+      "useColor": false,
+      "roughness": 0.95,
+      "normalScale": 0.18
+    },
+    "PBR_Clear_glazing": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "PBR_Dark_timber": {
+      "kind": "wood",
+      "historicalFamily": "timber",
+      "texture": "pale_veneer",
+      "useColor": false,
+      "roughness": 0.9,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "PBR_Patinated_copper_roof": {
+      "kind": "metal",
+      "historicalFamily": "patinated_metal",
+      "metalness": 0.8,
+      "roughness": 0.5199999809265137
+    },
+    "PBR_Warm_white_plaster": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    },
+    "PBR_Oiled_pine": {
+      "kind": "wood",
+      "historicalFamily": "pine",
+      "texture": "pale_veneer",
+      "useColor": false,
+      "roughness": 0.9,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "PBR_Blackened_metal": {
+      "kind": "metal",
+      "historicalFamily": "metal",
+      "metalness": 0.8,
+      "roughness": 0.3199999928474426
+    },
+    "PBR_Black_leather": {
+      "kind": "leather",
+      "historicalFamily": "leather",
+      "texture": "leather",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.7,
+      "normalScale": 0.18
+    },
+    "PBR_Dark_bronze_sculpture": {
+      "kind": "metal",
+      "historicalFamily": "bronze_artwork",
+      "metalness": 0.8,
+      "roughness": 0.44999998807907104
+    },
+    "Warm_opal_light": {
+      "kind": "preserve",
+      "historicalFamily": "emissive_diffuser"
+    },
+    "PBR_Illustrative_leaf_07_00": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "PBR_Illustrative_leaf_07_01": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "PBR_Illustrative_leaf_07_02": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "PBR_Illustrative_leaf_07_03": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    }
+  }
+}

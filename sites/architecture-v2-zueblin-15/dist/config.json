@@ -1,0 +1,351 @@
+{
+  "number": 15,
+  "title": "ZÜBLIN 辦公大樓",
+  "architect": "哥特弗利德・波姆",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 17025548,
+  "bounds": {
+    "min": [
+      -48.0,
+      -3.55,
+      -27.19
+    ],
+    "max": [
+      48.0,
+      31.065,
+      43.225
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "CAM_02_Atrium_Lower",
+      "source_scene": "15_ZUEBLIN_Architecture",
+      "type": "interior",
+      "fov": 64,
+      "label": "中庭步行",
+      "position": [
+        -22,
+        1.64023,
+        -4
+      ],
+      "target": [
+        10,
+        11,
+        2
+      ],
+      "floor_y": -0.00977,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Final decoded GLB: 8 directions at 4 body heights; minimum sampled horizontal clearance 2.680 m; 5-point floor support; 26.495 m overhead clearance; center view ray reaches atrium lift at 22.549 m",
+      "source_position": [
+        -23.0,
+        1.6,
+        5.4
+      ],
+      "navigation_note": "Retains original source camera position separately; moved to the north atrium terrace at measured floor + 1.65 m to avoid the original floating lower-terrace position and wall-facing recovery"
+    },
+    {
+      "source_name": "CAM_03_Upper_Gallery",
+      "source_scene": "15_ZUEBLIN_Architecture",
+      "type": "interior",
+      "fov": 62,
+      "label": "上層迴廊",
+      "position": [
+        -18,
+        20.65038,
+        -13
+      ],
+      "target": [
+        10,
+        12,
+        0
+      ],
+      "floor_y": 19.00038,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Final decoded GLB: open top gallery floor at 19.00038 m; 8 directions at 4 body heights; minimum sampled horizontal clearance 1.179 m; 5-point floor support; center view ray reaches atrium end wall at 54.959 m",
+      "source_position": [
+        -23.0,
+        17.6,
+        -10.1
+      ],
+      "navigation_note": "Source upper-gallery camera was suspended outside the level; moved onto the actual open L6 gallery between roof bents and kept view-only"
+    },
+    {
+      "source_name": "CAM_04_Office_Corridor",
+      "source_scene": "15_ZUEBLIN_Architecture",
+      "type": "interior",
+      "fov": 46.4,
+      "label": "辦公層走廊",
+      "position": [
+        -22.0,
+        8.65,
+        -18.35
+      ],
+      "target": [
+        -17.0,
+        8.64375,
+        -18.35
+      ],
+      "floor_y": 7.0001,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -22.0,
+        8.65,
+        -18.35
+      ],
+      "navigation_note": "Corrected interior/exterior classification; original office-corridor camera and direction preserved as view-only"
+    },
+    {
+      "source_name": "CAM_05_Exterior_End",
+      "source_scene": "15_ZUEBLIN_Architecture",
+      "type": "exterior",
+      "fov": 52,
+      "label": "建築外觀",
+      "position": [
+        115,
+        58,
+        82
+      ],
+      "target": [
+        0.0,
+        13.7575,
+        8.0175
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Architecture-only source bounds verified against source world transforms; all 8 bounds corners fit the perspective frustum at aspect 1.2 with max absolute NDC x 0.805 and y 0.771; narrower viewports use viewer distance scaling",
+      "source_position": [
+        96.0,
+        48.0,
+        68.0
+      ]
+    },
+    {
+      "source_name": "CAM_06_Main_Entrance",
+      "source_scene": "15_ZUEBLIN_Architecture",
+      "type": "exterior",
+      "fov": 58,
+      "label": "入口側全景",
+      "position": [
+        15,
+        25,
+        125
+      ],
+      "target": [
+        0.0,
+        13.7575,
+        8.0175
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Architecture-only source bounds verified against source world transforms; all 8 bounds corners fit the perspective frustum at aspect 1.2 with max absolute NDC x 0.889 and y 0.481; narrower viewports use viewer distance scaling",
+      "source_position": [
+        15.0,
+        12.0,
+        87.0
+      ]
+    }
+  ],
+  "focus": "紅色預鑄雙翼、三座空橋、雙坡玻璃中庭",
+  "dimensions": "同期技術文：柱跨7.20 m、窗模矩1.20 m、翼深12.70 m、中庭淨跨24 m／長60 m、屋脊至高低地坪31／33 m。",
+  "uncertainty": "94／100 m翼長、24／24.5 m跨距及25／31–33 m高度敘述保留；部分樓層隔間延用、坡地及接點推定。",
+  "materials": "紅色預鑄混凝土、鋼與玻璃為展示材質；馬賽克抽象化、植栽程序化，非材料或藝術品精密重製。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 完成全家具逐件檢查：修正椅座朝向、桌椅櫃架支撐及固定家具接合；新增細部為教學近似重建",
+  "credit": null,
+  "sources": [
+    {
+      "url": "https://www.zueblin.de/de/projekte/das-zueblin-haus",
+      "title": "OWNER"
+    },
+    {
+      "url": "https://www.cementonline.nl/artikelen/het-zublin-haus",
+      "title": "Het Züblin-Haus, Cement1986 nr.3, pp.8–15; Dr.-Ing. A. Steinle, Ed. Züblin AG"
+    },
+    {
+      "url": "https://hiddenarchitecture.net/das-zublin-haus/",
+      "title": "WBW1986"
+    },
+    {
+      "url": "https://www.boehmbauten.de/buildings-detail?cHash=5d5e33fe083e8044457c3bb9c7efad1a&tx_buildings_buildingsshow%5Baction%5D=show&tx_buildings_buildingsshow%5Bbuildings%5D=49&tx_buildings_buildingsshow%5Bcontroller%5D=Buildings",
+      "title": "BOEHMB"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "White painted plaster · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_plaster_02"
+    },
+    {
+      "title": "White oak veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_oak_veneer"
+    },
+    {
+      "title": "Short natural green lawn · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Grass001"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [],
+  "legacyUrl": "https://architecture-zueblin-15.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/15-zueblin/model.glb",
+    "source_sha256": "b0bf4a849a4cc4f61020fb25a7bacedcaeb06b8ae9c89e94c49d8814d52fd4ec",
+    "sha256": "e9c640cf46bd4f496203ab0b7e0133afc9513269baefbaac2347829344ac9c43",
+    "reason": "完成全家具逐件檢查：修正椅座朝向、桌椅櫃架支撐及固定家具接合；新增細部為教學近似重建"
+  },
+  "pbrProfiles": {
+    "Warm grey terrazzo and atrium paving": {
+      "kind": "mineral",
+      "historicalFamily": "terrazzo",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.18,
+      "roughness": 0.95
+    },
+    "Landscape grass": {
+      "kind": "landscape",
+      "historicalFamily": "grass",
+      "texture": "grass",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "Reflecting pond water": {
+      "kind": "water",
+      "historicalFamily": "water",
+      "metalness": 0,
+      "ior": 1.333,
+      "roughness": 0.10000000149011612
+    },
+    "Tree trunks": {
+      "kind": "preserve",
+      "historicalFamily": "bark",
+      "metalness": 0
+    },
+    "PBR_Illustrative_leaf_15_00": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "PBR_Illustrative_leaf_15_01": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "PBR_Illustrative_leaf_15_02": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "PBR_Illustrative_leaf_15_03": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Iron-oxide concrete | dark load-bearing columns": {
+      "kind": "mineral",
+      "historicalFamily": "pigmented_concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Iron-oxide precast concrete | pale parapets": {
+      "kind": "mineral",
+      "historicalFamily": "pigmented_concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Office pale mineral partitions": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    },
+    "Painted olive roof glazing bars": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.3199999928474426
+    },
+    "Pale tubular steel balustrades": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.3400000035762787
+    },
+    "Architectural clear glazing": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "Panorama elevator glazing": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "Office oak furniture": {
+      "kind": "wood",
+      "historicalFamily": "oak",
+      "texture": "oak",
+      "roughness": 0.9,
+      "normalScale": 0.22,
+      "rotation": 90
+    },
+    "Off-white worktops": {
+      "kind": "preserve",
+      "historicalFamily": "worktop"
+    },
+    "Dark marble mosaic accents": {
+      "kind": "mineral",
+      "historicalFamily": "marble",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.07,
+      "roughness": 0.75
+    },
+    "Opal office luminaire": {
+      "kind": "preserve",
+      "historicalFamily": "emissive_diffuser"
+    },
+    "Planted soil": {
+      "kind": "preserve",
+      "historicalFamily": "soil_landscape",
+      "metalness": 0
+    }
+  }
+}

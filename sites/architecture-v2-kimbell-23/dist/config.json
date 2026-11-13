@@ -1,0 +1,498 @@
+{
+  "number": 23,
+  "title": "金貝爾美術館",
+  "architect": "路易・康",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 10250548,
+  "bounds": {
+    "min": [
+      -26.5176,
+      -3.9849,
+      -57.0058
+    ],
+    "max": [
+      26.6676,
+      6.4913,
+      48.6132
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "CAM_01_WEST_PORTICOS",
+      "source_scene": "KIMBELL_1972_COMPLETE",
+      "type": "exterior",
+      "fov": 35.94,
+      "label": "外觀視角",
+      "position": [
+        -97.0,
+        46.0,
+        108.0
+      ],
+      "target": [
+        0.07499999999999929,
+        1.2531999999999999,
+        -4.196300000000001
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -97.0,
+        46.0,
+        108.0
+      ]
+    },
+    {
+      "source_name": "CAM_02_WEST_APPROACH",
+      "source_scene": "KIMBELL_1972_COMPLETE",
+      "type": "exterior",
+      "fov": 44.96,
+      "label": "外觀視角",
+      "position": [
+        -43.0,
+        2.0,
+        13.0
+      ],
+      "target": [
+        0.07499999999999929,
+        1.2531999999999999,
+        -4.196300000000001
+      ],
+      "floor_y": -0.1254,
+      "eye_height": 2.125,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -43.0,
+        2.0,
+        13.0
+      ]
+    },
+    {
+      "source_name": "CAM_03_SOUTH_GALLERY",
+      "source_scene": "KIMBELL_1972_COMPLETE",
+      "type": "interior",
+      "fov": 51.28,
+      "label": "展廳",
+      "position": [
+        -13.1064,
+        1.65029,
+        42.672
+      ],
+      "target": [
+        -13.1064,
+        1.98496,
+        37.68322
+      ],
+      "floor_y": 0.0003,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -13.1064,
+        1.68,
+        42.672
+      ]
+    },
+    {
+      "source_name": "CAM_04_LOBBY_DOUBLE_STAIR",
+      "source_scene": "KIMBELL_1972_COMPLETE",
+      "type": "interior",
+      "fov": 46.4,
+      "label": "樓梯空間",
+      "position": [
+        1.2192,
+        1.65029,
+        12.192
+      ],
+      "target": [
+        3.59907,
+        1.47011,
+        7.7984
+      ],
+      "floor_y": 0.0003,
+      "eye_height": 1.65,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        1.2192,
+        1.7,
+        12.192
+      ]
+    },
+    {
+      "source_name": "CAM_05_NORTH_COURT",
+      "source_scene": "KIMBELL_1972_COMPLETE",
+      "type": "exterior",
+      "fov": 47.92,
+      "label": "北側外觀",
+      "position": [
+        -5.1816,
+        1.72,
+        -27.432
+      ],
+      "target": [
+        0.07499999999999929,
+        1.2531999999999999,
+        -4.196300000000001
+      ],
+      "floor_y": 0.0003,
+      "eye_height": 1.72,
+      "clearance_035m": true,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -5.1816,
+        1.72,
+        -27.432
+      ]
+    },
+    {
+      "source_name": "CAM_06_LUNETTE_AND_REFLECTOR",
+      "source_scene": "KIMBELL_1972_COMPLETE",
+      "type": "interior",
+      "fov": 53.13,
+      "label": "半月窗與採光反射板",
+      "position": [
+        -13.716,
+        1.65029,
+        31.6992
+      ],
+      "target": [
+        -13.716,
+        2.6433,
+        36.5996
+      ],
+      "floor_y": 0.0003,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -13.716,
+        1.35,
+        31.6992
+      ]
+    },
+    {
+      "source_name": "CAM_08_ROOF_COURTS",
+      "source_scene": "KIMBELL_1972_COMPLETE",
+      "type": "exterior",
+      "fov": 29.86,
+      "label": "外觀視角",
+      "position": [
+        71.0,
+        83.0,
+        98.0
+      ],
+      "target": [
+        0.07499999999999929,
+        1.2531999999999999,
+        -4.196300000000001
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        71.0,
+        83.0,
+        98.0
+      ]
+    },
+    {
+      "source_name": "CAM_10_NORTH_ELEVATION",
+      "source_scene": "KIMBELL_1972_COMPLETE",
+      "type": "exterior",
+      "fov": 28.07,
+      "label": "北側外觀",
+      "position": [
+        0.0,
+        7.0,
+        -100.0
+      ],
+      "target": [
+        0.07499999999999929,
+        1.2531999999999999,
+        -4.196300000000001
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        0.0,
+        7.0,
+        -100.0
+      ]
+    }
+  ],
+  "focus": "1972康原館、真正擺線拱、反射天光、三庭院",
+  "dimensions": "1973當代資料外包318×174 ft＝96.9264×53.0352 m；淨拱廳100×20 ft＝30.48×6.096 m，柱2 ft方、採光縫2.5 ft。",
+  "uncertainty": "20／22 ft拱頂高度措辭差異保留；反射板曲線／穿孔密度未作光度校準，地下隔間及家具含推定。",
+  "materials": "洞石、混凝土、木地板和反射板均為程序表現；燈光不等於藝術品保存照度驗證。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 逐件修正座椅、桌櫃與實際地面間的支撐接合；保留原配置並完成幾何接觸檢查",
+  "credit": "保留Richard Kelly、August Komendant及專案團隊的協作脈絡",
+  "sources": [
+    {
+      "url": "https://kimbellart.org/content/kahn-building-detail",
+      "title": "S1"
+    },
+    {
+      "url": "https://50.kimbellart.org/architecture/the-louis-i-kahn-building/",
+      "title": "S2"
+    },
+    {
+      "url": "https://www.usmodernist.org/I/I-1973-03.pdf",
+      "title": "S3"
+    },
+    {
+      "url": "https://digital.library.unt.edu/ark%3A/67531/metadc504059/m2/1/high_res_d/1002772806-Connally.pdf",
+      "title": "S4"
+    },
+    {
+      "url": "https://archeyes.com/wp-content/uploads/2020/02/kimbell-museum-louis-kahn-original-drawing.jpg",
+      "title": "S5"
+    },
+    {
+      "url": "https://archeyes.com/wp-content/uploads/2020/02/kimbell-museum-louis-kahn-plan.jpg",
+      "title": "S6"
+    },
+    {
+      "url": "https://www.philadelphiabuildings.org/pab/app/ho_display.cfm/5852",
+      "title": "S7"
+    },
+    {
+      "title": "Light beige travertine · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Travertine009"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "White oak veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_oak_veneer"
+    },
+    {
+      "title": "Short natural green lawn · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Grass001"
+    },
+    {
+      "title": "Fine neutral grey gravel · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Gravel043"
+    },
+    {
+      "title": "Fine linen weave detail · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_linen"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [],
+  "legacyUrl": "https://architecture-kimbell-23.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/23-kimbell/model.glb",
+    "source_sha256": "b1b0b981275af564c1241f994d27f7cae0ca076c686383b3937621b59b9f9c3a",
+    "sha256": "89824574fd8a087aafc97df01616c8643291708377c5d5dd7a8a50b676e3724b",
+    "reason": "逐件修正座椅、桌櫃與實際地面間的支撐接合；保留原配置並完成幾何接觸檢查"
+  },
+  "pbrProfiles": {
+    "PBR | muted park lawn": {
+      "kind": "landscape",
+      "historicalFamily": "grass",
+      "texture": "grass",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "PBR | grey aggregate paving": {
+      "kind": "mineral",
+      "historicalFamily": "aggregate_gravel",
+      "texture": "gravel",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "PBR | Tivoli travertine pores and horizontal sediment": {
+      "kind": "mineral",
+      "historicalFamily": "travertine",
+      "texture": "travertine",
+      "metalness": 0,
+      "roughness": 0.85,
+      "normalScale": 0.3
+    },
+    "PBR | reflecting basin water": {
+      "kind": "water",
+      "historicalFamily": "water",
+      "metalness": 0,
+      "ior": 1.333,
+      "roughness": 0.10000000149011612
+    },
+    "PBR | soft lavender-grey structural concrete": {
+      "kind": "mineral",
+      "historicalFamily": "concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "PBR | warm white cotton exhibition panels": {
+      "kind": "fabric",
+      "historicalFamily": "cotton_exhibition_panels",
+      "texture": "linen",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "PBR | white oak floor boards | 130mm representative width": {
+      "kind": "wood",
+      "historicalFamily": "oak",
+      "texture": "oak",
+      "roughness": 0.9,
+      "normalScale": 0.22,
+      "rotation": 90
+    },
+    "PBR | dark granite plinth": {
+      "kind": "mineral",
+      "historicalFamily": "granite",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.18,
+      "roughness": 0.95
+    },
+    "PBR | clear glazing and acrylic daylight": {
+      "kind": "glass",
+      "historicalFamily": "glazing_and_acrylic",
+      "preserveTint": true,
+      "roughness": 0.035,
+      "transmission": 1,
+      "ior": 1.5,
+      "thickness": 0.006
+    },
+    "PBR | mill-finished dark steel": {
+      "kind": "metal",
+      "historicalFamily": "metal",
+      "metalness": 0.8199999928474426,
+      "roughness": 0.3199999928474426
+    },
+    "PBR | weathered calcium-lead roof": {
+      "kind": "metal",
+      "historicalFamily": "patinated_metal",
+      "metalness": 0.8,
+      "roughness": 0.6
+    },
+    "PBR | brushed anodised aluminium": {
+      "kind": "metal",
+      "historicalFamily": "aluminium",
+      "metalness": 0.8199999928474426,
+      "roughness": 0.25
+    },
+    "PBR | perforated reflector aluminium | physical transparency ma": {
+      "kind": "preserve",
+      "historicalFamily": "perforated_aluminium"
+    },
+    "Illustrative_107_-45_83_blank_tone": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Illustrative_107_-45_134_blank_tone": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Illustrative_107_-15_77_blank_tone": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "PBR | quarter-sawn white oak plank": {
+      "kind": "wood",
+      "historicalFamily": "oak",
+      "texture": "oak",
+      "roughness": 0.9,
+      "normalScale": 0.22,
+      "rotation": 90
+    },
+    "Illustrative_-107_-45_-131_blank_tone": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Illustrative_-107_-45_-80_blank_tone": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Illustrative_-107_-15_-137_blank_tone": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Illustrative_-107_15_-73_blank_tone": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Illustrative_-107_45_-141_blank_tone": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "PBR | auditorium ochre upholstery": {
+      "kind": "fabric",
+      "historicalFamily": "fabric",
+      "texture": "linen",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "PBR | rough tree bark": {
+      "kind": "preserve",
+      "historicalFamily": "bark",
+      "metalness": 0
+    },
+    "PBR | live oak foliage": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Context leaf 0": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Context leaf 1": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Context leaf 2": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Context leaf 3": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    }
+  }
+}

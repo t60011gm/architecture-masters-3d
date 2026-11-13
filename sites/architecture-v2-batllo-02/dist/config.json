@@ -1,0 +1,515 @@
+{
+  "number": 2,
+  "title": "巴特婁之家",
+  "architect": "安東尼・高第",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 8992896,
+  "bounds": {
+    "min": [
+      -7.4009,
+      -3.025,
+      -52.11
+    ],
+    "max": [
+      7.4009,
+      32.0,
+      1.21
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "CAM_01_Street_Exterior",
+      "source_scene": "01_完整建築_Exterior",
+      "type": "exterior",
+      "fov": 28.07,
+      "label": "建築外觀",
+      "position": [
+        -30.0,
+        27.0,
+        47.0
+      ],
+      "target": [
+        0.0,
+        14.4875,
+        -25.45
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -30.0,
+        27.0,
+        47.0
+      ]
+    },
+    {
+      "source_name": "CAM_02_Frontal_Elevation",
+      "source_scene": "01_完整建築_Exterior",
+      "type": "exterior",
+      "fov": 28.07,
+      "label": "外觀視角",
+      "position": [
+        0.0,
+        17.0,
+        56.0
+      ],
+      "target": [
+        0.0,
+        14.4875,
+        -25.45
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        0.0,
+        17.0,
+        56.0
+      ]
+    },
+    {
+      "source_name": "CAM_04_Blue_Lightwell",
+      "source_scene": "01_完整建築_Exterior",
+      "type": "interior",
+      "fov": 64.55,
+      "label": "採光井",
+      "position": [
+        0.0,
+        6.6,
+        -10.7
+      ],
+      "target": [
+        0.16065,
+        11.48365,
+        -11.76027
+      ],
+      "floor_y": 0.0798,
+      "eye_height": 6.52,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        0.0,
+        6.6,
+        -10.7
+      ]
+    },
+    {
+      "source_name": "CAM_05_Noble_Salon",
+      "source_scene": "01_完整建築_Exterior",
+      "type": "interior",
+      "fov": 67.38,
+      "label": "沙龍與採光井",
+      "position": [
+        0.0,
+        6.44507,
+        -5.3
+      ],
+      "target": [
+        0.0,
+        6.91912,
+        -0.32252
+      ],
+      "floor_y": 4.7951,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        0.0,
+        6.445,
+        -5.3
+      ]
+    },
+    {
+      "source_name": "CAM_06_Rear_Garden",
+      "source_scene": "01_完整建築_Exterior",
+      "type": "exterior",
+      "fov": 29.24,
+      "label": "外觀視角",
+      "position": [
+        23.0,
+        26.0,
+        -66.0
+      ],
+      "target": [
+        0.0,
+        14.4875,
+        -25.45
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        23.0,
+        26.0,
+        -66.0
+      ]
+    },
+    {
+      "source_name": "CAM_07_Catenary_Attic",
+      "source_scene": "01_完整建築_Exterior",
+      "type": "interior",
+      "fov": 57.22,
+      "label": "閣樓空間",
+      "position": [
+        -4.6,
+        26.24486,
+        -6.1
+      ],
+      "target": [
+        -4.6,
+        26.31335,
+        -11.09953
+      ],
+      "floor_y": 24.5949,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -4.6,
+        25.6,
+        -6.1
+      ]
+    }
+  ],
+  "focus": "骨骼窗廊、雙光井、閣樓懸鏈拱、龍背屋頂",
+  "dimensions": "立面寬14.50 m與十字架最高32.00 m為公開次級資料交叉核對值，非現地實測或已讀出的原圖尺寸。",
+  "uncertainty": "總體尺度約±0.3–0.6 m；申請圖立面與完工狀態不同，屋頂、雕刻、出租住宅及煙囪細節仍含推定。",
+  "materials": "釉面陶片、藍色光井及石雕屬程序材質／幾何近似；後立面採官方2024–2025修復研究揭示的原始深色系。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。",
+  "credit": null,
+  "sources": [
+    {
+      "url": "https://fundacionantoniogaudi.org/Publicaciones/los-planos-de-gaudi-del-park-guell-y-la-casa-batllo.pdf",
+      "title": "P1"
+    },
+    {
+      "url": "https://assets.moma.org/documents/moma_catalogue_3347_300190146.pdf",
+      "title": "Gaudí, Museum of Modern Art, 1957"
+    },
+    {
+      "url": "https://www.casabatllo.es/en/antoni-gaudi/casa-batllo/facade/",
+      "title": "P3"
+    },
+    {
+      "url": "https://www.casabatllo.es/en/antoni-gaudi/casa-batllo/inside/",
+      "title": "P4"
+    },
+    {
+      "url": "https://www.casabatllo.es/en/restoration/rear-facade-backyard/",
+      "title": "P5"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/320/documents",
+      "title": "P6"
+    },
+    {
+      "url": "https://www.fadu.edu.uy/instituto-de-proyecto/files/2022/01/PA_Maria-Saravia_Casa-Batllo_2016.pdf",
+      "title": "S1"
+    },
+    {
+      "url": "https://gaudi.museum/descubre-gaudi/casa-batllo/",
+      "title": "S2"
+    },
+    {
+      "url": "https://www.rob-tomlinson.com/files/places/zoom-images/casa-batllo-exterior-zoom.jpg",
+      "title": "V1"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "White painted plaster · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_plaster_02"
+    },
+    {
+      "title": "White oak veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_oak_veneer"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [
+    {
+      "name": "Noble warm bounce",
+      "type": "AREA",
+      "position": [
+        0.0,
+        8.7,
+        -3.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "energy": 400.0
+    },
+    {
+      "name": "Dining warm bounce",
+      "type": "AREA",
+      "position": [
+        0.0,
+        8.9,
+        -31.0
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "energy": 100.0
+    }
+  ],
+  "legacyUrl": "https://architecture-batllo-02.jackylin.chatgpt.site",
+  "version": 2,
+  "pbrProfiles": {
+    "Party wall lime masonry": {
+      "kind": "mineral",
+      "historicalFamily": "lime_masonry",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Warm original lime plaster": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    },
+    "Montjuic sandstone | fine PBR": {
+      "kind": "mineral",
+      "historicalFamily": "sandstone",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.18,
+      "roughness": 0.95
+    },
+    "Clear heritage glass": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "Dark historic iron": {
+      "kind": "metal",
+      "historicalFamily": "metal",
+      "metalness": 0.8,
+      "roughness": 0.3799999952316284
+    },
+    "Ivory painted cast iron": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.30000001192092896
+    },
+    "Stained circular glass 00": {
+      "kind": "glass",
+      "historicalFamily": "decorative_glazing",
+      "preserveTint": true,
+      "roughness": 0.1599999964237213,
+      "transmission": 0.5
+    },
+    "Stained circular glass 01": {
+      "kind": "glass",
+      "historicalFamily": "decorative_glazing",
+      "preserveTint": true,
+      "roughness": 0.1599999964237213,
+      "transmission": 0.5
+    },
+    "Stained circular glass 02": {
+      "kind": "glass",
+      "historicalFamily": "decorative_glazing",
+      "preserveTint": true,
+      "roughness": 0.1599999964237213,
+      "transmission": 0.5
+    },
+    "Stained circular glass 03": {
+      "kind": "glass",
+      "historicalFamily": "decorative_glazing",
+      "preserveTint": true,
+      "roughness": 0.1599999964237213,
+      "transmission": 0.5
+    },
+    "Stained circular glass 04": {
+      "kind": "glass",
+      "historicalFamily": "decorative_glazing",
+      "preserveTint": true,
+      "roughness": 0.1599999964237213,
+      "transmission": 0.5
+    },
+    "Stained circular glass 05": {
+      "kind": "glass",
+      "historicalFamily": "decorative_glazing",
+      "preserveTint": true,
+      "roughness": 0.1599999964237213,
+      "transmission": 0.5
+    },
+    "Oak joinery | procedural grain": {
+      "kind": "wood",
+      "historicalFamily": "oak",
+      "texture": "oak",
+      "roughness": 0.9,
+      "normalScale": 0.22,
+      "rotation": 90
+    },
+    "Facade trencadis ceramic glass | procedural Voronoi": {
+      "kind": "ceramic",
+      "historicalFamily": "decorative_ceramic_mosaic",
+      "metalness": 0,
+      "roughness": 0.25
+    },
+    "Gray green painted wooden shutters": {
+      "kind": "paint",
+      "historicalFamily": "painted_timber",
+      "metalness": 0,
+      "roughness": 0.550000011920929
+    },
+    "Dragon glazed ceramic 00": {
+      "kind": "ceramic",
+      "historicalFamily": "glazed_ceramic",
+      "metalness": 0,
+      "roughness": 0.20999999344348907
+    },
+    "Dragon glazed ceramic 01": {
+      "kind": "ceramic",
+      "historicalFamily": "glazed_ceramic",
+      "metalness": 0,
+      "roughness": 0.20999999344348907
+    },
+    "Dragon glazed ceramic 02": {
+      "kind": "ceramic",
+      "historicalFamily": "glazed_ceramic",
+      "metalness": 0,
+      "roughness": 0.20999999344348907
+    },
+    "Dragon glazed ceramic 03": {
+      "kind": "ceramic",
+      "historicalFamily": "glazed_ceramic",
+      "metalness": 0,
+      "roughness": 0.20999999344348907
+    },
+    "Dragon glazed ceramic 04": {
+      "kind": "ceramic",
+      "historicalFamily": "glazed_ceramic",
+      "metalness": 0,
+      "roughness": 0.20999999344348907
+    },
+    "Dragon glazed ceramic 05": {
+      "kind": "ceramic",
+      "historicalFamily": "glazed_ceramic",
+      "metalness": 0,
+      "roughness": 0.20999999344348907
+    },
+    "Dragon glazed ceramic 06": {
+      "kind": "ceramic",
+      "historicalFamily": "glazed_ceramic",
+      "metalness": 0,
+      "roughness": 0.20999999344348907
+    },
+    "Dragon glazed ceramic 07": {
+      "kind": "ceramic",
+      "historicalFamily": "glazed_ceramic",
+      "metalness": 0,
+      "roughness": 0.20999999344348907
+    },
+    "Recovered original charcoal rear stucco": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    },
+    "Ochre terracotta and ceramic paving": {
+      "kind": "mineral",
+      "historicalFamily": "terracotta",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.18,
+      "roughness": 0.95
+    },
+    "Lightwell tile level 00 | darkens upwards": {
+      "kind": "ceramic",
+      "historicalFamily": "ceramic",
+      "metalness": 0,
+      "roughness": 0.2199999988079071
+    },
+    "Lightwell tile level 01 | darkens upwards": {
+      "kind": "ceramic",
+      "historicalFamily": "ceramic",
+      "metalness": 0,
+      "roughness": 0.2199999988079071
+    },
+    "Lightwell tile level 02 | darkens upwards": {
+      "kind": "ceramic",
+      "historicalFamily": "ceramic",
+      "metalness": 0,
+      "roughness": 0.2199999988079071
+    },
+    "Lightwell tile level 03 | darkens upwards": {
+      "kind": "ceramic",
+      "historicalFamily": "ceramic",
+      "metalness": 0,
+      "roughness": 0.2199999988079071
+    },
+    "Lightwell tile level 04 | darkens upwards": {
+      "kind": "ceramic",
+      "historicalFamily": "ceramic",
+      "metalness": 0,
+      "roughness": 0.2199999988079071
+    },
+    "Lightwell tile level 05 | darkens upwards": {
+      "kind": "ceramic",
+      "historicalFamily": "ceramic",
+      "metalness": 0,
+      "roughness": 0.2199999988079071
+    },
+    "Lightwell tile level 06 | darkens upwards": {
+      "kind": "ceramic",
+      "historicalFamily": "ceramic",
+      "metalness": 0,
+      "roughness": 0.2199999988079071
+    },
+    "Blue ripple landing glass": {
+      "kind": "glass",
+      "historicalFamily": "decorative_glazing",
+      "preserveTint": true,
+      "roughness": 0.1599999964237213,
+      "transmission": 0.44999998807907104
+    },
+    "Attic white lime wash": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    }
+  }
+}

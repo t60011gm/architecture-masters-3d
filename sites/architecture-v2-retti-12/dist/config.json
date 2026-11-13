@@ -1,0 +1,577 @@
+{
+  "number": 12,
+  "title": "Retti 蠟燭店",
+  "architect": "漢斯・霍萊因",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 2177920,
+  "bounds": {
+    "min": [
+      -3.364,
+      -0.055,
+      -7.44
+    ],
+    "max": [
+      3.364,
+      5.125,
+      2.2
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "CAM 01 | street facade",
+      "source_scene": "01_RETTI_complete_1966",
+      "type": "exterior",
+      "fov": 30.51,
+      "label": "立面觀察",
+      "position": [
+        0.0,
+        2.28,
+        7.1
+      ],
+      "target": [
+        0.0,
+        2.535,
+        -2.62
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        0.0,
+        2.28,
+        7.1
+      ]
+    },
+    {
+      "source_name": "CAM 02 | street oblique",
+      "source_scene": "01_RETTI_complete_1966",
+      "type": "exterior",
+      "fov": 28.07,
+      "label": "外觀視角",
+      "position": [
+        -3.8,
+        2.72,
+        6.8
+      ],
+      "target": [
+        0.0,
+        2.535,
+        -2.62
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -3.8,
+        2.72,
+        6.8
+      ]
+    },
+    {
+      "source_name": "CAM 03 | from stock toward original door",
+      "source_scene": "01_RETTI_complete_1966",
+      "type": "interior",
+      "fov": 57.22,
+      "label": "燈飾店內部",
+      "position": [
+        0.0,
+        1.65043,
+        -4.12
+      ],
+      "target": [
+        0.0,
+        1.52625,
+        0.87846
+      ],
+      "floor_y": 0.0004,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        0.0,
+        1.65,
+        -4.12
+      ]
+    },
+    {
+      "source_name": "CAM 04 | opposing transverse mirrors",
+      "source_scene": "01_RETTI_complete_1966",
+      "type": "interior",
+      "fov": 57.22,
+      "label": "橫向鏡面空間",
+      "position": [
+        -0.25,
+        1.64997,
+        -3.2
+      ],
+      "target": [
+        3.51074,
+        1.61669,
+        0.0948
+      ],
+      "floor_y": -0.0,
+      "eye_height": 1.65,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -0.25,
+        1.63,
+        -3.2
+      ]
+    },
+    {
+      "source_name": "CAM 05 | accessible stock and separate cash",
+      "source_scene": "01_RETTI_complete_1966",
+      "type": "interior",
+      "fov": 61.93,
+      "label": "燈飾店內部",
+      "position": [
+        0.0,
+        1.64997,
+        -3.32
+      ],
+      "target": [
+        0.0,
+        1.08542,
+        -8.28803
+      ],
+      "floor_y": -0.0,
+      "eye_height": 1.65,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        0.0,
+        1.72,
+        -3.32
+      ]
+    }
+  ],
+  "focus": "八角形空間、鏡面延伸、金屬門面、橘紅展示面",
+  "dimensions": "建築師訪談約14 m²；其他出版14.8 m²或總介入21 m²，計量範圍不一致。未取得可靠可讀的線性標註。",
+  "uncertainty": "尺寸證據相對薄弱；17.78 m²地坪與12.50 m²模型行走面積不可拿來驗證史料14 m²。",
+  "materials": "原橘紅內襯、鋁面、鏡面由歷史照片確認；光學參數、燭品、燈具與櫃檯設備為近似。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 完成全家具逐件檢查：修正椅座朝向、桌椅櫃架支撐及固定家具接合；新增細部為教學近似重建 平面鏡以建物幾何呈現單次即時反射；對向鏡的無限延伸在此簡化。",
+  "credit": null,
+  "sources": [
+    {
+      "url": "https://hollein.com/index.php/ger/Architektur/Nach-Typus/Shops-und-Interiors/Retti",
+      "title": "S1"
+    },
+    {
+      "url": "https://www.nextroom.at/building.php?id=2341",
+      "title": "S2"
+    },
+    {
+      "url": "https://designmuseum.nl/wp-content/uploads/2021/07/DM_RA_zaalblad_ENG_DEF_26-04-2021_LR.pdf",
+      "title": "S3"
+    },
+    {
+      "url": "https://www.oris.hr/hr/casopis/clanak/%5B52%5Dprotiv-toga-sam-da-arhitektura-bude-neutralna%2C744.html",
+      "title": "S4"
+    },
+    {
+      "url": "https://www.bmwkms.gv.at/dam/jcr%3A2b6e2e75-3229-4661-bda2-e3ba9c71cb0b/KuKu-Bericht%202017.pdf",
+      "title": "S5"
+    },
+    {
+      "url": "https://www.archiweb.cz/en/b/obchod-se-svickami-retti",
+      "title": "S6"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "Fine linen weave detail · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_linen"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [
+    {
+      "name": "Sales stock ceiling diffuser",
+      "type": "AREA",
+      "position": [
+        0.0,
+        2.98,
+        -5.27
+      ],
+      "color": [
+        1.0,
+        0.8899999856948853,
+        0.7300000190734863
+      ],
+      "energy": 70.0
+    },
+    {
+      "name": "Showroom soft bounce",
+      "type": "AREA",
+      "position": [
+        0.0,
+        2.98,
+        -2.3
+      ],
+      "color": [
+        1.0,
+        0.8399999737739563,
+        0.6600000262260437
+      ],
+      "energy": 28.0
+    }
+  ],
+  "legacyUrl": "https://architecture-retti-12.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/12-retti/model.glb",
+    "source_sha256": "2db287777944af7b208a00634a01dd02987ff1a07c3bda628d79ff02dcdd140f",
+    "sha256": "6ab092f5d598533f50a9fc8917786b6738bdabb960c96ae9d2d310e9a3605d3c",
+    "reason": "完成全家具逐件檢查：修正椅座朝向、桌椅櫃架支撐及固定家具接合；新增細部為教學近似重建"
+  },
+  "pbrProfiles": {
+    "PBR | Anodized aluminum · micro brushed": {
+      "kind": "metal",
+      "historicalFamily": "aluminium",
+      "metalness": 1,
+      "roughness": 0.6
+    },
+    "PBR | Polished aluminum return": {
+      "kind": "metal",
+      "historicalFamily": "aluminium",
+      "metalness": 1,
+      "roughness": 0.6
+    },
+    "PBR | Diffused neutral display light": {
+      "kind": "preserve",
+      "historicalFamily": "emissive_diffuser"
+    },
+    "PBR | Dark anodized recess": {
+      "kind": "metal",
+      "historicalFamily": "dark_anodized_metal",
+      "metalness": 0.8,
+      "roughness": 0.2800000011920929
+    },
+    "PBR | Rust orange short-pile carpet": {
+      "kind": "fabric",
+      "historicalFamily": "fabric",
+      "texture": "linen",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "PBR | Original orange-red felt display backing": {
+      "kind": "fabric",
+      "historicalFamily": "fabric",
+      "texture": "linen",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "PBR | Silver mirror · transverse infinity axis": {
+      "kind": "mirror",
+      "historicalFamily": "mirror",
+      "metalness": 1,
+      "roughness": 0.04
+    },
+    "PBR | Candle wax · Ivory": {
+      "kind": "preserve",
+      "historicalFamily": "wax"
+    },
+    "PBR | Warm opal glass luminous spheres": {
+      "kind": "preserve",
+      "historicalFamily": "emissive_diffuser"
+    },
+    "PBR | Candle wax · Soft gray": {
+      "kind": "preserve",
+      "historicalFamily": "wax"
+    },
+    "PBR | Candle wax · Warm white": {
+      "kind": "preserve",
+      "historicalFamily": "wax"
+    },
+    "PBR | Unlit cotton wick": {
+      "kind": "preserve",
+      "historicalFamily": "cotton_wick"
+    },
+    "PBR | Candle wax · Carmine": {
+      "kind": "preserve",
+      "historicalFamily": "wax"
+    },
+    "PBR | Candle wax · Amber": {
+      "kind": "preserve",
+      "historicalFamily": "wax"
+    },
+    "PBR | Clear display glazing · IOR 1.50": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "PBR | Existing host wall cut edge": {
+      "kind": "preserve",
+      "historicalFamily": "context_wall"
+    },
+    "PBR | Existing pale stone context": {
+      "kind": "mineral",
+      "historicalFamily": "paving_stone",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.18,
+      "roughness": 0.95
+    }
+  },
+  "mirrorFaces": {
+    "slug": "12-retti",
+    "sourceSHA256": "2db287777944af7b208a00634a01dd02987ff1a07c3bda628d79ff02dcdd140f",
+    "materialName": "PBR | Silver mirror · transverse infinity axis",
+    "materialIndex": 6,
+    "primitiveIndex": 6,
+    "faces": [
+      {
+        "label": "Left wall, room-facing surface",
+        "triangleIndicesZeroBased": [
+          4,
+          5
+        ],
+        "indexBufferOffsets": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "worldCentroidM": [
+          -1.6069539721754942,
+          1.5449615236669967,
+          -2.3100033152871107
+        ],
+        "worldNormal": [
+          1,
+          0,
+          0
+        ],
+        "planeEquation": "dot(normal, worldPoint - centroid) = 0",
+        "cameraFacingCondition": "dot(normal, cameraWorldPosition - centroid) > 0",
+        "localXWorld": [
+          0,
+          0,
+          -1
+        ],
+        "localYWorld": [
+          0,
+          1,
+          0
+        ],
+        "localZWorld": [
+          1,
+          0,
+          0
+        ],
+        "widthM": 0.6249603355073126,
+        "heightM": 3.089980286580073,
+        "areaM2": 1.9311151166120644,
+        "boundsWorldM": {
+          "min": [
+            -1.606953972175494,
+            -2.861962303990495e-05,
+            -2.622483483040767
+          ],
+          "max": [
+            -1.606953972175494,
+            3.0899516669570333,
+            -1.9975231475334543
+          ]
+        },
+        "exactSourceVertexIndices": [
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Right wall, room-facing surface",
+        "triangleIndicesZeroBased": [
+          12,
+          13
+        ],
+        "indexBufferOffsets": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ],
+        "worldCentroidM": [
+          1.6069539721754942,
+          1.5449615236669967,
+          -2.3100033152871107
+        ],
+        "worldNormal": [
+          -1,
+          0,
+          0
+        ],
+        "planeEquation": "dot(normal, worldPoint - centroid) = 0",
+        "cameraFacingCondition": "dot(normal, cameraWorldPosition - centroid) > 0",
+        "localXWorld": [
+          0,
+          0,
+          1
+        ],
+        "localYWorld": [
+          0,
+          1,
+          0
+        ],
+        "localZWorld": [
+          -1,
+          0,
+          0
+        ],
+        "widthM": 0.6249603355073126,
+        "heightM": 3.089980286580073,
+        "areaM2": 1.9311151166120644,
+        "boundsWorldM": {
+          "min": [
+            1.606953972175494,
+            -2.861962303990495e-05,
+            -2.622483483040767
+          ],
+          "max": [
+            1.606953972175494,
+            3.0899516669570333,
+            -1.9975231475334543
+          ]
+        },
+        "exactSourceVertexIndices": [
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "label": "Ceiling strip, downward surface",
+        "triangleIndicesZeroBased": [
+          32,
+          33
+        ],
+        "indexBufferOffsets": [
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ],
+        "worldCentroidM": [
+          0,
+          3.079459632127348,
+          -2.3100033152871107
+        ],
+        "worldNormal": [
+          0,
+          -1,
+          0
+        ],
+        "planeEquation": "dot(normal, worldPoint - centroid) = 0",
+        "cameraFacingCondition": "dot(normal, cameraWorldPosition - centroid) > 0",
+        "localXWorld": [
+          1,
+          0,
+          0
+        ],
+        "localYWorld": [
+          0,
+          0,
+          1
+        ],
+        "localZWorld": [
+          0,
+          -1,
+          0
+        ],
+        "widthM": 3.2348920140103576,
+        "heightM": 0.6100586048796446,
+        "areaM2": 1.9734737090034624,
+        "boundsWorldM": {
+          "min": [
+            -1.6174460070051788,
+            3.0794596321273486,
+            -2.615032617726933
+          ],
+          "max": [
+            1.6174460070051788,
+            3.0794596321273486,
+            -2.0049740128472884
+          ]
+        },
+        "exactSourceVertexIndices": [
+          64,
+          65,
+          66,
+          67
+        ]
+      }
+    ],
+    "retainOriginalTriangleIndices": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      34,
+      35
+    ],
+    "sourceTriangleCount": 36,
+    "replacementTriangleCount": 6,
+    "retainedTriangleCount": 30,
+    "totalTriangleCountPreserved": true
+  }
+}

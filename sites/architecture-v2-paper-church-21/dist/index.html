@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>神戶紙教會・材質光影新版</title>
+  <meta name="description" content="建築大師代表作的互動3D教育性重建，探索外觀、結構與室內空間。">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23171d25'/%3E%3Cpath d='M6 10h20v3H6zm2 5h3v11H8zm13 0h3v11h-3zM6 26h20' stroke='%23e3a654' fill='%23e3a654'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+
+<!-- CONCEPT_VIDEO_STYLES_START -->
+<link rel="stylesheet" href="./assets/concept-animation/21-paper-church/player-large-d94211e85986dad25460.css">
+<!-- CONCEPT_VIDEO_STYLES_END -->
+</head>
+<body>
+  <header class="topbar">
+    <a id="index-link" class="index-link" href="#" aria-label="回到25件建築導覽">建築漫遊 <span>25</span></a>
+    <div class="title-group"><span id="model-number" class="eyebrow"></span><h1 id="title">神戶紙教會</h1><p id="architect"></p></div>
+    <a id="legacy-link" class="legacy-link" href="#" target="_blank" rel="noopener">查看舊版</a><button id="fullscreen" class="square-button" title="全螢幕" aria-label="切換全螢幕"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M3 16v5h5"/></svg></button>
+  </header>
+  <main>
+    <section id="viewport" aria-label="互動三維建築模型">
+      <canvas id="model-canvas" tabindex="0" aria-label="3D模型。外觀模式拖曳旋轉、滾輪縮放；室內模式拖曳環視，WASD或方向鍵移動"></canvas>
+      <div id="loading" class="loading"><img id="poster" src="./poster.webp" alt="模型外觀預覽"><div class="loading-shade"></div><div class="loading-copy"><span class="eyebrow">互動模型</span><strong id="load-label">準備空間中</strong><progress id="load-progress" max="100" value="0" aria-label="模型載入進度"></progress><p id="load-detail">新版光影載入中，可先參考既有模型形體</p><button id="retry" hidden>重新載入</button></div></div>
+      <div class="viewport-top"><span id="view-label">外觀總覽</span><span id="quality-label"></span></div>
+      <div id="walk-hint" class="walk-hint" hidden>拖曳環視 · WASD／方向鍵步行 · Esc 回到外觀</div>
+      <div id="touch-walk" class="touch-walk" hidden><button data-move="forward" aria-label="向前走">前</button><div><button data-move="left" aria-label="向左走">左</button><button data-move="back" aria-label="向後走">後</button><button data-move="right" aria-label="向右走">右</button></div></div>
+      <div class="viewport-bottom"><div class="view-actions"><button id="reset" class="light-button">回到外觀</button><button id="walk" class="light-button" aria-pressed="false">步行模式</button></div><p id="hint">拖曳旋轉 · 滾輪縮放 · 右鍵平移</p></div>
+      <p id="status" class="toast" role="status" aria-live="polite"></p>
+    </section>
+    <aside class="rail" aria-label="導覽與模型資料">
+<!-- CONCEPT_VIDEO_PANEL_START -->
+<details id="concept-animation" data-work-id="21-paper-church">
+  <summary id="concept-animation-summary">120 秒概念動畫</summary>
+  <div class="concept-animation-content">
+    <h2 id="concept-animation-title">神戶紙教會｜120 秒概念動畫</h2>
+    <p id="concept-animation-disclaimer">教育性概念分析｜非等比例實測重建。動畫的組合、拆解與變形用於解釋空間原理，並非歷史設計或施工順序。</p>
+    <video id="concept-animation-video" controls preload="metadata" playsinline aria-labelledby="concept-animation-title" aria-describedby="concept-animation-disclaimer concept-animation-help">
+      <source src="./assets/concept-animation/21-paper-church/concept-934163be50851cbc076d.mp4" type="video/mp4">
+        <track kind="subtitles" srclang="zh-Hant" label="繁體中文" src="./assets/concept-animation/21-paper-church/captions-zh-Hant-6707c89138d8d62c298b.vtt">
+      您的瀏覽器未支援影片播放，請使用下方連結開啟 MP4。
+    </video>
+    <button id="concept-animation-enlarge" type="button" aria-haspopup="dialog" aria-expanded="false">⛶ 放大動畫</button>
+    <p id="concept-animation-help">按「放大動畫」開啟大型視窗；可再選擇全螢幕。繁體中文字幕預設關閉，可在字幕選單開啟。</p>
+    <p id="concept-animation-error" role="status" hidden>影片暫時無法播放，請重新載入，或使用下方連結開啟 MP4。</p>
+    <div class="concept-animation-actions"><a href="./assets/concept-animation/21-paper-church/concept-934163be50851cbc076d.mp4" target="_blank" rel="noopener">以完整視窗開啟影片（MP4）</a><button id="concept-animation-close" type="button">收起動畫</button></div>
+    <p class="concept-animation-reference"><a id="concept-animation-source-link" href="./assets/concept-animation/21-paper-church/analysis-sources-235512839aedb74adfac.txt" download="21-paper-church-analysis-sources.txt" type="text/plain">下載分析說明與資料來源（TXT）</a></p>
+  </div>
+</details>
+<!-- CONCEPT_VIDEO_PANEL_END -->
+
+      <section class="tour-section"><div class="section-label"><h2>空間導覽</h2><span id="stop-count"></span></div><p class="subtle">選擇視點，走進建築的空間序列</p><div id="waypoints" class="waypoints"></div></section>
+      <!-- HISTORIC_WEBGPU_ENTRY_START -->
+<p class="notice"><a href="./webgpu.html">開啟史料照明版：WebGPU／WebGL 2 · 日景、午後、夜景</a></p>
+<!-- HISTORIC_WEBGPU_ENTRY_END -->
+<section class="light-section"><h2>光線</h2><div class="segmented" role="group" aria-label="照明情境"><button data-light="day" aria-pressed="true">日光</button><button data-light="warm" aria-pressed="false">午後斜光</button></div><label class="quality-choice">畫質 <select id="quality"><option value="auto">自動</option><option value="high">細緻光影</option><option value="low">流暢</option></select></label><label class="brightness-choice">畫面亮度<input id="brightness" type="range" min="0.6" max="1.6" value="1" step="0.05" aria-label="畫面亮度"></label></section>
+      <section class="focus-section"><h2>觀看重點</h2><p id="focus"></p></section>
+      <details id="information"><summary>模型、來源與精度</summary><div class="details-content"><p class="notice">這是供教學與空間理解使用的重建模型，並非完整竣工實測。家具、材質和局部細節含詮釋性補充。</p><p id="dimensions"></p><p id="uncertainty"></p><p id="materials"></p><p id="credit"></p><h3>參考來源</h3><ul id="sources"></ul><p class="technical-note">新版使用 HDR 環境照明、表面法線與粗糙度貼圖，以及接觸陰影。天空為照明情境，非基地實景；即時光影並非完整路徑追蹤。步行以現有模型表面偵測障礙；不同樓層可直接選擇導覽視點。</p></div></details>
+      <details><summary>操作說明</summary><div class="details-content"><p>外觀：滑鼠拖曳旋轉，滾輪縮放，右鍵拖曳平移。手機以單指旋轉、雙指縮放或平移。</p><p>室內：選擇室內視點後，拖曳環視。使用WASD、方向鍵或畫面方向鈕步行。遇到牆面、家具或落差會停止；請改選其他視點。</p><p>「回到外觀」可隨時重設視角。「流暢」會降低陰影及解析度，適合較舊裝置。</p></div></details>
+    </aside>
+  </main>
+  <noscript><p>此互動模型需要啟用JavaScript。請開啟後重新整理。</p></noscript>
+  <script type="module" src="./bootstrap.js"></script>
+
+<!-- CONCEPT_VIDEO_SCRIPT_START -->
+<script src="./assets/concept-animation/21-paper-church/player-large-786895575142c98f6932.js" defer></script>
+<!-- CONCEPT_VIDEO_SCRIPT_END -->
+</body></html>

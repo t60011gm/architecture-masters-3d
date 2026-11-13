@@ -1,0 +1,110 @@
+{
+  "summary": "保留平天花、可動隔間與既有正交管狀燈；細管表面發光搭配局部全向直接光。",
+  "era": "1924設計建造，1925–1985居住",
+  "ceiling": "室內以平整白／灰天花及水平構件組織空間；樓梯空間另有屋頂採光。；房間可動隔間與頂部滑軌影響燈具懸掛範圍，不能用全室等距嵌燈抹去空間關係。",
+  "confidence": "天花：高；燈具形態：高；原始精確位置：中低；光度：未取得",
+  "sources": [
+    {
+      "title": "This is the Rietveld Schröder House",
+      "url": "https://www.rietveldschroderhuis.nl/en",
+      "evidence": "房間現況、三維燈具、黑白居住史照片"
+    },
+    {
+      "title": "Spatial archive",
+      "url": "https://www.rietveldschroderhuis.nl/en/explore/spatial-archive",
+      "evidence": "原始圖紙／歷史照片檔案與居住期間變更警示"
+    },
+    {
+      "title": "Colour, Form and Space",
+      "url": "https://www.rietveldschroderhuis.nl/nl/ontdek/colour-form-and-space",
+      "evidence": "1970–80年代修復與1987展示"
+    },
+    {
+      "title": "Gerrit Rietveld. Hanging Lamp",
+      "url": "https://www.moma.org/collection/works/3703",
+      "evidence": "類型1920設計；該藏品1982製作，木、玻璃、管狀燈泡"
+    }
+  ],
+  "notes": [
+    "Rietveld燈以三維直角線性構件表達空間；博物館的類型年代有1920、1924等不同編目，不能據此把屋內每件都精確稱1924原物。",
+    "1970–1980年代Bertus Mulder修復；1987作博物館開放。官方空間檔案提醒室內在60年居住中持續改變。",
+    "未取得本次模型房間對應的逐件電燈配置施工圖。",
+    "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+    "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+    "沿用三段既有管狀玻璃幾何，單管與三維組合區分保留；不把現代複製品的螢光／LED技術說成1924原配。",
+    "既有管狀組合僅見水平X/Z方向，於相同接點補垂直Y方向細管，說明三維正交燈的設計原理；0.37m長度與位置屬教學修正，不代表原裝燈實測。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "Warm luminous glass",
+      "intensity": 2,
+      "color": "#ffebd0"
+    }
+  ],
+  "lights": [
+    {
+      "type": "point",
+      "position": [
+        4.98,
+        4.87997,
+        -7.79998
+      ],
+      "color": "#ffdfb5",
+      "intensity": 35,
+      "distance": 6
+    },
+    {
+      "type": "point",
+      "position": [
+        3.69002,
+        4.87997,
+        -5.91
+      ],
+      "color": "#ffdfb5",
+      "intensity": 35,
+      "distance": 6
+    },
+    {
+      "type": "point",
+      "position": [
+        3.69002,
+        4.80999,
+        -5.94499
+      ],
+      "color": "#ffdfb5",
+      "intensity": 35,
+      "distance": 6
+    },
+    {
+      "type": "point",
+      "position": [
+        3.69002,
+        4.625,
+        -5.94499
+      ],
+      "color": "#ffebd0",
+      "intensity": 20,
+      "distance": 5
+    }
+  ],
+  "additions": [
+    {
+      "type": "cylinder",
+      "position": [
+        3.69002,
+        4.625,
+        -5.94499
+      ],
+      "radius": 0.018,
+      "height": 0.37,
+      "color": "#eeeadd",
+      "emissive": "#ffebd0",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    }
+  ],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  }
+}

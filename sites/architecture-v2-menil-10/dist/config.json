@@ -1,0 +1,414 @@
+{
+  "number": 10,
+  "title": "梅尼爾美術館",
+  "architect": "倫佐・皮亞諾",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 17086772,
+  "bounds": {
+    "min": [
+      -77.4233,
+      -4.0,
+      -43.08
+    ],
+    "max": [
+      76.5301,
+      13.4,
+      39.0222
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "CAM_Exterior_Northwest",
+      "source_scene": "Menil_1987_Exterior_Presentation",
+      "type": "exterior",
+      "fov": 35.05,
+      "label": "建築外觀",
+      "position": [
+        -133.0,
+        71.0,
+        -136.0
+      ],
+      "target": [
+        -0.44659999999999656,
+        4.7,
+        -2.0289
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -133.0,
+        71.0,
+        -136.0
+      ]
+    },
+    {
+      "source_name": "CAM_Exterior_East_Porch",
+      "source_scene": "Menil_1987_Exterior_Presentation",
+      "type": "exterior",
+      "fov": 43.6,
+      "label": "建築外觀",
+      "position": [
+        111.0,
+        3.8,
+        4.0
+      ],
+      "target": [
+        -0.44659999999999656,
+        4.7,
+        -2.0289
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        111.0,
+        3.8,
+        4.0
+      ]
+    },
+    {
+      "source_name": "CAM_Exterior_North_Entry",
+      "source_scene": "Menil_1987_Exterior_Presentation",
+      "type": "exterior",
+      "fov": 42.32,
+      "label": "入口空間",
+      "position": [
+        -4.0,
+        6.3,
+        -54.0
+      ],
+      "target": [
+        -0.44659999999999656,
+        4.7,
+        -2.0289
+      ],
+      "floor_y": -0.221,
+      "eye_height": 6.521,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -4.0,
+        6.3,
+        -54.0
+      ]
+    },
+    {
+      "source_name": "CAM_Interior_Promenade",
+      "source_scene": "Menil_1987_Exterior_Presentation",
+      "type": "interior",
+      "fov": 57.22,
+      "label": "室內空間",
+      "position": [
+        -45.0,
+        1.65045,
+        6.44525
+      ],
+      "target": [
+        -40.00005,
+        1.67171,
+        6.44525
+      ],
+      "floor_y": 0.0005,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -45.0,
+        1.68,
+        6.44525
+      ]
+    },
+    {
+      "source_name": "CAM_Interior_West_Gallery",
+      "source_scene": "Menil_1987_Exterior_Presentation",
+      "type": "interior",
+      "fov": 57.22,
+      "label": "展廳",
+      "position": [
+        -49.0,
+        1.65045,
+        -1.3335
+      ],
+      "target": [
+        -48.05669,
+        2.07494,
+        -6.22533
+      ],
+      "floor_y": 0.0005,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -49.0,
+        1.65,
+        -1.3335
+      ]
+    },
+    {
+      "source_name": "CAM_Interior_Winter_Garden",
+      "source_scene": "Menil_1987_Exterior_Presentation",
+      "type": "interior",
+      "fov": 51.28,
+      "label": "冬園與樓梯",
+      "position": [
+        -26.37587,
+        1.65045,
+        -5.334
+      ],
+      "target": [
+        -24.08967,
+        1.81458,
+        -9.77769
+      ],
+      "floor_y": 0.0005,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -26.37587,
+        1.65,
+        -5.334
+      ]
+    }
+  ],
+  "focus": "葉片採光屋頂、冬園、長廊、典藏庫、真實橫剖帶",
+  "dimensions": "基金會原立面：屋頂進深164 ft＝49.9872 m；7×20 ft柱間、兩側12 ft深廊；公開總高13.4 m；葉片截面1.30×0.90 m、名目厚25 mm。",
+  "uncertainty": "320 ft（150 m）換算錯誤、291／約300片葉片差異保留；葉片曲線非製造圖，其他樓層標高推定。",
+  "materials": "柏木、染色松木、玻璃與鐵絲網水泥為程序重建；玻璃光學、板縫及鑄件節點未實測。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 完成全家具逐件檢查：修正椅座朝向、桌椅櫃架支撐及固定家具接合；新增細部為教學近似重建",
+  "credit": null,
+  "sources": [
+    {
+      "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-533.pdf",
+      "title": "Floor plan level"
+    },
+    {
+      "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-534.pdf",
+      "title": "Treasure house plan level"
+    },
+    {
+      "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-532.pdf",
+      "title": "Basement plan level"
+    },
+    {
+      "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-535.pdf",
+      "title": "Transversal section,205 B"
+    },
+    {
+      "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/",
+      "title": "F_DATA"
+    },
+    {
+      "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-542.pdf",
+      "title": "Leaf form with dimensions,173"
+    },
+    {
+      "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-543.pdf",
+      "title": "Ferrocement leaf setting out,MS2.3"
+    },
+    {
+      "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-544.pdf",
+      "title": "Ductile iron roof element1A,MS2.6"
+    },
+    {
+      "url": "https://www.rpbw.com/project/the-menil-collection",
+      "title": "RPBW"
+    },
+    {
+      "url": "https://www.arup.com/globalassets/downloads/arup-journal/the-arup-journal-1987-issue-2.pdf",
+      "title": "Menil Collection Museum roof:evolving the form"
+    },
+    {
+      "url": "https://www.arup.com/globalassets/downloads/arup-journal/the-arup-journal-1983-issue-1.pdf",
+      "title": "The Menil Collection,Houston,Texas"
+    },
+    {
+      "url": "https://www.menil.org/read-watch/renzo-piano-and-light",
+      "title": "MENIL_OWNER"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "White painted plaster · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_plaster_02"
+    },
+    {
+      "title": "Pale white maple veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_maple_veneer"
+    },
+    {
+      "title": "Short natural green lawn · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Grass001"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [],
+  "legacyUrl": "https://architecture-menil-10.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/10-menil/model.glb",
+    "source_sha256": "e69f4caa9a117b9843be2c495f82494047802f3b479a5d2e18bfece5f226cab9",
+    "sha256": "0f737deaefcd8ec5ec13b5ba3b6c04980905a2c89259b9cfc02faa17e9e655d7",
+    "reason": "完成全家具逐件檢查：修正椅座朝向、桌椅櫃架支撐及固定家具接合；新增細部為教學近似重建"
+  },
+  "pbrProfiles": {
+    "Houston lawn": {
+      "kind": "landscape",
+      "historicalFamily": "grass",
+      "texture": "grass",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "Concrete and porch aggregate": {
+      "kind": "mineral",
+      "historicalFamily": "concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Basement cast concrete": {
+      "kind": "mineral",
+      "historicalFamily": "concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Original dark-stained pine floor": {
+      "kind": "wood",
+      "historicalFamily": "pine",
+      "texture": "pale_veneer",
+      "useColor": false,
+      "roughness": 0.9,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "Recessed air distribution slots": {
+      "kind": "preserve",
+      "historicalFamily": "dark_recess"
+    },
+    "Warm white gallery plaster": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    },
+    "White painted steel and ductile iron": {
+      "kind": "paint",
+      "historicalFamily": "painted_mixed_metal",
+      "metalness": 0,
+      "roughness": 0.3
+    },
+    "Weathered Menil grey cypress | horizontal lap boards": {
+      "kind": "wood",
+      "historicalFamily": "cypress",
+      "texture": "pale_veneer",
+      "useColor": false,
+      "roughness": 0.9,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "Winter garden and door clear glass": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "White ferrocement | nominal shell 25 mm": {
+      "kind": "mineral",
+      "historicalFamily": "ferrocement",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Roof UV-filtering glazing | visual approximation": {
+      "kind": "glass",
+      "historicalFamily": "filtered_glazing",
+      "preserveTint": true,
+      "roughness": 0.035,
+      "transmission": 1,
+      "ior": 1.5,
+      "thickness": 0.006
+    },
+    "Weathered opaque gallery roof membrane": {
+      "kind": "preserve",
+      "historicalFamily": "roof_membrane"
+    },
+    "Winter garden soil": {
+      "kind": "preserve",
+      "historicalFamily": "soil_landscape",
+      "metalness": 0
+    },
+    "Tropical foliage": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Foliage lit edges": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Tree bark": {
+      "kind": "preserve",
+      "historicalFamily": "bark",
+      "metalness": 0
+    },
+    "Context leaf shade 0": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Context leaf shade 1": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Context leaf shade 2": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Context leaf shade 3": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    },
+    "Black furniture and light tracks": {
+      "kind": "preserve",
+      "historicalFamily": "dark_furniture_and_tracks"
+    }
+  }
+}

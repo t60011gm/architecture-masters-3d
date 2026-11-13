@@ -1,0 +1,159 @@
+{
+  "summary": "保留蝶形木頂架與長吊線黑色A110式圓筒燈；直接光只由六個既有圓筒底口下照。",
+  "era": "1949競圖，1952完工",
+  "ceiling": "議事廳是挑高磚牆、木板斜頂；兩道主木梁上展開扇形／蝶形木撐，頂構不可被假平天花遮住。；大窗的密木百葉調節日光；天花下長吊線燈具是獨立層次。",
+  "confidence": "天花：高；燈具形態：高；原始精確位置：中；光度：未取得",
+  "sources": [
+    {
+      "title": "Säynätsalo Town Hall",
+      "url": "https://www.alvaraalto.fi/en/architecture/saynatsalo-town-hall/",
+      "evidence": "1949–1952、議事廳／蝶形木架官方照片與圖紙"
+    },
+    {
+      "title": "Artek Standard No.3，頁8",
+      "url": "https://www.artek.fi/downloads/Artek_Standard_No3_FI.pdf",
+      "evidence": "A110設計於1952且用於Säynätsalo議事廳"
+    },
+    {
+      "title": "A110 factsheet",
+      "url": "https://www.artek.fi/downloads/Pendant-Light-A110-Hand-Grenade-Factsheet-1839592.pdf",
+      "evidence": "A110產品形體與設計年代；現代規格不等於1952實裝"
+    }
+  ],
+  "notes": [
+    "Aalto 1952 A110類型與本建築有製造方直接關聯；木蝶形頂架有基金會圖說直接支持。",
+    "基金會照片未給拍攝年及逐件燈具更換史；不能說所有眼前黑燈都為1952原件。",
+    "未驗證全議事廳燈數、吊線長度與照度；照片只顯局部。",
+    "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+    "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+    "六組數量及吊點沿用現有模型；官方照片只見局部，未主張六組即原始總數。spot代表遮光圓筒的向下配光，不是另設嵌燈。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "Warm_opal_light",
+      "intensity": 2,
+      "color": "#ffe1b9"
+    }
+  ],
+  "lights": [
+    {
+      "type": "spot",
+      "position": [
+        14.30021,
+        10.93909,
+        2.40028
+      ],
+      "color": "#ffdfb5",
+      "intensity": 100,
+      "distance": 9,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 52,
+      "penumbra": 0.6,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "position": [
+        14.30021,
+        10.93909,
+        -2.20038
+      ],
+      "color": "#ffdfb5",
+      "intensity": 100,
+      "distance": 9,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 52,
+      "penumbra": 0.6,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "position": [
+        17.99982,
+        10.93909,
+        2.40028
+      ],
+      "color": "#ffdfb5",
+      "intensity": 100,
+      "distance": 9,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 52,
+      "penumbra": 0.6,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        17.99982,
+        10.93909,
+        -2.20038
+      ],
+      "color": "#ffdfb5",
+      "intensity": 100,
+      "distance": 9,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 52,
+      "penumbra": 0.6,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        21.70019,
+        10.93909,
+        2.40028
+      ],
+      "color": "#ffdfb5",
+      "intensity": 100,
+      "distance": 9,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 52,
+      "penumbra": 0.6,
+      "shadow": false
+    },
+    {
+      "type": "spot",
+      "position": [
+        21.70019,
+        10.93909,
+        -2.20038
+      ],
+      "color": "#ffdfb5",
+      "intensity": 100,
+      "distance": 9,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "angle": 52,
+      "penumbra": 0.6,
+      "shadow": false
+    }
+  ],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  }
+}

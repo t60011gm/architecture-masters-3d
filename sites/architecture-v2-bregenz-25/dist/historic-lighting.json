@@ -1,0 +1,636 @@
+{
+  "era": "1997原建螢光系統；2023全棟LED更新已由館方確認",
+  "ceiling": "三個上層展廳為薄吊桿懸掛蝕刻玻璃漫射天花，其上約2m夾層接收四邊日光並容納人工燈；地面層是不同的高混凝土頂空間及可見吊燈。",
+  "confidence": {
+    "ceiling": "高：館方圖紙與說明",
+    "fixture_type": "高：原螢光、2023LED均有一手記錄",
+    "fixture_positions": "高：上層規則夾層；真光抽樣位置依模型；底層精確燈數尚未完整量測"
+  },
+  "sources": [
+    {
+      "title": "KUB官方建築",
+      "url": "https://www.kunsthaus-bregenz.at/architektur",
+      "evidence": "1997、蝕刻玻璃、夾層、燈數與控制。"
+    },
+    {
+      "title": "KUB官方2021建築冊",
+      "url": "https://www.kunsthaus-bregenz.at/fileadmin/user_upload/KUB/Architektur/KUB_Architekturfolder_210520_e_web.pdf",
+      "evidence": "上層235盞／層及玻璃天花結構。"
+    },
+    {
+      "title": "KUB官方剖面",
+      "url": "https://www.kunsthaus-bregenz.at/fileadmin/user_upload/KUB/Architektur/KUB_Schnitt_A-B.png",
+      "evidence": "天花及不同樓層燈型的圖像依據。"
+    },
+    {
+      "title": "KUB官方地面層含燈平面",
+      "url": "https://www.kunsthaus-bregenz.at/fileadmin/user_upload/KUB/Architektur/EG_mit_Lampen.png",
+      "evidence": "地面層吊燈的位置語彙。"
+    },
+    {
+      "title": "KUB官方2023計畫冊",
+      "url": "https://www.kunsthaus-bregenz.at/fileadmin/user_upload/KUB/Programmvorschau/KUB_2023_Programm_e_GZD_lowres.pdf",
+      "evidence": "2023換LED計畫與原螢光燈；宣傳總數與每層235不是完全一致口徑。"
+    },
+    {
+      "title": "KUB官方2023年10月永續聲明",
+      "url": "https://www.kunsthaus-bregenz.at/ueber-uns/nachhaltigkeit",
+      "evidence": "明確確認2023年初全棟傳統燈源已換LED。"
+    },
+    {
+      "title": "Zumtobel官方2023更新案例",
+      "url": "https://www.zumtobel.ch/de-ch/cs/kunsthaus-bregenz",
+      "evidence": "保留原燈具形式與安裝點；底層tunableWhite，新增ARCOS III。"
+    }
+  ],
+  "summary": "上層保留705片玻璃與705個夾層燈，少量面光近似玻璃天花的漫射出光；1997螢光與2023 LED更新分期說明。",
+  "notes": [
+    "原上層夾層中有規則排列的螢光燈，光透過玻璃天花漫射。館方2021建築冊稱每上層235盞特製燈；現有模型3×235燈與玻璃板。地面層官方平面與剖面顯示分散吊燈，不能把上層玻璃頂複製到底層。",
+    "2023年2–3月更新；2023年10月館方確認全棟傳統光源換LED。Zumtobel證實保留原燈殼／安裝點，底層tunableWhite LED，以及ARCOS III重點照明。這些是2023系統而非1997燈型。",
+    "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+    "27個面光只是在既有玻璃面下抽樣漫射出光的計算近似，沒有新增27個可見燈具，也不是模擬夾層光穿透玻璃的全域光照。",
+    "每層235是2021官方建築冊所記燈具／玻璃分格；2023宣傳總數660採不同口徑，不強行視為同一數量。材料名的4000K不是已核實原燈色溫。",
+    "地面層具有不同的混凝土頂和吊燈語彙；本輪缺少足夠燈位映射，因此未增造地面層人工燈，不以玻璃天花或通用網格替代。",
+    "面光無投影；亮度及選樣不能用作照度計算、跨樓層遮蔽或玻璃間接傳光驗證。2023 LED／tunableWhite及ARCOS III並未冒充1997原裝系統。",
+    "直接光依相機所在樓層選樣，以減少無投影面光穿過樓板；這是視點樓層剔除，不是真實遮蔽或光線穿透計算。遠處燈具外觀仍保留。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "M08_Etched_luminous_ceiling_glass",
+      "color": "#f6f2e8",
+      "intensity": 0.18
+    },
+    {
+      "name": "M09_Plenum_luminaires_4000K",
+      "color": "#fff5e6",
+      "intensity": 1.25
+    }
+  ],
+  "lights": [
+    {
+      "type": "area",
+      "position": [
+        -8.02988,
+        11.23182,
+        -6.57033
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 1 diffusing ceiling sample 1 — not an added luminaire",
+      "cameraYMin": 7,
+      "cameraYMax": 13.5
+    },
+    {
+      "type": "area",
+      "position": [
+        -8.02988,
+        11.23182,
+        -0.72954
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 1 diffusing ceiling sample 2 — not an added luminaire",
+      "cameraYMin": 7,
+      "cameraYMax": 13.5
+    },
+    {
+      "type": "area",
+      "position": [
+        -8.02988,
+        11.23182,
+        8.02957
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 1 diffusing ceiling sample 3 — not an added luminaire",
+      "cameraYMin": 7,
+      "cameraYMax": 13.5
+    },
+    {
+      "type": "area",
+      "position": [
+        -0.72993,
+        11.23182,
+        -6.57033
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 1 diffusing ceiling sample 4 — not an added luminaire",
+      "cameraYMin": 7,
+      "cameraYMax": 13.5
+    },
+    {
+      "type": "area",
+      "position": [
+        -0.72993,
+        11.23182,
+        -0.72954
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 1 diffusing ceiling sample 5 — not an added luminaire",
+      "cameraYMin": 7,
+      "cameraYMax": 13.5
+    },
+    {
+      "type": "area",
+      "position": [
+        -0.72993,
+        11.23182,
+        8.02957
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 1 diffusing ceiling sample 6 — not an added luminaire",
+      "cameraYMin": 7,
+      "cameraYMax": 13.5
+    },
+    {
+      "type": "area",
+      "position": [
+        8.02988,
+        11.23182,
+        -6.57033
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 1 diffusing ceiling sample 7 — not an added luminaire",
+      "cameraYMin": 7,
+      "cameraYMax": 13.5
+    },
+    {
+      "type": "area",
+      "position": [
+        8.02988,
+        11.23182,
+        -0.72954
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 1 diffusing ceiling sample 8 — not an added luminaire",
+      "cameraYMin": 7,
+      "cameraYMax": 13.5
+    },
+    {
+      "type": "area",
+      "position": [
+        8.02988,
+        11.23182,
+        8.02957
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 1 diffusing ceiling sample 9 — not an added luminaire",
+      "cameraYMin": 7,
+      "cameraYMax": 13.5
+    },
+    {
+      "type": "area",
+      "position": [
+        -8.02988,
+        18.53246,
+        -6.57033
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 2 diffusing ceiling sample 1 — not an added luminaire",
+      "cameraYMin": 14.3,
+      "cameraYMax": 20.8
+    },
+    {
+      "type": "area",
+      "position": [
+        -8.02988,
+        18.53246,
+        -0.72954
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 2 diffusing ceiling sample 2 — not an added luminaire",
+      "cameraYMin": 14.3,
+      "cameraYMax": 20.8
+    },
+    {
+      "type": "area",
+      "position": [
+        -8.02988,
+        18.53246,
+        8.02957
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 2 diffusing ceiling sample 3 — not an added luminaire",
+      "cameraYMin": 14.3,
+      "cameraYMax": 20.8
+    },
+    {
+      "type": "area",
+      "position": [
+        -0.72993,
+        18.53246,
+        -6.57033
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 2 diffusing ceiling sample 4 — not an added luminaire",
+      "cameraYMin": 14.3,
+      "cameraYMax": 20.8
+    },
+    {
+      "type": "area",
+      "position": [
+        -0.72993,
+        18.53246,
+        -0.72954
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 2 diffusing ceiling sample 5 — not an added luminaire",
+      "cameraYMin": 14.3,
+      "cameraYMax": 20.8
+    },
+    {
+      "type": "area",
+      "position": [
+        -0.72993,
+        18.53246,
+        8.02957
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 2 diffusing ceiling sample 6 — not an added luminaire",
+      "cameraYMin": 14.3,
+      "cameraYMax": 20.8
+    },
+    {
+      "type": "area",
+      "position": [
+        8.02988,
+        18.53246,
+        -6.57033
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 2 diffusing ceiling sample 7 — not an added luminaire",
+      "cameraYMin": 14.3,
+      "cameraYMax": 20.8
+    },
+    {
+      "type": "area",
+      "position": [
+        8.02988,
+        18.53246,
+        -0.72954
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 2 diffusing ceiling sample 8 — not an added luminaire",
+      "cameraYMin": 14.3,
+      "cameraYMax": 20.8
+    },
+    {
+      "type": "area",
+      "position": [
+        8.02988,
+        18.53246,
+        8.02957
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 2 diffusing ceiling sample 9 — not an added luminaire",
+      "cameraYMin": 14.3,
+      "cameraYMax": 20.8
+    },
+    {
+      "type": "area",
+      "position": [
+        -8.02988,
+        26.53212,
+        -6.57033
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 3 diffusing ceiling sample 1 — not an added luminaire",
+      "cameraYMin": 21.6,
+      "cameraYMax": 29.2
+    },
+    {
+      "type": "area",
+      "position": [
+        -8.02988,
+        26.53212,
+        -0.72954
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 3 diffusing ceiling sample 2 — not an added luminaire",
+      "cameraYMin": 21.6,
+      "cameraYMax": 29.2
+    },
+    {
+      "type": "area",
+      "position": [
+        -8.02988,
+        26.53212,
+        8.02957
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 3 diffusing ceiling sample 3 — not an added luminaire",
+      "cameraYMin": 21.6,
+      "cameraYMax": 29.2
+    },
+    {
+      "type": "area",
+      "position": [
+        -0.72993,
+        26.53212,
+        -6.57033
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 3 diffusing ceiling sample 4 — not an added luminaire",
+      "cameraYMin": 21.6,
+      "cameraYMax": 29.2
+    },
+    {
+      "type": "area",
+      "position": [
+        -0.72993,
+        26.53212,
+        -0.72954
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 3 diffusing ceiling sample 5 — not an added luminaire",
+      "cameraYMin": 21.6,
+      "cameraYMax": 29.2
+    },
+    {
+      "type": "area",
+      "position": [
+        -0.72993,
+        26.53212,
+        8.02957
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 3 diffusing ceiling sample 6 — not an added luminaire",
+      "cameraYMin": 21.6,
+      "cameraYMax": 29.2
+    },
+    {
+      "type": "area",
+      "position": [
+        8.02988,
+        26.53212,
+        -6.57033
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 3 diffusing ceiling sample 7 — not an added luminaire",
+      "cameraYMin": 21.6,
+      "cameraYMax": 29.2
+    },
+    {
+      "type": "area",
+      "position": [
+        8.02988,
+        26.53212,
+        -0.72954
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 3 diffusing ceiling sample 8 — not an added luminaire",
+      "cameraYMin": 21.6,
+      "cameraYMax": 29.2
+    },
+    {
+      "type": "area",
+      "position": [
+        8.02988,
+        26.53212,
+        8.02957
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff5e9",
+      "intensity": 95,
+      "width": 4.2,
+      "height": 4.2,
+      "name": "Floor 3 diffusing ceiling sample 9 — not an added luminaire",
+      "cameraYMin": 21.6,
+      "cameraYMax": 29.2
+    }
+  ],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 18,
+    "low": 9
+  },
+  "researchRecord": {
+    "building": "Kunsthaus Bregenz｜Peter Zumthor",
+    "originalLighting": "原上層夾層中有規則排列的螢光燈，光透過玻璃天花漫射。館方2021建築冊稱每上層235盞特製燈；現有模型3×235燈與玻璃板。地面層官方平面與剖面顯示分散吊燈，不能把上層玻璃頂複製到底層。",
+    "laterConditions": "2023年2–3月更新；2023年10月館方確認全棟傳統光源換LED。Zumtobel證實保留原燈殼／安裝點，底層tunableWhite LED，以及ARCOS III重點照明。這些是2023系統而非1997燈型。",
+    "modelActions": {
+      "retain": [
+        "M08_Etched_luminous_ceiling_glass",
+        "M09_Plenum_luminaires_4000K"
+      ],
+      "add": [
+        "底層可見吊燈只在和官方平面及模型結構匹配後補，屬近似幾何"
+      ],
+      "disable": [
+        "把4000K材料名當史料已核色溫",
+        "玻璃頂單靠emissive照亮的假照明",
+        "把原235×3與2023宣傳660盞數字強作同一統計"
+      ]
+    },
+    "coordinateBasis": "Decoded retained GLB world coordinates; not a historical survey"
+  }
+}

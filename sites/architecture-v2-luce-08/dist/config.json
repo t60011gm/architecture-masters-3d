@@ -1,0 +1,282 @@
+{
+  "number": 8,
+  "title": "路思義教堂",
+  "architect": "貝聿銘",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 25644636,
+  "bounds": {
+    "min": [
+      -15.3787,
+      -0.65,
+      -28.208
+    ],
+    "max": [
+      15.3787,
+      21.78,
+      0.583
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "CAM_01_Exterior_East_ThreeQuarter",
+      "source_scene": "01_Luce_complete",
+      "type": "exterior",
+      "fov": 29.86,
+      "label": "建築外觀",
+      "position": [
+        -40.0,
+        18.0,
+        39.0
+      ],
+      "target": [
+        0.0,
+        10.565000000000001,
+        -13.8125
+      ],
+      "floor_y": -0.18,
+      "eye_height": 18.18,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -40.0,
+        18.0,
+        39.0
+      ]
+    },
+    {
+      "source_name": "CAM_02_South_Shell_Profile",
+      "source_scene": "01_Luce_complete",
+      "type": "exterior",
+      "fov": 29.86,
+      "label": "南側外觀",
+      "position": [
+        44.0,
+        12.0,
+        -14.0
+      ],
+      "target": [
+        0.0,
+        10.565000000000001,
+        -13.8125
+      ],
+      "floor_y": -0.18,
+      "eye_height": 12.18,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        44.0,
+        12.0,
+        -14.0
+      ]
+    },
+    {
+      "source_name": "CAM_03_Interior_Aisle",
+      "source_scene": "01_Luce_complete",
+      "type": "interior",
+      "fov": 70.44,
+      "label": "中央走道",
+      "position": [
+        0.0,
+        1.65,
+        -1.05
+      ],
+      "target": [
+        0.0,
+        3.06568,
+        -5.8454
+      ],
+      "floor_y": 0.0,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        0.0,
+        1.65,
+        -1.05
+      ]
+    },
+    {
+      "source_name": "CAM_04_Interior_Toward_Entry",
+      "source_scene": "01_Luce_complete",
+      "type": "interior",
+      "fov": 67.38,
+      "label": "祭壇望向入口",
+      "position": [
+        0.0,
+        2.1,
+        -23.4
+      ],
+      "target": [
+        0.0,
+        3.6501,
+        -18.64635
+      ],
+      "floor_y": 0.45,
+      "eye_height": 1.65,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        0.0,
+        2.1,
+        -23.4
+      ]
+    }
+  ],
+  "focus": "四片曲面、菱形格子梁、縫隙天光、室內與剖視",
+  "dimensions": "2018東海／Getty保存研究圖4.23：30.25×27.65×19.60 m包絡；屋脊淨縫0.75／1.50 m；殼板55 mm。",
+  "uncertainty": "高度19.60／19.65／19.72 m及肋寬敘述衝突保留；曲面不是唯一精確解析方程，家具與修補細節近似。",
+  "materials": "110 mm金黃菱形磚以程序UV表現；縫寬、曲面映射與木作推定，不能作磁磚採購或保存病害圖。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 修正36長椅背傾角、142腳底接合、6唱詩班椅背與祭壇桌支撐；移除未引用資料以無損縮小檔案",
+  "credit": "貝聿銘、陳其寬與團隊；並保留張肇康、鳳後三、營造及工匠脈絡",
+  "sources": [
+    {
+      "url": "https://www.getty.edu/publications-reports/item/2K7KXX",
+      "title": "Tunghai University, Conservation Managament Plan: Luce Memorial Chapel (2018), Getty Keeping It Modern"
+    },
+    {
+      "url": "https://www.tchac.taichung.gov.tw/building?pid=168&uid=33",
+      "title": "臺中市文化資產處：路思義教堂"
+    },
+    {
+      "url": "https://www.tchac.taichung.gov.tw/uploads/tchac/files/202204/8ee488ac-e4e3-4927-90b8-b5c666b7e0fb.pdf",
+      "title": "1060926市定古蹟指定公告及範圍圖（講義引用PDF）"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "Teak veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/teak_veneer"
+    },
+    {
+      "title": "Pale white maple veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_maple_veneer"
+    },
+    {
+      "title": "Short natural green lawn · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Grass001"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [
+    {
+      "name": "High nave soft bounced fill",
+      "type": "AREA",
+      "position": [
+        0.0,
+        14.0,
+        -10.0
+      ],
+      "color": [
+        0.9100000262260437,
+        0.9599999785423279,
+        1.0
+      ],
+      "energy": 1800.0
+    }
+  ],
+  "legacyUrl": "https://architecture-luce-08.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/08-luce/model.glb",
+    "source_sha256": "0aec0bc8b6b82d35caad4686b2967a4874a17bd26d1e44f809a6918298cba241",
+    "sha256": "01ebf319e9834c8b986d932bf489f24a1d2bbf37e23a5e91333ac63279a9b965",
+    "reason": "修正36長椅背傾角、142腳底接合、6唱詩班椅背與祭壇桌支撐；移除未引用資料以無損縮小檔案"
+  },
+  "pbrProfiles": {
+    "PBR | exposed warm-gray concrete": {
+      "kind": "mineral",
+      "historicalFamily": "concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "PBR | golden ochre glazed diamond tile": {
+      "kind": "ceramic",
+      "historicalFamily": "glazed_diamond_tile",
+      "metalness": 0,
+      "roughness": 0.23999999463558197
+    },
+    "PBR | dark painted steel": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.3
+    },
+    "PBR | neutral slightly green glazing": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "PBR | teak pews and altar veneer": {
+      "kind": "wood",
+      "historicalFamily": "teak",
+      "texture": "teak",
+      "roughness": 0.85,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "PBR | lauan-toned wood floor": {
+      "kind": "wood",
+      "historicalFamily": "lauan",
+      "texture": "pale_veneer",
+      "useColor": false,
+      "roughness": 0.9,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "PBR | cypress choir screen": {
+      "kind": "wood",
+      "historicalFamily": "cypress",
+      "texture": "pale_veneer",
+      "useColor": false,
+      "roughness": 0.9,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "PBR | quiet campus lawn": {
+      "kind": "landscape",
+      "historicalFamily": "grass",
+      "texture": "grass",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "PBR | immediate weathered paving": {
+      "kind": "mineral",
+      "historicalFamily": "paving_stone",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.18,
+      "roughness": 0.95
+    },
+    "PBR | tile mortar substrate": {
+      "kind": "mineral",
+      "historicalFamily": "mortar",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    }
+  }
+}

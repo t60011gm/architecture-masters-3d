@@ -1,0 +1,342 @@
+{
+  "number": 13,
+  "title": "加州航太博物館",
+  "architect": "法蘭克・蓋瑞",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 626304,
+  "bounds": {
+    "min": [
+      -39.2772,
+      -0.36,
+      -2.2578
+    ],
+    "max": [
+      33.25,
+      28.158,
+      24.9733
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "CAM_01_Exterior_southwest",
+      "source_scene": "01_Exterior_1984",
+      "type": "exterior",
+      "fov": 30.51,
+      "label": "建築外觀",
+      "position": [
+        -58.0,
+        33.0,
+        80.0
+      ],
+      "target": [
+        -3.0136000000000003,
+        13.899000000000001,
+        11.35775
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -58.0,
+        33.0,
+        80.0
+      ]
+    },
+    {
+      "source_name": "CAM_02_Street_southeast",
+      "source_scene": "01_Exterior_1984",
+      "type": "exterior",
+      "fov": 31.89,
+      "label": "南側外觀",
+      "position": [
+        48.0,
+        11.0,
+        66.0
+      ],
+      "target": [
+        -3.0136000000000003,
+        13.899000000000001,
+        11.35775
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        48.0,
+        11.0,
+        66.0
+      ]
+    },
+    {
+      "source_name": "CAM_03_Interior_east_to_west",
+      "source_scene": "01_Exterior_1984",
+      "type": "interior",
+      "fov": 64.55,
+      "label": "室內空間",
+      "position": [
+        25.3,
+        8.95001,
+        10.7
+      ],
+      "target": [
+        20.43127,
+        8.87223,
+        9.56448
+      ],
+      "floor_y": 7.3,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        25.3,
+        9.6,
+        10.7
+      ]
+    }
+  ],
+  "focus": "1984原館、不規則金屬殼、展覽挑空、懸掛F-104",
+  "dimensions": "1985原刊20 ft圖示比例尺、中央窗45 ft、天窗18 ft、後側間隔10 ft；「40-foot door」未明說寬高。",
+  "uncertainty": "80／90 ft總高敘述未解；機庫門高12.192 m是照片導向解讀；屋頂水平形狀、F-104及展品簡化。",
+  "materials": "PBR粗糙度、反射率、灰泥及金屬色、接點與燈光為視覺估值。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 依原模型與生成器逐件核對家具，修正朝向、部件接合與實際地坪支撐；新增支撐為教學重建",
+  "credit": null,
+  "sources": [
+    {
+      "url": "https://www.usmodernist.org/AR/AR-1985-01.pdf",
+      "title": "Charles K. Gandee, The Right Stuff, Architectural Record January 1985, pp.114–123"
+    },
+    {
+      "url": "https://file.lacounty.gov/bos/supdocs/71662.pdf",
+      "title": "California Aerospace Museum, Department of Parks and Recreation DPR523 survey, Laura Vanaskie O’Neill, January24,2012"
+    },
+    {
+      "url": "https://www.pritzkerprize.com/laureates/1989",
+      "title": "Frank Gehry, 1989 laureate, California Aerospace Museum1984 photographs by Michael Moran"
+    },
+    {
+      "url": "https://www.getty.edu/news/10-frank-gehry-buildings-to-see-in-los-angeles/",
+      "title": "10 Frank Gehry Buildings to See in L.A."
+    },
+    {
+      "url": "https://www.getty.edu/research/special_collections/notable/gehry.html",
+      "title": "Frank Gehry Papers, Getty Research Institute"
+    },
+    {
+      "url": "https://ntrs.nasa.gov/api/citations/19710017526/downloads/19710017526.pdf?attachment=true",
+      "title": "NASA Technical Note, F-104G three-view dimensional drawing"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "White painted plaster · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_plaster_02"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [
+    {
+      "name": "Interior ceiling fill",
+      "type": "AREA",
+      "position": [
+        -19.0,
+        20.3,
+        6.0
+      ],
+      "color": [
+        1.0,
+        0.8799999952316284,
+        0.699999988079071
+      ],
+      "energy": 1000.0
+    },
+    {
+      "name": "Interior ceiling fill.001",
+      "type": "AREA",
+      "position": [
+        -3.0,
+        20.3,
+        6.0
+      ],
+      "color": [
+        1.0,
+        0.8799999952316284,
+        0.699999988079071
+      ],
+      "energy": 1000.0
+    },
+    {
+      "name": "Interior ceiling fill.002",
+      "type": "AREA",
+      "position": [
+        18.0,
+        20.3,
+        6.0
+      ],
+      "color": [
+        1.0,
+        0.8799999952316284,
+        0.699999988079071
+      ],
+      "energy": 1000.0
+    },
+    {
+      "name": "Interior front-window fill",
+      "type": "AREA",
+      "position": [
+        1.0,
+        12.0,
+        16.0
+      ],
+      "color": [
+        0.7200000286102295,
+        0.8500000238418579,
+        1.0
+      ],
+      "energy": 1800.0
+    }
+  ],
+  "legacyUrl": "https://architecture-aerospace-13.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/13-aerospace/model.glb",
+    "source_sha256": "7e1102407fecba2f43cd386ff168918f91ec485a593abf6627b7c66c4823cfc4",
+    "sha256": "448bc722d2a8182a929c699ea3e6ff862fdff412f8c0e63d27c8831b1f94108c",
+    "reason": "依原模型與生成器逐件核對家具，修正朝向、部件接合與實際地坪支撐；新增支撐為教學重建"
+  },
+  "pbrProfiles": {
+    "PBR | cast concrete": {
+      "kind": "mineral",
+      "historicalFamily": "concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "PBR | pale plaza paving": {
+      "kind": "mineral",
+      "historicalFamily": "paving_stone",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.18,
+      "roughness": 0.95
+    },
+    "PBR | black hangar door": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.4300000071525574
+    },
+    "PBR | schematic planted edge": {
+      "kind": "preserve",
+      "historicalFamily": "soil_landscape",
+      "metalness": 0
+    },
+    "PBR | existing armory brick": {
+      "kind": "mineral",
+      "historicalFamily": "brick",
+      "texture": "concrete",
+      "useColor": false,
+      "roughness": 0.95,
+      "normalScale": 0.18
+    },
+    "PBR | membrane roofing": {
+      "kind": "preserve",
+      "historicalFamily": "roof_membrane"
+    },
+    "PBR | painted steel warm white": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.3400000035762787
+    },
+    "PBR | pale grey stucco": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    },
+    "PBR | painted galvanized sheet metal": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.3700000047683716
+    },
+    "PBR | slightly varied sheet metal": {
+      "kind": "metal",
+      "historicalFamily": "sheet_metal",
+      "metalness": 0.8,
+      "roughness": 0.4000000059604645
+    },
+    "PBR | clear glazing": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "PBR | dark triangular prism cladding": {
+      "kind": "preserve",
+      "historicalFamily": "dark_cladding"
+    },
+    "PBR | charcoal resilient exhibition floor": {
+      "kind": "preserve",
+      "historicalFamily": "resilient_floor"
+    },
+    "PBR | pale ochre gypsum entry structure": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    },
+    "PBR | warm lamp emission": {
+      "kind": "preserve",
+      "historicalFamily": "emissive_diffuser"
+    },
+    "PBR | illustrative red aircraft": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "PBR | satellite foil": {
+      "kind": "preserve",
+      "historicalFamily": "foil_display"
+    },
+    "PBR | solar panel cells": {
+      "kind": "preserve",
+      "historicalFamily": "solar_panel_display"
+    },
+    "PBR | F104 blue underside": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "PBR | smokey cockpit glazing": {
+      "kind": "glass",
+      "historicalFamily": "tinted_glazing",
+      "preserveTint": true,
+      "roughness": 0.15000000596046448,
+      "transmission": 0.9399999976158142,
+      "ior": 1.4600000381469727,
+      "thickness": 0.006
+    }
+  }
+}
