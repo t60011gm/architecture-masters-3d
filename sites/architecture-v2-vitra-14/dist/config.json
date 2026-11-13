@@ -1,0 +1,440 @@
+{
+  "number": 14,
+  "title": "維特拉消防站",
+  "architect": "札哈・哈蒂",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 8977600,
+  "bounds": {
+    "min": [
+      -41.7143,
+      -0.18,
+      -14.4414
+    ],
+    "max": [
+      45.8765,
+      9.1298,
+      13.6673
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "01 | Exterior • full composition",
+      "source_scene": "01 • Daylight",
+      "type": "exterior",
+      "fov": 35.05,
+      "label": "建築外觀",
+      "position": [
+        75,
+        26,
+        62
+      ],
+      "target": [
+        2.0810999999999993,
+        4.4749,
+        -0.38705000000000034
+      ],
+      "floor_y": -0.15,
+      "eye_height": 26.15,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        75,
+        26,
+        62
+      ]
+    },
+    {
+      "source_name": "02 | East facade • canopy and glazing",
+      "source_scene": "01 • Daylight",
+      "type": "exterior",
+      "fov": 33.4,
+      "label": "立面觀察",
+      "position": [
+        64,
+        2.7,
+        -6
+      ],
+      "target": [
+        2.0810999999999993,
+        4.4749,
+        -0.38705000000000034
+      ],
+      "floor_y": -0.15,
+      "eye_height": 2.85,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        64,
+        2.7,
+        -6
+      ]
+    },
+    {
+      "source_name": "03 | Interior • curved fitness glazing",
+      "source_scene": "01 • Daylight",
+      "type": "interior",
+      "fov": 53.13,
+      "label": "室內空間",
+      "position": [
+        -10.78481,
+        1.65,
+        1.21519
+      ],
+      "target": [
+        -15.6327,
+        1.70828,
+        2.4377
+      ],
+      "floor_y": 0,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -10.78481,
+        1.64,
+        1.21519
+      ]
+    },
+    {
+      "source_name": "04 | Interior • club and stair",
+      "source_scene": "01 • Daylight",
+      "type": "interior",
+      "fov": 53.13,
+      "label": "樓梯空間",
+      "position": [
+        -2.12658,
+        6.43981,
+        -0.3038
+      ],
+      "target": [
+        -7.07027,
+        6.38454,
+        0.44242
+      ],
+      "floor_y": 4.7898,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -2.12658,
+        6.28,
+        -0.3038
+      ]
+    },
+    {
+      "source_name": "05 | Exterior • dusk",
+      "source_scene": "01 • Daylight",
+      "type": "exterior",
+      "fov": 36.87,
+      "label": "建築外觀",
+      "position": [
+        64,
+        4,
+        4
+      ],
+      "target": [
+        2.0810999999999993,
+        4.4749,
+        -0.38705000000000034
+      ],
+      "floor_y": -0.035,
+      "eye_height": 4.035,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        64,
+        4,
+        4
+      ]
+    },
+    {
+      "source_name": "06 | Whole-building overview",
+      "source_scene": "01 • Daylight",
+      "type": "exterior",
+      "fov": 31.89,
+      "label": "外觀視角",
+      "position": [
+        72,
+        66,
+        78
+      ],
+      "target": [
+        2.0810999999999993,
+        4.4749,
+        -0.38705000000000034
+      ],
+      "floor_y": -0.15,
+      "eye_height": 66.15,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        72,
+        66,
+        78
+      ]
+    }
+  ],
+  "focus": "混凝土牆面、斜向量體與消防站空間序列",
+  "dimensions": "依1993年出版圖面比例尺校準：平面12 m，剖面與東立面6 m。文字記載西側梁狀量體約140 ft（42.672 m）；局部構造厚度不代表全棟一致。",
+  "uncertainty": "依出版圖面重建的教學模型；模型樓地板多邊形加總約 706.7 m²，1993 年公布用途面積合計約 840.8 m²，約差 16%；範圍未確認一致，不得用於實測、計量或估價。",
+  "materials": "混凝土、玻璃、鋁門與室內表面為依照片判讀的視覺化近似，非現場量測。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 完成全家具逐件檢查：修正椅座朝向、桌椅櫃架支撐及固定家具接合；新增細部為教學近似重建",
+  "credit": "",
+  "sources": [
+    {
+      "url": "https://www.usmodernist.org/PA/PA-1993-08.pdf",
+      "title": "Ziva Freiman, The Concrete Evidence; Progressive Architecture, August 1993, printed pages 48–59"
+    },
+    {
+      "url": "https://www.zha.com/projects/architecture/vitra-fire-station?disclaimer=true",
+      "title": "Vitra Fire Station, project description"
+    },
+    {
+      "url": "https://www.vitra.com/en-lp/campus/architecture/1370600",
+      "title": "Fire Station, Zaha Hadid, 1993"
+    },
+    {
+      "url": "https://www.zhfoundation.com/collections/vitra-fire-station/",
+      "title": "Vitra Fire Station"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "White painted plaster · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_plaster_02"
+    },
+    {
+      "title": "Dark asphalt · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/clean_asphalt"
+    },
+    {
+      "title": "Short natural green lawn · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Grass001"
+    },
+    {
+      "title": "Fine neutral grey gravel · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Gravel043"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [
+    {
+      "name": "Fitness ceiling fissure A illumination",
+      "type": "AREA",
+      "position": [
+        -24.07595,
+        3.995,
+        3.56962
+      ],
+      "color": [
+        1,
+        0.8700000047683716,
+        0.699999988079071
+      ],
+      "energy": 850
+    },
+    {
+      "name": "Fitness ceiling fissure B illumination",
+      "type": "AREA",
+      "position": [
+        -18.1519,
+        3.995,
+        4.70886
+      ],
+      "color": [
+        1,
+        0.8700000047683716,
+        0.699999988079071
+      ],
+      "energy": 550
+    },
+    {
+      "name": "Club room groove A • 152mm source illumination",
+      "type": "AREA",
+      "position": [
+        -10.55696,
+        8.1,
+        2.20253
+      ],
+      "color": [
+        1,
+        0.8700000047683716,
+        0.699999988079071
+      ],
+      "energy": 800
+    },
+    {
+      "name": "Club room groove B • 152mm source illumination",
+      "type": "AREA",
+      "position": [
+        -9.94937,
+        8.1,
+        0.1519
+      ],
+      "color": [
+        1,
+        0.8700000047683716,
+        0.699999988079071
+      ],
+      "energy": 800
+    }
+  ],
+  "legacyUrl": "https://architecture-vitra-14.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/14-vitra/model.glb",
+    "source_sha256": "f517386ff24734858eddacc527a4213e9714f262cb54c9b6deea535b62b0617f",
+    "sha256": "021cfbf46c900c5f70d02d72e29ef4a05eca15edc10ea02a9c0376201fd14821",
+    "reason": "完成全家具逐件檢查：修正椅座朝向、桌椅櫃架支撐及固定家具接合；新增細部為教學近似重建"
+  },
+  "pbrProfiles": {
+    "Mica pigmented screed • violet-grey": {
+      "kind": "mineral",
+      "historicalFamily": "pigmented_screed",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Mica screed • foyer warm shift": {
+      "kind": "mineral",
+      "historicalFamily": "pigmented_screed",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Fair-face reinforced concrete • board/panel mottling": {
+      "kind": "mineral",
+      "historicalFamily": "concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Warm grey painted plasterboard": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    },
+    "Varnished steel • charcoal structure": {
+      "kind": "metal",
+      "historicalFamily": "varnished_steel",
+      "metalness": 0.8,
+      "roughness": 0.27000001072883606
+    },
+    "Formwork seams and tie recesses": {
+      "kind": "preserve",
+      "historicalFamily": "dark_recess"
+    },
+    "Fine exposed concrete • roof soffits": {
+      "kind": "mineral",
+      "historicalFamily": "concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "12mm clear safety glass • IOR 1.5": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "Translucent safety glazing • amenities": {
+      "kind": "glass",
+      "historicalFamily": "etched_glazing",
+      "preserveTint": true,
+      "roughness": 0.3199999928474426,
+      "transmission": 0.6200000047683716,
+      "ior": 1.5,
+      "thickness": 0.006
+    },
+    "Sanded aluminium • garage sliding planes": {
+      "kind": "metal",
+      "historicalFamily": "aluminium",
+      "metalness": 0.8199999928474426,
+      "roughness": 0.30000001192092896
+    },
+    "Clear-varnished polished steel lockers": {
+      "kind": "metal",
+      "historicalFamily": "varnished_steel",
+      "metalness": 0.8799999952316284,
+      "roughness": 0.23000000417232513
+    },
+    "Recessed fluorescent diffuser • warm neutral": {
+      "kind": "preserve",
+      "historicalFamily": "emissive_diffuser"
+    },
+    "Mown lawn • natural variation": {
+      "kind": "landscape",
+      "historicalFamily": "grass",
+      "texture": "grass",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "Dark fine-grain asphalt": {
+      "kind": "mineral",
+      "historicalFamily": "asphalt",
+      "texture": "asphalt",
+      "roughness": 1,
+      "normalScale": 0.3
+    },
+    "Fine neutral aggregate gravel": {
+      "kind": "mineral",
+      "historicalFamily": "aggregate_gravel",
+      "texture": "gravel",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "Precast kerb concrete": {
+      "kind": "mineral",
+      "historicalFamily": "concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Context bark": {
+      "kind": "preserve",
+      "historicalFamily": "bark",
+      "metalness": 0
+    },
+    "Context foliage": {
+      "kind": "preserve",
+      "historicalFamily": "vegetation",
+      "metalness": 0
+    }
+  }
+}

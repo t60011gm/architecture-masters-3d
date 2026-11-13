@@ -1,0 +1,11 @@
+[
+  {
+    "path": "model.glb",
+    "size": 11777464,
+    "sha256": "60b8d6647eae2a254ad427b03131a9fcee2cfa4bd8561200156f8979cf56ea5d",
+    "parts": [
+      "backup-parts/model.glb/000.part",
+      "backup-parts/model.glb/001.part"
+    ]
+  }
+]

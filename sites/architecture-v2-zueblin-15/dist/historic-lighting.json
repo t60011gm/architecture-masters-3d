@@ -1,0 +1,1564 @@
+{
+  "summary": "保留玻璃中庭屋頂；僅在84個既有辦公翼燈位配置直接面光，標明非1985原燈具復原。",
+  "era": {
+    "original": "1983–1984施工，1985-05-22落成啟用",
+    "restoration_or_current": "2009列為古蹟；兩年修繕2017完成"
+  },
+  "ceiling": "中央中庭為巨大玻璃雙坡／山形屋頂與玻璃端牆；兩側七層辦公翼圍塑中庭。",
+  "confidence": {
+    "atrium_ceiling": "高",
+    "original_artificial_fixture": "低／未證實",
+    "model_office_lines": "教學既有幾何"
+  },
+  "sources": [
+    {
+      "title": "ZÜBLIN：Das ZÜBLIN-Haus",
+      "url": "https://www.zueblin.de/de/projekte/das-zueblin-haus",
+      "evidence": "業主官方資料提供1983–1985年代、七層雙翼、玻璃中庭、尺寸、2009保護與2017修繕；現況攝影Tom Philippi。",
+      "kind": "官方／一手資料"
+    }
+  ],
+  "notes": [
+    "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+    "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+    "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+    "官方指出更換玻璃、改善降溫等，未明言燈具完整復原。",
+    "Tom Philippi現況照片不能直接定年為原竣工內觀。",
+    "保留玻璃中庭屋蓋與鋼架；分層辦公平頂只依原模型。",
+    "官方資料確認七層辦公翼、玻璃中庭及2017修繕，但不足以識別原1985人工照明。",
+    "84條燈具的位置完全沿用既有模型，屬辦公翼教學照明。中庭屋頂不插入spot、吊燈或發光平頂；玻璃自然光入口保持。",
+    "84個燈體可發光；最近16／8盞獲得直接光計算，故遠處亮燈不代表完整照度模擬。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "Opal office luminaire",
+      "color": "#fff0d8",
+      "intensity": 2.2
+    }
+  ],
+  "lights": [
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        3.6455,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 1; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        3.6455,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 2; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        3.6455,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 3; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        3.6455,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 4; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        3.6455,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 5; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        3.6455,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 6; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        6.64507,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 7; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        6.64507,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 8; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        6.64507,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 9; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        6.64507,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 10; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        6.64507,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 11; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        6.64507,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 12; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        9.64465,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 13; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        9.64465,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 14; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        9.64465,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 15; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        9.64465,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 16; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        9.64465,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 17; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        9.64465,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 18; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        12.64625,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 19; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        12.64625,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 20; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        12.64625,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 21; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        12.64625,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 22; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        12.64625,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 23; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        12.64625,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 24; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        15.64582,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 25; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        15.64582,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 26; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        15.64582,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 27; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        15.64582,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 28; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        15.64582,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 29; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        15.64582,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 30; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        18.64539,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 31; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        18.64539,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 32; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        18.64539,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 33; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        18.64539,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 34; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        18.64539,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 35; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        18.64539,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 36; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        21.64497,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 37; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        21.64497,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 38; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        21.64497,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 39; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        21.64497,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 40; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        21.64497,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 41; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        21.64497,
+        18.3495
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 42; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        3.6455,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 43; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        3.6455,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 44; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        3.6455,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 45; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        3.6455,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 46; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        3.6455,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 47; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        3.6455,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 48; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        6.64507,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 49; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        6.64507,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 50; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        6.64507,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 51; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        6.64507,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 52; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        6.64507,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 53; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        6.64507,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 54; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        9.64465,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 55; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        9.64465,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 56; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        9.64465,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 57; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        9.64465,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 58; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        9.64465,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 59; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        9.64465,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 60; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        12.64625,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 61; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        12.64625,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 62; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        12.64625,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 63; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        12.64625,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 64; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        12.64625,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 65; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        12.64625,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 66; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        15.64582,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 67; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        15.64582,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 68; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        15.64582,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 69; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        15.64582,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 70; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        15.64582,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 71; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        15.64582,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 72; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        18.64539,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 73; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        18.64539,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 74; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        18.64539,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 75; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        18.64539,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 76; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        18.64539,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 77; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        18.64539,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 78; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -25.00016,
+        21.64497,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 79; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -14.00037,
+        21.64497,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 80; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        -3.00059,
+        21.64497,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.15072,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 81; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        8.00021,
+        21.64497,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 82; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        19,
+        21.64497,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 83; original fixture unverified"
+    },
+    {
+      "type": "area",
+      "position": [
+        29.99979,
+        21.64497,
+        -18.3496
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 500,
+      "width": 1.14869,
+      "height": 0.17048,
+      "name": "Existing model office-wing fixture 84; original fixture unverified"
+    }
+  ],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  },
+  "researchStatus": {
+    "record": "historical-lighting-research-1.0",
+    "checked_geometry": "CPU Three GLTFLoader + Meshopt; world transforms retained",
+    "photometry": "teaching estimates only",
+    "gpu_visual_acceptance": false
+  }
+}

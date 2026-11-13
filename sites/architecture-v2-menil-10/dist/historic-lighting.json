@@ -1,0 +1,1157 @@
+{
+  "summary": "保留不發光的薄殼葉片；依基金會檔案的圓筒軌道燈，在10條既有低位軌道下補可見燈體與定向光。",
+  "era": {
+    "original": "1981–1984設計，1984–1987施工，1987開館",
+    "restoration_or_current": "館方2024照片／2026解說；Renzo Piano基金會未標攝影年份的檔案"
+  },
+  "ceiling": "連續白色薄殼 ferrocement 葉片懸於玻璃屋頂下；這是日光反射／遮陽構件，不是整片自發光天花。",
+  "confidence": {
+    "ceiling": "高",
+    "daylight": "高",
+    "original_artificial_fixture": "中高：基金會原設計檔案照片清楚可見軌道／小型圓筒燈，未標攝影年",
+    "exact_positions": "低，教學模型座標"
+  },
+  "sources": [
+    {
+      "title": "The Menil Collection: Renzo Piano and Light",
+      "url": "https://www.menil.org/read-watch/renzo-piano-and-light",
+      "evidence": "館方解釋葉片反射北向天光、深色地板與隨時間變化的光，配2024門廳照片。",
+      "kind": "官方／一手資料"
+    },
+    {
+      "title": "Fondazione Renzo Piano: Menil Collection",
+      "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/",
+      "evidence": "原設計及建造年代、薄殼屋頂葉片、檔案圖紙與Paul Hester室內攝影。",
+      "kind": "官方／一手資料"
+    },
+    {
+      "title": "The Menil Collection: Main Building",
+      "url": "https://www.menil.org/campus/main-building",
+      "evidence": "1987開館，畫廊以自然光呈現天候與時間變化。",
+      "kind": "官方／一手資料"
+    }
+  ],
+  "notes": [
+    "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+    "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+    "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+    "現況展示隔間、遮光材料及燈具配置可能隨展覽改變，不能反推每個1987位置。",
+    "保留薄殼曲面與葉片間光縫；確認玻璃實際透光。",
+    "檔案照片的燈具類型有依據，但未標拍攝年；18個本次圓筒位置、數量、尺寸和展牆瞄準是教學配置，不宣稱1987逐盞復原。",
+    "Black furniture and light tracks材質完全不設自發光，避免長凳／高處支架誤發光。只以y約5.19m、薄而沿X的10條既有軌道定位。",
+    "CPU射線檢查已將穿過門洞的3束教學光改瞄準實際展牆面；18束皆與既有展牆幾何相交。這只驗證模型瞄準，不證明歷史燈位。"
+  ],
+  "emissiveMaterials": [],
+  "lights": [
+    {
+      "type": "spot",
+      "name": "Existing gallery track 1; teaching aimed fixture 1",
+      "position": [
+        -53.74886,
+        5.0516,
+        -9.22284
+      ],
+      "direction": [
+        -0.94094,
+        -0.33857,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 1; teaching aimed fixture 2",
+      "position": [
+        -43.87474,
+        5.0516,
+        -9.22284
+      ],
+      "direction": [
+        0.94094,
+        -0.33857,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 2; teaching aimed fixture 1",
+      "position": [
+        -29.29829,
+        5.05091,
+        -5.4443
+      ],
+      "direction": [
+        -0.93996,
+        -0.34127,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 2; teaching aimed fixture 2",
+      "position": [
+        -19.51216,
+        5.05091,
+        -5.4443
+      ],
+      "direction": [
+        0.93996,
+        -0.34127,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 3; teaching aimed fixture 1",
+      "position": [
+        3.72885,
+        4.9832,
+        -11.57854
+      ],
+      "direction": [
+        0,
+        -0.60892,
+        0.79323
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 3; teaching aimed fixture 2",
+      "position": [
+        8.31171,
+        4.9832,
+        -11.57854
+      ],
+      "direction": [
+        0,
+        -0.60892,
+        0.79323
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 4; teaching aimed fixture 1",
+      "position": [
+        3.52249,
+        4.99088,
+        -1.88993
+      ],
+      "direction": [
+        -0.81565,
+        -0.57855,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 4; teaching aimed fixture 2",
+      "position": [
+        8.50767,
+        4.99815,
+        -1.96905
+      ],
+      "direction": [
+        0.77455,
+        -0.5498,
+        -0.31271
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 5; teaching aimed fixture 1",
+      "position": [
+        14.9181,
+        4.96496,
+        -12.00205
+      ],
+      "direction": [
+        -0.73229,
+        -0.68099,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 6; teaching aimed fixture 1",
+      "position": [
+        21.31078,
+        4.96848,
+        -12.00205
+      ],
+      "direction": [
+        0.74499,
+        -0.66707,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 7; teaching aimed fixture 1",
+      "position": [
+        15.72523,
+        4.99673,
+        -2.19133
+      ],
+      "direction": [
+        -0.76922,
+        -0.55542,
+        -0.31591
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 7; teaching aimed fixture 2",
+      "position": [
+        20.62032,
+        4.98915,
+        -2.1114
+      ],
+      "direction": [
+        0.81074,
+        -0.5854,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 8; teaching aimed fixture 1",
+      "position": [
+        27.82737,
+        4.99815,
+        -11.85835
+      ],
+      "direction": [
+        -0.77455,
+        -0.5498,
+        -0.31271
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 8; teaching aimed fixture 2",
+      "position": [
+        32.81256,
+        4.99088,
+        -11.77923
+      ],
+      "direction": [
+        0.81565,
+        -0.57855,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 9; teaching aimed fixture 1",
+      "position": [
+        28.02333,
+        4.9893,
+        0.87305
+      ],
+      "direction": [
+        0,
+        -0.58478,
+        0.81119
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 9; teaching aimed fixture 2",
+      "position": [
+        32.6062,
+        4.9893,
+        0.87305
+      ],
+      "direction": [
+        0,
+        -0.58478,
+        0.81119
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 10; teaching aimed fixture 1",
+      "position": [
+        43.72135,
+        5.05227,
+        -8.66646
+      ],
+      "direction": [
+        -0.9419,
+        -0.3359,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    },
+    {
+      "type": "spot",
+      "name": "Existing gallery track 10; teaching aimed fixture 2",
+      "position": [
+        53.68347,
+        5.05227,
+        -8.66646
+      ],
+      "direction": [
+        0.9419,
+        -0.3359,
+        0
+      ],
+      "color": "#fff0d8",
+      "intensity": 150,
+      "distance": 23,
+      "angle": 35,
+      "penumbra": 0.65,
+      "shadow": true
+    }
+  ],
+  "additions": [
+    {
+      "type": "group",
+      "name": "Track 1 teaching cylinder 1",
+      "position": [
+        -53.51081,
+        5.13725,
+        -9.22284
+      ],
+      "rotation": [
+        0,
+        0,
+        -70.21033
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 1 teaching cylinder 2",
+      "position": [
+        -44.11279,
+        5.13725,
+        -9.22284
+      ],
+      "rotation": [
+        0,
+        0,
+        70.21033
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 2 teaching cylinder 1",
+      "position": [
+        -29.06048,
+        5.13725,
+        -5.4443
+      ],
+      "rotation": [
+        0,
+        0,
+        -70.04558
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 2 teaching cylinder 2",
+      "position": [
+        -19.74997,
+        5.13725,
+        -5.4443
+      ],
+      "rotation": [
+        0,
+        0,
+        70.04558
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 3 teaching cylinder 1",
+      "position": [
+        3.72885,
+        5.13725,
+        -11.77923
+      ],
+      "rotation": [
+        -52.48868,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 3 teaching cylinder 2",
+      "position": [
+        8.31171,
+        5.13725,
+        -11.77923
+      ],
+      "rotation": [
+        -52.48868,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 4 teaching cylinder 1",
+      "position": [
+        3.72885,
+        5.13725,
+        -1.88993
+      ],
+      "rotation": [
+        0,
+        0,
+        -54.65145
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 4 teaching cylinder 2",
+      "position": [
+        8.31171,
+        5.13725,
+        -1.88993
+      ],
+      "rotation": [
+        29.63011,
+        0,
+        50.76457
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 5 teaching cylinder 1",
+      "position": [
+        15.10337,
+        5.13725,
+        -12.00205
+      ],
+      "rotation": [
+        0,
+        0,
+        -47.07895
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 6 teaching cylinder 1",
+      "position": [
+        21.1223,
+        5.13725,
+        -12.00205
+      ],
+      "rotation": [
+        0,
+        0,
+        48.15857
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 7 teaching cylinder 1",
+      "position": [
+        15.91984,
+        5.13725,
+        -2.1114
+      ],
+      "rotation": [
+        29.63011,
+        0,
+        -50.28419
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 7 teaching cylinder 2",
+      "position": [
+        20.4152,
+        5.13725,
+        -2.1114
+      ],
+      "rotation": [
+        0,
+        0,
+        54.16852
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 8 teaching cylinder 1",
+      "position": [
+        28.02333,
+        5.13725,
+        -11.77923
+      ],
+      "rotation": [
+        29.63011,
+        0,
+        -50.76451
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 8 teaching cylinder 2",
+      "position": [
+        32.6062,
+        5.13725,
+        -11.77923
+      ],
+      "rotation": [
+        0,
+        0,
+        54.65145
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 9 teaching cylinder 1",
+      "position": [
+        28.02333,
+        5.13725,
+        0.66781
+      ],
+      "rotation": [
+        -54.21271,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 9 teaching cylinder 2",
+      "position": [
+        32.6062,
+        5.13725,
+        0.66781
+      ],
+      "rotation": [
+        -54.21271,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 10 teaching cylinder 1",
+      "position": [
+        43.95965,
+        5.13725,
+        -8.66646
+      ],
+      "rotation": [
+        0,
+        0,
+        -70.37249
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Track 10 teaching cylinder 2",
+      "position": [
+        53.44517,
+        5.13725,
+        -8.66646
+      ],
+      "rotation": [
+        0,
+        0,
+        70.37249
+      ],
+      "children": [
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.12,
+            0
+          ],
+          "radius": 0.075,
+          "height": 0.24,
+          "color": "#e7e7e2"
+        },
+        {
+          "type": "cylinder",
+          "position": [
+            0,
+            -0.244,
+            0
+          ],
+          "radius": 0.062,
+          "height": 0.008,
+          "color": "#373735",
+          "emissive": "#fff0d8",
+          "emissiveIntensity": 1.6,
+          "castShadow": false
+        }
+      ]
+    }
+  ],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  },
+  "researchStatus": {
+    "record": "historical-lighting-research-1.0",
+    "checked_geometry": "CPU Three GLTFLoader + Meshopt; world transforms retained",
+    "photometry": "teaching estimates only",
+    "gpu_visual_acceptance": false
+  }
+}

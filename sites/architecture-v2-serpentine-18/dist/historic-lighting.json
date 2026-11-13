@@ -1,0 +1,59 @@
+{
+  "era": "倫敦2002原建；不混用2004 Battersea移設燈光",
+  "ceiling": "外露白色鋼板網格構成平頂，三角形／梯形透明玻璃與不透明白色鋁板填片；無另加懸吊室內天花。",
+  "confidence": {
+    "ceiling": "高：官方設計說明＋工程師原照",
+    "fixture_type": "未確認",
+    "fixture_positions": "未確認"
+  },
+  "sources": [
+    {
+      "title": "Serpentine官方2002展亭",
+      "url": "https://www.serpentinegalleries.org/whats-on/serpentine-gallery-pavilion-2002-toyo-ito-and-cecil-balmond-arup/",
+      "evidence": "2002.7.12–9.29；幾何與透明／半透明面板；2002攝影歸屬。"
+    },
+    {
+      "title": "Balmond Studio工程師項目",
+      "url": "https://balmondstudio.com/work/serpentine-pavilion-2002.php",
+      "evidence": "2002完工；鋼板、玻璃和鋁板；現場圖像。"
+    },
+    {
+      "title": "Balmond Studio原圖7",
+      "url": "https://balmondstudio.com/images/work/Serpentine-Pavilion-2002/7.jpg",
+      "evidence": "實際檢視像素作天花判斷；此圖不可證明夜間燈型。"
+    }
+  ],
+  "summary": "2002原展亭固定人工燈具未能核實，歷史人工照明停用；保留日光、午後與夜間環境光。",
+  "notes": [
+    "官方2002日景可見屋頂結構和日光開口，夜景有暖光但無法辨明永久人工燈具的形制、位置及數量。不得據此推成嵌燈或軌道射燈網格。",
+    "2004年Battersea使用的Pixel LED為另一次展示照明，非2002原設計證據。",
+    "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+    "人工燈停用不表示原作沒有電燈；只是現有證據不足以可靠重建。",
+    "夜景只呈現環境天空／微弱月光，不補不存在的射燈陣列，也不將膜面、玻璃或鋁板當成電燈。"
+  ],
+  "emissiveMaterials": [],
+  "lights": [],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  },
+  "researchRecord": {
+    "building": "Serpentine Pavilion 2002｜伊東豊雄、Cecil Balmond / Arup",
+    "originalLighting": "官方2002日景可見屋頂結構和日光開口，夜景有暖光但無法辨明永久人工燈具的形制、位置及數量。不得據此推成嵌燈或軌道射燈網格。",
+    "laterConditions": "2004年Battersea使用的Pixel LED為另一次展示照明，非2002原設計證據。",
+    "modelActions": {
+      "retain": [
+        "02 White aluminium cassette skins 3mm及玻璃屋頂",
+        "既有家具"
+      ],
+      "add": [],
+      "disable": [
+        "未有史料支持的spot網格",
+        "把鋁板或玻璃整片當電燈"
+      ]
+    },
+    "coordinateBasis": "Decoded retained GLB world coordinates; not a historical survey"
+  },
+  "artificialLightingStatus": "disabled-insufficient-historical-fixture-evidence"
+}

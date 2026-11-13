@@ -1,0 +1,623 @@
+{
+  "number": 24,
+  "title": "Olivetti 展示店",
+  "architect": "卡羅・斯卡帕",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 7404300,
+  "bounds": {
+    "min": [
+      -3.8,
+      -0.24,
+      -22.0
+    ],
+    "max": [
+      13.5652,
+      5.485,
+      4.2
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "CAM_01_Entrance_to_Stair",
+      "source_scene": "Olivetti_24_Complete",
+      "type": "interior",
+      "fov": 55.11,
+      "label": "樓梯空間",
+      "position": [
+        4.7,
+        1.80206,
+        -1.15
+      ],
+      "target": [
+        3.85359,
+        1.91491,
+        -6.07655
+      ],
+      "floor_y": 0.1521,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        4.7,
+        1.78,
+        -1.15
+      ]
+    },
+    {
+      "source_name": "CAM_03_Mezzanine_to_Eyes",
+      "source_scene": "Olivetti_24_Complete",
+      "type": "interior",
+      "fov": 55.11,
+      "label": "夾層展示空間",
+      "position": [
+        1.28,
+        3.91,
+        -14.15
+      ],
+      "target": [
+        1.71239,
+        3.80576,
+        -9.16982
+      ],
+      "floor_y": 0.1502,
+      "eye_height": 3.76,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        1.28,
+        3.91,
+        -14.15
+      ]
+    },
+    {
+      "source_name": "CAM_04_Rear_Lounge",
+      "source_scene": "Olivetti_24_Complete",
+      "type": "interior",
+      "fov": 51.28,
+      "label": "後側休憩空間",
+      "position": [
+        4.7,
+        4.09019,
+        -20.35
+      ],
+      "target": [
+        3.97921,
+        3.93802,
+        -15.40457
+      ],
+      "floor_y": 2.4402,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        4.7,
+        3.78,
+        -20.35
+      ]
+    },
+    {
+      "source_name": "CAM_05_Street_Arcade",
+      "source_scene": "Olivetti_24_Complete",
+      "type": "exterior",
+      "fov": 42.32,
+      "label": "外觀視角",
+      "position": [
+        -7.8,
+        3.75,
+        8.6
+      ],
+      "target": [
+        4.8826,
+        2.6225,
+        -8.9
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -7.8,
+        3.75,
+        8.6
+      ]
+    },
+    {
+      "source_name": "CAM_06_Basin_to_Stair",
+      "source_scene": "Olivetti_24_Complete",
+      "type": "interior",
+      "fov": 47.92,
+      "label": "樓梯空間",
+      "position": [
+        2.05,
+        1.9517,
+        -1.4
+      ],
+      "target": [
+        3.29791,
+        2.35103,
+        -6.22527
+      ],
+      "floor_y": 0.3017,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        2.05,
+        1.32,
+        -1.4
+      ]
+    }
+  ],
+  "focus": "懸浮石階、不對稱夾層、馬賽克、展台水盆",
+  "dimensions": "FAI改造前空間名目21×5×4 m；MAXXI設計圖主要大廳+0.30、天花+5.00 m（淨高約4.70 m），夾層+2.44／2.66／2.72 m。",
+  "uncertainty": "獨立縱剖推導約19.9 m，對模型同類實體端點約20.9 m仍差約5%；保留約4–6%的縱深尺度疑義。原掃描變形未獨立量測，局部描圖誤差不能涵蓋絕對尺度不確定性。",
+  "materials": "水磨石／馬賽克以可控合成紋理呈現；金色雕塑是明示代理，非Viani作品複製，家具、燈具及接點近似。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 逐件修正座椅、桌櫃與實際地面間的支撐接合；保留原配置並完成幾何接觸檢查",
+  "credit": null,
+  "sources": [
+    {
+      "url": "https://fai-internal.s3.eu-west-1.amazonaws.com/Negozio+Olivetti_ok_+Maxxi.pdf",
+      "title": "Il negozio Olivetti di Carlo Scarpa nelle Collezioni del MAXXI Architettura"
+    },
+    {
+      "url": "https://fai-website.imgix.net/uploads/2020/05/22070459/Il-piano-terra.pdf",
+      "title": "Il piano terra — FAI guide"
+    },
+    {
+      "url": "https://fai-website.imgix.net/uploads/2020/05/22070826/Larchitettura2.pdf",
+      "title": "L’architettura — FAI guide"
+    },
+    {
+      "url": "https://fai-website.imgix.net/uploads/2020/05/22070407/Il-piano-superiore.pdf",
+      "title": "Il piano superiore — FAI guide"
+    },
+    {
+      "url": "https://fondoambiente.it/news/negozio-olivetti-dietro-le-quinte-di-unicona-del-novecento",
+      "title": "FAI_restoration"
+    },
+    {
+      "url": "https://fondoambiente.it/luoghi/negozio-olivetti",
+      "title": "FAI_site"
+    },
+    {
+      "url": "https://mediateca.palladiomuseum.org/scarpa/web/foto_scheda_ICCD.php?valo=i_6_9704",
+      "title": "CISA"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "White painted plaster · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_plaster_02"
+    },
+    {
+      "title": "Teak veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/teak_veneer"
+    },
+    {
+      "title": "Pale white maple veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_maple_veneer"
+    },
+    {
+      "title": "Fine upholstery leather detail · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/leather_white"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [
+    {
+      "name": "Interior upper bounce 5",
+      "type": "AREA",
+      "position": [
+        3.2,
+        4.78,
+        -5.0
+      ],
+      "color": [
+        1.0,
+        0.9200000166893005,
+        0.800000011920929
+      ],
+      "energy": 90.0
+    },
+    {
+      "name": "Interior upper bounce 10",
+      "type": "AREA",
+      "position": [
+        3.2,
+        4.78,
+        -10.0
+      ],
+      "color": [
+        1.0,
+        0.9200000166893005,
+        0.800000011920929
+      ],
+      "energy": 90.0
+    },
+    {
+      "name": "Interior upper bounce 15",
+      "type": "AREA",
+      "position": [
+        3.2,
+        4.78,
+        -15.0
+      ],
+      "color": [
+        1.0,
+        0.9200000166893005,
+        0.800000011920929
+      ],
+      "energy": 90.0
+    },
+    {
+      "name": "Interior upper bounce 19",
+      "type": "AREA",
+      "position": [
+        3.2,
+        4.78,
+        -19.0
+      ],
+      "color": [
+        1.0,
+        0.9200000166893005,
+        0.800000011920929
+      ],
+      "energy": 90.0
+    }
+  ],
+  "legacyUrl": "https://architecture-olivetti-24.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/24-olivetti/model.glb",
+    "source_sha256": "fcfae7d9260d00bd85018a5381d7f3801638d0f9afbef9ba9ffa5d6b7bd8e441",
+    "sha256": "0ed15cc6d02f8377d208dabdd5de177414c620d1e79d403b0482f71aee6a426b",
+    "reason": "逐件修正座椅、桌櫃與實際地面間的支撐接合；保留原配置並完成幾何接觸檢查"
+  },
+  "pbrProfiles": {
+    "Aurisina limestone — pale grey fossil grain": {
+      "kind": "mineral",
+      "historicalFamily": "limestone",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.18,
+      "roughness": 0.95
+    },
+    "Murano glass red variation 0": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass red variation 1": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass red variation 2": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass red variation 3": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass red variation 4": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass white variation 0": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass white variation 1": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass white variation 2": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass white variation 3": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass white variation 4": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass blue variation 0": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass blue variation 1": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass blue variation 2": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass blue variation 3": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass blue variation 4": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass yellow variation 0": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass yellow variation 1": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass yellow variation 2": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass yellow variation 3": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Murano glass yellow variation 4": {
+      "kind": "ceramic",
+      "historicalFamily": "glass_mosaic",
+      "metalness": 0,
+      "roughness": 0.20000000298023224
+    },
+    "Pale terrazzo matrix": {
+      "kind": "mineral",
+      "historicalFamily": "terrazzo",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.18,
+      "roughness": 0.95
+    },
+    "Recovered Venetian stucco — pale rose grey": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    },
+    "Dark oxidized Muntz metal": {
+      "kind": "metal",
+      "historicalFamily": "patinated_metal",
+      "metalness": 0.8,
+      "roughness": 0.3100000023841858
+    },
+    "Istrian stone arcade — weathered cream": {
+      "kind": "mineral",
+      "historicalFamily": "limestone",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.18,
+      "roughness": 0.95
+    },
+    "Clear thick showroom glass": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "Rosewood — dense screen and panel trims": {
+      "kind": "wood",
+      "historicalFamily": "rosewood",
+      "texture": "pale_veneer",
+      "useColor": false,
+      "roughness": 0.9,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "Acid etched glass warm emission": {
+      "kind": "preserve",
+      "historicalFamily": "emissive_diffuser"
+    },
+    "Polished stainless steel rods": {
+      "kind": "metal",
+      "historicalFamily": "stainless_chrome",
+      "metalness": 0.8999999761581421,
+      "roughness": 0.20999999344348907
+    },
+    "Ebony lighting housings": {
+      "kind": "wood",
+      "historicalFamily": "ebony",
+      "texture": "pale_veneer",
+      "useColor": false,
+      "roughness": 0.9,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "African teak — gallery boards and joinery": {
+      "kind": "wood",
+      "historicalFamily": "teak",
+      "texture": "teak",
+      "roughness": 0.85,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "White lime plaster upper ceiling": {
+      "kind": "mineral",
+      "historicalFamily": "plaster_render",
+      "texture": "plaster",
+      "useColor": false,
+      "roughness": 1,
+      "normalScale": 0.12
+    },
+    "Belgian black marble water basin": {
+      "kind": "mineral",
+      "historicalFamily": "marble",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.07,
+      "roughness": 0.75
+    },
+    "Still water in Viani basin": {
+      "kind": "water",
+      "historicalFamily": "water",
+      "metalness": 0,
+      "ior": 1.333,
+      "roughness": 0.06
+    },
+    "Gold toned bronze — sculpture PROXY": {
+      "kind": "metal",
+      "historicalFamily": "bronze_artwork",
+      "metalness": 0.8199999928474426,
+      "roughness": 0.23999999463558197
+    },
+    "Upper inner machine 00 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Typewriter black keys and rubber": {
+      "kind": "preserve",
+      "historicalFamily": "display_detail"
+    },
+    "Typewriter ivory key legends simplified": {
+      "kind": "preserve",
+      "historicalFamily": "display_detail"
+    },
+    "Upper inner machine 01 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Upper inner machine 02 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Upper inner machine 03 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Upper inner machine 04 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Upper inner machine 05 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Upper inner machine 06 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Upper outer machine 00 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Upper outer machine 01 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Upper outer machine 02 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Upper outer machine 03 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Upper outer machine 04 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Upper outer machine 05 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Upper outer machine 06 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Ground machine 00 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Ground machine 01 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Ground machine 02 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Ground machine 03 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Ground machine 04 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Ground machine 05 enamel": {
+      "kind": "preserve",
+      "historicalFamily": "art_display"
+    },
+    "Brown leather rear chairs": {
+      "kind": "leather",
+      "historicalFamily": "leather",
+      "texture": "leather",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.7,
+      "normalScale": 0.18
+    }
+  }
+}

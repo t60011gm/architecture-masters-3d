@@ -1,0 +1,111 @@
+{
+  "summary": "客廳長鍍鉻溝槽燈：沿用既有一組線性燈體，採六個局部光樣本近似連續出光；白色平天花與屋頂採光保留。",
+  "era": "1928–1931",
+  "ceiling": "主要起居層為光滑平天花及清晰梁／柱線；不是裸露格柵或密集嵌燈頂。；屋頂採光洞照亮坡道、浴室及內部空間；起居室同時受長窗與露台玻璃門採光。",
+  "confidence": "天花：高；燈具形態：高；歷史來源：高；光度：未取得",
+  "sources": [
+    {
+      "title": "La villa Savoye – Dossier enseignant，頁10–11",
+      "url": "https://www.fondationlecorbusier.fr/wp-content/uploads/2022/05/2049_3993.pdf",
+      "evidence": "客廳鍍鉻溝槽燈、Thomson-Houston、照原樣修復與修復年代"
+    },
+    {
+      "title": "An architectural promenade",
+      "url": "https://www.villa-savoye.fr/en/discover/an-architectural-promenade",
+      "evidence": "平天花、坡道／樓梯現況圖"
+    },
+    {
+      "title": "La villa Savoye",
+      "url": "https://www.anabf.org/pierredangle/magazine/la-villa-savoye",
+      "evidence": "1996–1997室內油漆與電氣系統更新"
+    }
+  ],
+  "notes": [
+    "客廳長溝槽鍍鉻燈有館方文字直接支持，不應誤稱Le Corbusier設計的現代螢光排燈。",
+    "官方教學冊指客廳燈照原樣復原；1996–1997電氣更新另有修復建築師一手報告。",
+    "燈泡種類、瓦數及精確流明未由官方一手證據確認；教學上不宜寫LED或T5為1931原配。",
+    "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+    "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+    "六個PointLight是同一條溝槽燈的數值採樣，不是六盞歷史獨立燈；沒有假造天花間接反彈光源。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "Warm opal glass lighting",
+      "intensity": 1.8,
+      "color": "#ffe6c4"
+    }
+  ],
+  "lights": [
+    {
+      "type": "point",
+      "position": [
+        3.5,
+        5.95,
+        -16.08
+      ],
+      "color": "#ffdfb5",
+      "intensity": 35,
+      "distance": 6
+    },
+    {
+      "type": "point",
+      "position": [
+        5.1,
+        5.95,
+        -16.08
+      ],
+      "color": "#ffdfb5",
+      "intensity": 35,
+      "distance": 6
+    },
+    {
+      "type": "point",
+      "position": [
+        6.7,
+        5.95,
+        -16.08
+      ],
+      "color": "#ffdfb5",
+      "intensity": 35,
+      "distance": 6
+    },
+    {
+      "type": "point",
+      "position": [
+        8.3,
+        5.95,
+        -16.08
+      ],
+      "color": "#ffdfb5",
+      "intensity": 35,
+      "distance": 6
+    },
+    {
+      "type": "point",
+      "position": [
+        9.9,
+        5.95,
+        -16.08
+      ],
+      "color": "#ffdfb5",
+      "intensity": 35,
+      "distance": 6
+    },
+    {
+      "type": "point",
+      "position": [
+        11.5,
+        5.95,
+        -16.08
+      ],
+      "color": "#ffdfb5",
+      "intensity": 35,
+      "distance": 6
+    }
+  ],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  }
+}

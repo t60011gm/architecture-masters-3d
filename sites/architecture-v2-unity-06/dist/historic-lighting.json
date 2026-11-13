@@ -1,0 +1,736 @@
+{
+  "summary": "主堂25格琥珀玻璃天窗保留為日光開口；修正模型成對球罩為左右乳白方盒＋中央球的幾何懸燈，分離自然與人工發光。",
+  "era": "1905委託，1909落成奉獻",
+  "ceiling": "主禮拜堂上方為平的深格天花：5×5，共25片琥珀色幾何玻璃天窗置於混凝土格梁內；外圈為高側窗。；天窗是日光系統；下方懸吊的電燈另成一層。",
+  "confidence": "天花：高；燈具形態：高；歷史／修復分辨：高；光度：未取得",
+  "sources": [
+    {
+      "title": "Unity Temple",
+      "url": "https://flwright.org/explore/unity-temple",
+      "evidence": "25格琥珀玻璃天窗、平格頂、1909奉獻"
+    },
+    {
+      "title": "Unity Temple Research Paper 2017，頁24、32、50",
+      "url": "https://flwright.org/sites/default/files/ckfinder/userfiles/files/Unity_Temple_Research_Paper_2017.pdf",
+      "evidence": "球＋方盒電燈、木支架、講壇燈、歷史配線／LED更新、歷史帳單"
+    },
+    {
+      "title": "Unity Temple restoration nears completion",
+      "url": "https://franklloydwright.org/unity-temple-restoration-nears-completion/",
+      "evidence": "2014–2017修復時段及照明升級"
+    }
+  ],
+  "notes": [
+    "木線條與球／立方玻璃燈具呼應室內橡木飾條，並與25格日光頂並存。",
+    "2014–2017修復包含歷史燈具修復與照明升級；研究記載重新配線、LED及中央控制，能模擬歷史亮度亦可提高。",
+    "現代LED設定不是1909電氣實況；本次未取得每盞精確光度數據。",
+    "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+    "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+    "既有24個大球被稍大的乳白方盒包覆，中央補球，12組光源；原GLB不改動。相對中心沿用模型，方盒0.405m與中央球0.34m均為教學尺寸。未確證的小型周邊發光件停用；琥珀天窗夜間不再自發光。"
+  ],
+  "emissiveMaterials": [],
+  "lights": [
+    {
+      "type": "point",
+      "position": [
+        -4.5,
+        5.73008,
+        3.6
+      ],
+      "color": "#ffdfb5",
+      "intensity": 70,
+      "distance": 8
+    },
+    {
+      "type": "point",
+      "position": [
+        -4.5,
+        5.73008,
+        -3.6
+      ],
+      "color": "#ffdfb5",
+      "intensity": 70,
+      "distance": 8
+    },
+    {
+      "type": "point",
+      "position": [
+        4.5,
+        5.73008,
+        3.6
+      ],
+      "color": "#ffdfb5",
+      "intensity": 70,
+      "distance": 8
+    },
+    {
+      "type": "point",
+      "position": [
+        4.5,
+        5.73008,
+        -3.6
+      ],
+      "color": "#ffdfb5",
+      "intensity": 70,
+      "distance": 8
+    },
+    {
+      "type": "point",
+      "position": [
+        -7.30013,
+        5.69988,
+        3.6
+      ],
+      "color": "#ffdfb5",
+      "intensity": 70,
+      "distance": 8
+    },
+    {
+      "type": "point",
+      "position": [
+        -7.30013,
+        5.69988,
+        -3.6
+      ],
+      "color": "#ffdfb5",
+      "intensity": 70,
+      "distance": 8
+    },
+    {
+      "type": "point",
+      "position": [
+        7.30013,
+        5.69988,
+        3.6
+      ],
+      "color": "#ffdfb5",
+      "intensity": 70,
+      "distance": 8
+    },
+    {
+      "type": "point",
+      "position": [
+        7.30013,
+        5.69988,
+        -3.6
+      ],
+      "color": "#ffdfb5",
+      "intensity": 70,
+      "distance": 8
+    },
+    {
+      "type": "point",
+      "position": [
+        -3.7502,
+        3.60981,
+        26.74013
+      ],
+      "color": "#ffdfb5",
+      "intensity": 70,
+      "distance": 8
+    },
+    {
+      "type": "point",
+      "position": [
+        -3.7502,
+        3.60981,
+        21.54
+      ],
+      "color": "#ffdfb5",
+      "intensity": 70,
+      "distance": 8
+    },
+    {
+      "type": "point",
+      "position": [
+        3.7502,
+        3.60981,
+        26.74013
+      ],
+      "color": "#ffdfb5",
+      "intensity": 70,
+      "distance": 8
+    },
+    {
+      "type": "point",
+      "position": [
+        3.7502,
+        3.60981,
+        21.54
+      ],
+      "color": "#ffdfb5",
+      "intensity": 70,
+      "distance": 8
+    }
+  ],
+  "additions": [
+    {
+      "type": "box",
+      "position": [
+        -4.861192223892354,
+        5.980078596364016,
+        3.6000011285878544
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        -4.1388080925341475,
+        5.980078596364016,
+        3.6000011285878544
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -4.5000001582132505,
+        5.980078596364016,
+        3.6000011285878544
+      ],
+      "radius": 0.17,
+      "color": "#eee6d4",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        -4.861192223892354,
+        5.980078596364016,
+        -3.599999124553346
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        -4.1388080925341475,
+        5.980078596364016,
+        -3.599999124553346
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -4.5000001582132505,
+        5.980078596364016,
+        -3.599999124553346
+      ],
+      "radius": 0.17,
+      "color": "#eee6d4",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        4.1388080925341475,
+        5.980078596364016,
+        3.6000011285878544
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        4.861192223892354,
+        5.980078596364016,
+        3.6000011285878544
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        4.5000001582132505,
+        5.980078596364016,
+        3.6000011285878544
+      ],
+      "radius": 0.17,
+      "color": "#eee6d4",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        4.1388080925341475,
+        5.980078596364016,
+        -3.599999124553346
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        4.861192223892354,
+        5.980078596364016,
+        -3.599999124553346
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        4.5000001582132505,
+        5.980078596364016,
+        -3.599999124553346
+      ],
+      "radius": 0.17,
+      "color": "#eee6d4",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        -7.568741987959912,
+        5.949879919805587,
+        3.6000011285878544
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        -7.031523426025756,
+        5.949879919805587,
+        3.6000011285878544
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -7.300132706992834,
+        5.949879919805587,
+        3.6000011285878544
+      ],
+      "radius": 0.17,
+      "color": "#eee6d4",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        -7.568741987959912,
+        5.949879919805587,
+        -3.599999124553346
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        -7.031523426025756,
+        5.949879919805587,
+        -3.599999124553346
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -7.300132706992834,
+        5.949879919805587,
+        -3.599999124553346
+      ],
+      "radius": 0.17,
+      "color": "#eee6d4",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        7.031523426025756,
+        5.949879919805587,
+        3.6000011285878544
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        7.568741987959912,
+        5.949879919805587,
+        3.6000011285878544
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        7.300132706992834,
+        5.949879919805587,
+        3.6000011285878544
+      ],
+      "radius": 0.17,
+      "color": "#eee6d4",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        7.031523426025756,
+        5.949879919805587,
+        -3.599999124553346
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        7.568741987959912,
+        5.949879919805587,
+        -3.599999124553346
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        7.300132706992834,
+        5.949879919805587,
+        -3.599999124553346
+      ],
+      "radius": 0.17,
+      "color": "#eee6d4",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        -4.01483457824165,
+        3.8598136211564302,
+        26.740134392491328
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        -3.485563036454449,
+        3.8598136211564302,
+        26.740134392491328
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -3.7501988073480494,
+        3.8598136211564302,
+        26.740134392491328
+      ],
+      "radius": 0.17,
+      "color": "#eee6d4",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        -4.01483457824165,
+        3.8598136211564302,
+        21.540001759331346
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        -3.485563036454449,
+        3.8598136211564302,
+        21.540001759331346
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -3.7501988073480494,
+        3.8598136211564302,
+        21.540001759331346
+      ],
+      "radius": 0.17,
+      "color": "#eee6d4",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        3.485563036454449,
+        3.8598136211564302,
+        26.740134392491328
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        4.01483457824165,
+        3.8598136211564302,
+        26.740134392491328
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        3.7501988073480494,
+        3.8598136211564302,
+        26.740134392491328
+      ],
+      "radius": 0.17,
+      "color": "#eee6d4",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        3.485563036454449,
+        3.8598136211564302,
+        21.540001759331346
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "box",
+      "position": [
+        4.01483457824165,
+        3.8598136211564302,
+        21.540001759331346
+      ],
+      "size": [
+        0.405,
+        0.405,
+        0.405
+      ],
+      "color": "#ece5d6",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        3.7501988073480494,
+        3.8598136211564302,
+        21.540001759331346
+      ],
+      "radius": 0.17,
+      "color": "#eee6d4",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 2,
+      "castShadow": false
+    }
+  ],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "summary": "十字開口與暗色木地板保持自然光主角；沿用6盞低強度壁燈，雙側配置與暖光值為教學推估。",
+  "era": {
+    "original": "1988施工，1989禮拜堂；1999主日學為不同建物／年代",
+    "restoration_or_current": "Google Arts & Culture由Tadao Ando Architect & Associates監修，含1989教堂與1999主日學照片"
+  },
+  "ceiling": "單一清水混凝土平頂與混凝土盒體，主禮拜堂不裝一般吸頂燈或格柵。",
+  "confidence": {
+    "ceiling": "高",
+    "cross_daylight": "高",
+    "small_wall_lamps": "中高，建築師監修圖像可見",
+    "exact_six_lamp_layout": "低，模型推估"
+  },
+  "sources": [
+    {
+      "title": "Tadao Ando Architect & Associates：The Church of the Light: A Cross of Light Floating in the Dark",
+      "url": "https://artsandculture.google.com/story/the-church-of-the-light-a-cross-of-light-floating-in-the-dark/2QVRGQpQrOQ8sQ?hl=en",
+      "evidence": "建築師事務所監修，標示1989禮拜堂、1988施工、1999主日學；提供可檢視側牆小壁燈的室內圖。",
+      "kind": "官方／一手資料"
+    },
+    {
+      "title": "Ibaraki Kasugaoka Church 官方網站",
+      "url": "https://ibaraki-kasugaoka-church.jp/",
+      "evidence": "教會身分／現況官方入口；本次未據其頁面推定原燈具。",
+      "kind": "官方／一手資料"
+    }
+  ],
+  "notes": [
+    "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+    "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+    "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+    "1999主日學的木頂與燈不能混入1989混凝土禮拜堂。",
+    "保留無附掛燈的清水混凝土頂；不要發光十字材質替代真正穿過開口的自然光。",
+    "建築師事務所監修圖像可見側牆小壁燈，故不能說禮拜堂完全沒有人工光。可清楚辨識的一側兩件不證明模型雙側六盞等距布局。",
+    "1989禮拜堂的混凝土平頂不混入1999主日學木頂與燈具；本版不新增任何天花燈，不將十字材質自發光來代替穿過開口的光。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "PBR | warm opal diffuser",
+      "color": "#fff0d8",
+      "intensity": 2.2
+    }
+  ],
+  "lights": [
+    {
+      "type": "point",
+      "position": [
+        2.29998,
+        2.20005,
+        2.87205
+      ],
+      "color": "#ffe6bf",
+      "intensity": 7,
+      "distance": 7,
+      "shadow": true,
+      "name": "Existing teaching-model sidewall lamp 1"
+    },
+    {
+      "type": "point",
+      "position": [
+        2.29998,
+        2.20005,
+        -2.87201
+      ],
+      "color": "#ffe6bf",
+      "intensity": 7,
+      "distance": 7,
+      "shadow": true,
+      "name": "Existing teaching-model sidewall lamp 2"
+    },
+    {
+      "type": "point",
+      "position": [
+        9.49991,
+        2.20005,
+        2.87205
+      ],
+      "color": "#ffe6bf",
+      "intensity": 7,
+      "distance": 7,
+      "shadow": true,
+      "name": "Existing teaching-model sidewall lamp 3"
+    },
+    {
+      "type": "point",
+      "position": [
+        9.49991,
+        2.20005,
+        -2.87201
+      ],
+      "color": "#ffe6bf",
+      "intensity": 7,
+      "distance": 7,
+      "shadow": true,
+      "name": "Existing teaching-model sidewall lamp 4"
+    },
+    {
+      "type": "point",
+      "position": [
+        15.70005,
+        2.20005,
+        2.87205
+      ],
+      "color": "#ffe6bf",
+      "intensity": 7,
+      "distance": 7,
+      "shadow": true,
+      "name": "Existing teaching-model sidewall lamp 5"
+    },
+    {
+      "type": "point",
+      "position": [
+        15.70005,
+        2.20005,
+        -2.87201
+      ],
+      "color": "#ffe6bf",
+      "intensity": 7,
+      "distance": 7,
+      "shadow": true,
+      "name": "Existing teaching-model sidewall lamp 6"
+    }
+  ],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  },
+  "researchStatus": {
+    "record": "historical-lighting-research-1.0",
+    "checked_geometry": "CPU Three GLTFLoader + Meshopt; world transforms retained",
+    "photometry": "teaching estimates only",
+    "gpu_visual_acceptance": false
+  }
+}

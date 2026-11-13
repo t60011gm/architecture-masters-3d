@@ -1,0 +1,428 @@
+{
+  "number": 22,
+  "title": "廣島市西消防署",
+  "architect": "山本理顯",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 11777464,
+  "bounds": {
+    "min": [
+      -30.0,
+      -4.78,
+      -62.0
+    ],
+    "max": [
+      65.0,
+      45.4,
+      19.0
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "CAM_01_Southwest_Exterior",
+      "source_scene": "22_Hiroshima_Exterior",
+      "type": "exterior",
+      "fov": 31.89,
+      "label": "建築外觀",
+      "position": [
+        -54.0,
+        38.0,
+        60.0
+      ],
+      "target": [
+        17.5,
+        20.31,
+        -21.5
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -54.0,
+        38.0,
+        60.0
+      ]
+    },
+    {
+      "source_name": "CAM_02_Fourth_Floor_Atrium",
+      "source_scene": "22_Hiroshima_Exterior",
+      "type": "interior",
+      "fov": 55.11,
+      "label": "中庭",
+      "position": [
+        17.7,
+        9.83965,
+        -14.0
+      ],
+      "target": [
+        15.8732,
+        10.2378,
+        -9.36273
+      ],
+      "floor_y": 8.1897,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        17.7,
+        10.05,
+        -14.0
+      ]
+    },
+    {
+      "source_name": "CAM_03_Training_Atrium",
+      "source_scene": "22_Hiroshima_Exterior",
+      "type": "interior",
+      "fov": 55.11,
+      "label": "中庭",
+      "position": [
+        16.0,
+        16.4,
+        -24.0
+      ],
+      "target": [
+        16.82223,
+        14.78295,
+        -19.3407
+      ],
+      "floor_y": -4.3554,
+      "eye_height": 20.755,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        16.0,
+        16.4,
+        -24.0
+      ]
+    }
+  ],
+  "focus": "透明訓練中庭、空橋、車庫、公共露臺",
+  "dimensions": "BCS／事務所尺寸：東西主框34.40 m、柱網3.80／3.45 m、屋頂+24.60 m、B1−4.38 m；主要樓層標高由尺寸鏈。",
+  "uncertainty": "2F夾層+2.625 m推定；24.60／24.95 m高度及基地面積差異保留。樓梯、設備、消防車與服務空間簡化。",
+  "materials": "玻璃百葉寬距、26°葉片及白色釉點為表現近似；約2400片官方敘述不等於模型逐片清冊。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 完成全家具支撐與接合修正；局部地坪修補屬教學重建，原參觀動線與空間比例保留",
+  "credit": null,
+  "sources": [
+    {
+      "url": "https://www.nikkenren.com/kenchiku/pdf/652/0652.pdf",
+      "title": "S1"
+    },
+    {
+      "url": "https://www.vectorworks.net/en-US/newsroom/pritzker-prize-laureate-riken-yamamoto",
+      "title": "S2"
+    },
+    {
+      "url": "https://www.tozai-as.or.jp/mytech/01/01_yamamoto01c.html",
+      "title": "S3"
+    },
+    {
+      "url": "https://www.riken-yamamoto.co.jp/index.html?id=140&lng=_Eng&page=ry_proj_detail",
+      "title": "S4"
+    },
+    {
+      "url": "https://www.city.hiroshima.lg.jp/living/shobo-bohan/1006085/1025622/1025626/1013778.html",
+      "title": "S5"
+    },
+    {
+      "url": "https://structurae.net/en/structures/nishi-ward-fire-station",
+      "title": "S6"
+    },
+    {
+      "url": "https://www.archdaily.com/1014034/hiroshima-nishi-fire-station-riken-yamamoto",
+      "title": "S7"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "Dark asphalt · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/clean_asphalt"
+    },
+    {
+      "title": "Pale white maple veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_maple_veneer"
+    },
+    {
+      "title": "Fine linen weave detail · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_linen"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [
+    {
+      "name": "Occupied room ceiling",
+      "type": "AREA",
+      "position": [
+        6.0,
+        7.9,
+        -16.0
+      ],
+      "color": [
+        0.8199999928474426,
+        0.9200000166893005,
+        1.0
+      ],
+      "energy": 700.0
+    },
+    {
+      "name": "Occupied room ceiling.001",
+      "type": "AREA",
+      "position": [
+        28.0,
+        7.9,
+        -16.0
+      ],
+      "color": [
+        0.8199999928474426,
+        0.9200000166893005,
+        1.0
+      ],
+      "energy": 700.0
+    },
+    {
+      "name": "Occupied room ceiling.002",
+      "type": "AREA",
+      "position": [
+        6.0,
+        11.1,
+        -16.0
+      ],
+      "color": [
+        0.8199999928474426,
+        0.9200000166893005,
+        1.0
+      ],
+      "energy": 700.0
+    },
+    {
+      "name": "Occupied room ceiling.003",
+      "type": "AREA",
+      "position": [
+        28.0,
+        11.1,
+        -16.0
+      ],
+      "color": [
+        0.8199999928474426,
+        0.9200000166893005,
+        1.0
+      ],
+      "energy": 700.0
+    },
+    {
+      "name": "Occupied room ceiling.004",
+      "type": "AREA",
+      "position": [
+        6.0,
+        14.35,
+        -16.0
+      ],
+      "color": [
+        0.8199999928474426,
+        0.9200000166893005,
+        1.0
+      ],
+      "energy": 700.0
+    },
+    {
+      "name": "Occupied room ceiling.005",
+      "type": "AREA",
+      "position": [
+        28.0,
+        14.35,
+        -16.0
+      ],
+      "color": [
+        0.8199999928474426,
+        0.9200000166893005,
+        1.0
+      ],
+      "energy": 700.0
+    },
+    {
+      "name": "Occupied room ceiling.006",
+      "type": "AREA",
+      "position": [
+        6.0,
+        17.5,
+        -16.0
+      ],
+      "color": [
+        0.8199999928474426,
+        0.9200000166893005,
+        1.0
+      ],
+      "energy": 700.0
+    },
+    {
+      "name": "Occupied room ceiling.007",
+      "type": "AREA",
+      "position": [
+        28.0,
+        17.5,
+        -16.0
+      ],
+      "color": [
+        0.8199999928474426,
+        0.9200000166893005,
+        1.0
+      ],
+      "energy": 700.0
+    },
+    {
+      "name": "Occupied room ceiling.008",
+      "type": "AREA",
+      "position": [
+        6.0,
+        23.7,
+        -16.0
+      ],
+      "color": [
+        0.8199999928474426,
+        0.9200000166893005,
+        1.0
+      ],
+      "energy": 700.0
+    },
+    {
+      "name": "Occupied room ceiling.009",
+      "type": "AREA",
+      "position": [
+        28.0,
+        23.7,
+        -16.0
+      ],
+      "color": [
+        0.8199999928474426,
+        0.9200000166893005,
+        1.0
+      ],
+      "energy": 700.0
+    }
+  ],
+  "legacyUrl": "https://architecture-hiroshima-22.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/22-hiroshima/model.glb",
+    "source_sha256": "4e099ef2c905b93e2a247771b0ce25b01b6a83ae3d82b87c7c5203b33904d335",
+    "sha256": "60b8d6647eae2a254ad427b03131a9fcee2cfa4bd8561200156f8979cf56ea5d",
+    "reason": "完成全家具支撐與接合修正；局部地坪修補屬教學重建，原參觀動線與空間比例保留"
+  },
+  "pbrProfiles": {
+    "Basement concrete": {
+      "kind": "mineral",
+      "historicalFamily": "concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Internal pale mineral board": {
+      "kind": "mineral",
+      "historicalFamily": "mineral_board",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Asphalt": {
+      "kind": "mineral",
+      "historicalFamily": "asphalt",
+      "texture": "asphalt",
+      "roughness": 1,
+      "normalScale": 0.3
+    },
+    "Kendo timber floor": {
+      "kind": "wood",
+      "historicalFamily": "timber",
+      "texture": "pale_veneer",
+      "useColor": false,
+      "roughness": 0.9,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "Judo training mat": {
+      "kind": "preserve",
+      "historicalFamily": "training_mat"
+    },
+    "Cool gray resilient floor": {
+      "kind": "preserve",
+      "historicalFamily": "resilient_floor"
+    },
+    "Clear laminated architectural glass": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "White fire-resistant coated structural steel": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.3
+    },
+    "Yamamoto red aluminium boxes": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.3
+    },
+    "Brushed stainless steel": {
+      "kind": "metal",
+      "historicalFamily": "stainless_chrome",
+      "metalness": 0.8299999833106995,
+      "roughness": 0.23999999463558197
+    },
+    "Upholstery and navy storage": {
+      "kind": "fabric",
+      "historicalFamily": "fabric_and_storage",
+      "texture": "linen",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "Graphite grating steel": {
+      "kind": "metal",
+      "historicalFamily": "metal",
+      "metalness": 0.8,
+      "roughness": 0.6
+    },
+    "Linear fluorescent diffuser": {
+      "kind": "preserve",
+      "historicalFamily": "emissive_diffuser"
+    },
+    "Fritted glass louvres — fine ceramic bands": {
+      "kind": "glass",
+      "historicalFamily": "fritted_glazing",
+      "preserveTint": true,
+      "roughness": 0.18,
+      "transmission": 0.55,
+      "thickness": 0.006
+    },
+    "Tyres": {
+      "kind": "preserve",
+      "historicalFamily": "rubber_or_bitumen"
+    },
+    "Red emergency vehicle paint": {
+      "kind": "preserve",
+      "historicalFamily": "vehicle_paint"
+    }
+  }
+}

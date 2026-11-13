@@ -1,0 +1,51 @@
+加州航太博物館
+120秒／1280×720／12fps／設計概念動畫
+非比例教學重構；動畫變換是分析編排，不代表歷史設計或施工順序。
+
+0–12秒｜先找大空間
+不規則外觀仍可從內部空間讀起
+金屬外皮逐片退為淡線，露出展覽大廳空腔；展品先隱去
+
+12–28秒｜拆成量體
+複合量體的相互咬合構成外觀
+既有量體沿各自方向短距離分離，再回到原位置；原有線框保留作位置參考
+
+28–46秒｜入口定向
+入口尺度可由展覽用途與人尺度對讀
+大開口用遮罩揭示，地面動線穿過入口到大廳；不附爭議門高
+
+46–64秒｜挑空與觀看
+展品前的停留應與繞行通路分開
+樓板與平台依原位顯現並留下挑空；短暫加入一個假設展物框、旁側停留點與繞行線，明標「教學配置，非原館展陳」，第5章前退去
+
+64–82秒｜飛機作標尺
+展示物尺度反過來讓建築尺度可被理解
+原創簡化 F-104 輪廓淡入來源照片所示的外部展示位置，建築表皮暫轉線框
+
+82–102秒｜表皮與體塊
+同一材料能統合彼此不同的幾何
+表皮沿各量體法向合回，接縫與材料方向依模型顯現
+
+102–120秒｜從展品到城市
+以用途與空間解讀雕塑性，而非假設任意造型
+依次亮起展品、空腔、量體、入口，最後全部合成
+
+資料來源
+建築專案與原刊來源
+https://www.usmodernist.org/AR/AR-1985-01.pdf
+California Aerospace Museum, Department of Parks and Recreation DPR523 survey, Laura Vanaskie O’Neill, January24,2012
+https://file.lacounty.gov/bos/supdocs/71662.pdf
+Frank Gehry, 1989 laureate, California Aerospace Museum1984 photographs by Michael Moran
+https://www.pritzkerprize.com/laureates/1989
+10 Frank Gehry Buildings to See in L.A.
+https://www.getty.edu/news/10-frank-gehry-buildings-to-see-in-los-angeles/
+Frank Gehry Papers, Getty Research Institute
+https://www.getty.edu/research/special_collections/notable/gehry.html
+
+新版教學簡報對照
+13_法蘭克蓋瑞_50分鐘_圖像分析更新版_v2.pptx
+參照頁碼：6、7、8、9
+
+圖像與分析說明
+畫面為重新建立的教學性三維示意；幾何分解、移動、箭頭與光線符號是分析方法，不是原建築的歷史施工或設計過程。
+未經測繪校準，不能用於施工、無障礙合規、結構、照度或性能判定。

@@ -1,0 +1,113 @@
+{
+  "summary": "部分照明：僅啟用4盞既有壁燈；展示室光天花與軌道有官方照片，但房號尚未可靠對應模型，不擅加格柵。",
+  "era": {
+    "original": "1971委託，1974竣工；1994高崎哲学堂、1998現代美術棟等增建應分開",
+    "restoration_or_current": "館方現行建築介紹，照片攝影Mitsumasa Fujitsuka，未標日期"
+  },
+  "ceiling": "原館以12m立方體及細分模數控制建築；不能因此推定所有房間同一光天花。",
+  "confidence": {
+    "ceiling_type_by_room": "高，官方現況照片",
+    "original_1974_fixture": "中低，照片未標拍攝年代",
+    "mapping_to_model": "未證實，不能以尺寸推定房號"
+  },
+  "sources": [
+    {
+      "title": "群馬県立近代美術館：建築について",
+      "url": "https://mmag.pref.gunma.jp/architecture",
+      "evidence": "館方原設計年代、12m模數及第1／第2展示室、入口大廳官方照片。",
+      "kind": "官方／一手資料"
+    },
+    {
+      "title": "群馬県立近代美術館：美術館概要",
+      "url": "https://mmag.pref.gunma.jp/outline",
+      "evidence": "官方沿革，可區分原館與增建。",
+      "kind": "官方／一手資料"
+    }
+  ],
+  "notes": [
+    "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+    "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+    "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+    "現代增建／修繕與原館照片年代須進一步平面對照。",
+    "第1展示室方格擴散天花及第2展示室中央天窗／兩側軌道是官方現況照片的不同系統，不能互套，也不能直接當作1974原貌。",
+    "六塊perforated ceiling的世界包圍盒只能辨認幾何，不能證明房號；本版全部保留非發光，不加入滿版或局部猜測格柵，不代表原館沒有光天花。",
+    "4盞既有壁燈僅是局部模型照明示意，並非全部展廳或1974原始燈位的復原。數量與位置沿用教學GLB，色溫與強度為推估。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "PBR • warm-white luminaires",
+      "color": "#fff0d8",
+      "intensity": 2.2
+    }
+  ],
+  "lights": [
+    {
+      "type": "point",
+      "position": [
+        71.49991,
+        3.09946,
+        -8.00121
+      ],
+      "color": "#ffe6bf",
+      "intensity": 25,
+      "distance": 10,
+      "shadow": true,
+      "name": "Existing model wall lamp 1; original date unverified"
+    },
+    {
+      "type": "point",
+      "position": [
+        71.49991,
+        3.09946,
+        -14
+      ],
+      "color": "#ffe6bf",
+      "intensity": 25,
+      "distance": 10,
+      "shadow": true,
+      "name": "Existing model wall lamp 2; original date unverified"
+    },
+    {
+      "type": "point",
+      "position": [
+        71.49991,
+        3.09946,
+        -19.99879
+      ],
+      "color": "#ffe6bf",
+      "intensity": 25,
+      "distance": 10,
+      "shadow": true,
+      "name": "Existing model wall lamp 3; original date unverified"
+    },
+    {
+      "type": "point",
+      "position": [
+        71.49991,
+        3.09946,
+        -25.99889
+      ],
+      "color": "#ffe6bf",
+      "intensity": 25,
+      "distance": 10,
+      "shadow": true,
+      "name": "Existing model wall lamp 4; original date unverified"
+    }
+  ],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  },
+  "researchStatus": {
+    "record": "historical-lighting-research-1.0",
+    "checked_geometry": "CPU Three GLTFLoader + Meshopt; world transforms retained",
+    "photometry": "teaching estimates only",
+    "gpu_visual_acceptance": false
+  },
+  "unresolvedMapping": {
+    "room1": "Official grid ceiling photo not mapped to GLB room",
+    "room2": "Official skylight / track photo not mapped to GLB room",
+    "action": "No grille, luminous ceiling or speculative spot grid added"
+  }
+}

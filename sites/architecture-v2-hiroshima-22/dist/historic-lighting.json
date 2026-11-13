@@ -1,0 +1,2109 @@
+{
+  "era": "2000原建；Pritzker官方2024圖片集提供歷史項目照片，拍攝日未標",
+  "ceiling": "中庭外露白色鋼梁、透明屋頂及周邊金屬樓承板；玻璃隔間使訓練活動可見，沒有覆蓋整個中庭的石膏平頂。",
+  "confidence": {
+    "ceiling": "高",
+    "fixture_type": "高：線形燈與少數錐形燈頭可辨；燈管技術中",
+    "fixture_positions": "中高：梁下與展示櫃側；完整數量未核"
+  },
+  "sources": [
+    {
+      "title": "山本理顕事務所官方項目",
+      "url": "https://www.riken-yamamoto.co.jp/index.html?id=140&lng=_Eng&page=ry_proj_detail",
+      "evidence": "2000年3月完工；玻璃百葉、中庭與公共層。"
+    },
+    {
+      "title": "廣島縣官方建築介紹",
+      "url": "https://www.pref.hiroshima.lg.jp/soshiki_file/tatemonogatari/en/page024.html",
+      "evidence": "2000建築及地方官方現場資料。"
+    },
+    {
+      "title": "Pritzker 2024官方圖片集",
+      "url": "https://www.pritzkerprize.com/sites/default/files/2024-12/2024%20Pritzker%20Prize%20Image%20Book.pdf",
+      "evidence": "第18–20頁，攝影Tomio Ohashi；建築和燈具像素依據。"
+    }
+  ],
+  "summary": "沿用102片既有線形燈，梁下長條向下、低位玻璃展示櫃側燈向內；不新增透明中庭射燈矩陣。",
+  "notes": [
+    "官方圖像直接可見白色線形燈沿梁腹／梁下成排布置，玻璃後教室亦有線形照明；少數白色錐形可調射燈固定梁角。玻璃地面展示櫃邊緣也有線形燈。線形燈外觀符合螢光燈，但燈管規格／當時品牌未取得。",
+    "照片足以證明空間和燈具配置語彙，不能由2024刊載日推定全為2024新燈或2000未更換燈管。",
+    "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+    "102是既有教學模型發光片數，不是原建燈表總數。照片可見少數錐形燈，本輪未能精確對位，故不增造。",
+    "面光源沒有室內投影，跨層遮蔽與間接反彈未模擬；螢光燈外形依照片，品牌、燈管規格與色溫不作已核定宣稱。",
+    "直接光依相機所在樓層選樣，以減少無投影面光穿過樓板；這是視點樓層剔除，不是真實遮蔽或光線穿透計算。遠處燈具外觀仍保留。"
+  ],
+  "emissiveMaterials": [
+    {
+      "name": "Linear fluorescent diffuser",
+      "color": "#eef3f5",
+      "intensity": 1.6
+    }
+  ],
+  "lights": [
+    {
+      "type": "area",
+      "position": [
+        10.55048,
+        8.17465,
+        -2.08004
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 1",
+      "width": 1.739555040131842,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        10.55048,
+        8.17465,
+        -3.8051
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 2",
+      "width": 1.739555040131842,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        12.45022,
+        8.17465,
+        -2.08004
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 3",
+      "width": 1.7410046693319483,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        12.45022,
+        8.17465,
+        -3.8051
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 4",
+      "width": 1.7410046693319483,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        14.34996,
+        8.17465,
+        -2.08004
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 5",
+      "width": 1.7395550401318403,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        14.34996,
+        8.17465,
+        -3.8051
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 6",
+      "width": 1.7395550401318403,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        16.25042,
+        8.17465,
+        -2.08004
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 7",
+      "width": 1.7395550401318403,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        16.25042,
+        8.17465,
+        -3.8051
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 8",
+      "width": 1.7395550401318403,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        18.15016,
+        8.17465,
+        -2.08004
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 9",
+      "width": 1.74100466933195,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        18.15016,
+        8.17465,
+        -3.8051
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 10",
+      "width": 1.74100466933195,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        20.0499,
+        8.17465,
+        -2.08004
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 11",
+      "width": 1.7395550401318403,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        20.0499,
+        8.17465,
+        -3.8051
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 12",
+      "width": 1.7395550401318403,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        21.95036,
+        8.17465,
+        -2.08004
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 13",
+      "width": 1.7395550401318367,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        21.95036,
+        8.17465,
+        -3.8051
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 14",
+      "width": 1.7395550401318367,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        23.8501,
+        8.17465,
+        -2.08004
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 15",
+      "width": 1.74100466933195,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        23.8501,
+        8.17465,
+        -3.8051
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 16",
+      "width": 1.74100466933195,
+      "height": 0.055,
+      "cameraYMin": 0,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        7.91952,
+        -5.00032
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 17",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        7.91952,
+        -8.99985
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 18",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        7.91952,
+        -12.99937
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 19",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        7.91952,
+        -17.00035
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 20",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        7.91952,
+        -20.99988
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 21",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        7.91952,
+        -24.9994
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 22",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        7.91952,
+        -28.00014
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 23",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        7.91952,
+        -5.00032
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 24",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        7.91952,
+        -8.99985
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 25",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        7.91952,
+        -12.99937
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 26",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        7.91952,
+        -17.00035
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 27",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        7.91952,
+        -20.99988
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 28",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        7.91952,
+        -24.9994
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 29",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        7.91952,
+        -28.00014
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 30",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 5.1,
+      "cameraYMax": 8.249
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        11.06956,
+        -5.00032
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 31",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        11.06956,
+        -8.99985
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 32",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        11.06956,
+        -12.99937
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 33",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        11.06956,
+        -17.00035
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 34",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        11.06956,
+        -20.99988
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 35",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        11.06956,
+        -24.9994
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 36",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        11.06956,
+        -28.00014
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 37",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        11.06956,
+        -5.00032
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 38",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        11.06956,
+        -8.99985
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 39",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        11.06956,
+        -12.99937
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 40",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        11.06956,
+        -17.00035
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 41",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        11.06956,
+        -20.99988
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 42",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        11.06956,
+        -24.9994
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 43",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        11.06956,
+        -28.00014
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 44",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 8.25,
+      "cameraYMax": 11.499
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        14.31963,
+        -5.00032
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 45",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        14.31963,
+        -8.99985
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 46",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        14.31963,
+        -12.99937
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 47",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        14.31963,
+        -17.00035
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 48",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        14.31963,
+        -20.99988
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 49",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        14.31963,
+        -24.9994
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 50",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        14.31963,
+        -28.00014
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 51",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        14.31963,
+        -5.00032
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 52",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        14.31963,
+        -8.99985
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 53",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        14.31963,
+        -12.99937
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 54",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        14.31963,
+        -17.00035
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 55",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        14.31963,
+        -20.99988
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 56",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        14.31963,
+        -24.9994
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 57",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        14.31963,
+        -28.00014
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 58",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 11.5,
+      "cameraYMax": 14.749
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        17.5697,
+        -5.00032
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 59",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        17.5697,
+        -8.99985
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 60",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        17.5697,
+        -12.99937
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 61",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        17.5697,
+        -17.00035
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 62",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        17.5697,
+        -20.99988
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 63",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        17.5697,
+        -24.9994
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 64",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        17.5697,
+        -28.00014
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 65",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        17.5697,
+        -5.00032
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 66",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        17.5697,
+        -8.99985
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 67",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        17.5697,
+        -12.99937
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 68",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        17.5697,
+        -17.00035
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 69",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        17.5697,
+        -20.99988
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 70",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        17.5697,
+        -24.9994
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 71",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        17.5697,
+        -28.00014
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 72",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 14.75,
+      "cameraYMax": 17.999
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        20.81977,
+        -5.00032
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 73",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        20.81977,
+        -8.99985
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 74",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        20.81977,
+        -12.99937
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 75",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        20.81977,
+        -17.00035
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 76",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        20.81977,
+        -20.99988
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 77",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        20.81977,
+        -24.9994
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 78",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        6.00009,
+        20.81977,
+        -28.00014
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 79",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        20.81977,
+        -5.00032
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 80",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        20.81977,
+        -8.99985
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 81",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        20.81977,
+        -12.99937
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 82",
+      "width": 3.000732444227424,
+      "height": 0.05508590960417514,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        20.81977,
+        -17.00035
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 83",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        20.81977,
+        -20.99988
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 84",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        20.81977,
+        -24.9994
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 85",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        28.59981,
+        20.81977,
+        -28.00014
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 1500,
+      "name": "Existing linear diffuser 86",
+      "width": 3.000732444227424,
+      "height": 0.055085909604173366,
+      "cameraYMin": 18,
+      "cameraYMax": 21.25
+    },
+    {
+      "type": "area",
+      "position": [
+        6.46977,
+        1.12996,
+        0.03819
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 87",
+      "width": 0.4203924680318618,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        7.92955,
+        1.12996,
+        0.03819
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 88",
+      "width": 0.4203924680318618,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        10.47002,
+        1.12996,
+        0.03819
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 89",
+      "width": 0.418942838831752,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        11.93052,
+        1.12996,
+        0.03819
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 90",
+      "width": 0.42039246803186003,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        14.5703,
+        1.12996,
+        0.03819
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 91",
+      "width": 0.42039246803186003,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        16.03008,
+        1.12996,
+        0.03819
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 92",
+      "width": 0.4203924680318618,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        23.26952,
+        1.12996,
+        0.03819
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 93",
+      "width": 0.4203924680318636,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        24.73003,
+        1.12996,
+        0.03819
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 94",
+      "width": 0.41894283883175376,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        27.46982,
+        1.12996,
+        0.03819
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 95",
+      "width": 0.41894283883175376,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        28.93033,
+        1.12996,
+        0.03819
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 96",
+      "width": 0.42039246803186003,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        8.79248,
+        1.12996,
+        -17.57006
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 97",
+      "width": 0.42039246803186003,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        8.79248,
+        1.12996,
+        -19.02983
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 98",
+      "width": 0.42039246803186003,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        8.79248,
+        1.12996,
+        -22.76988
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 99",
+      "width": 0.4203924680318636,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        8.79248,
+        1.12996,
+        -24.22965
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 100",
+      "width": 0.4203924680318636,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        8.79248,
+        1.12996,
+        -27.66962
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 101",
+      "width": 0.42039246803186003,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    },
+    {
+      "type": "area",
+      "position": [
+        8.79248,
+        1.12996,
+        -29.13012
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "color": "#f4f4eb",
+      "intensity": 300,
+      "name": "Existing linear diffuser 102",
+      "width": 0.4189428388317502,
+      "height": 0.24063844721823813,
+      "cameraYMin": -0.1,
+      "cameraYMax": 5.099
+    }
+  ],
+  "additions": [],
+  "maxActiveLights": {
+    "high": 24,
+    "low": 12
+  },
+  "researchRecord": {
+    "building": "Hiroshima Nishi Fire Station｜山本理顕",
+    "originalLighting": "官方圖像直接可見白色線形燈沿梁腹／梁下成排布置，玻璃後教室亦有線形照明；少數白色錐形可調射燈固定梁角。玻璃地面展示櫃邊緣也有線形燈。線形燈外觀符合螢光燈，但燈管規格／當時品牌未取得。",
+    "laterConditions": "照片足以證明空間和燈具配置語彙，不能由2024刊載日推定全為2024新燈或2000未更換燈管。",
+    "modelActions": {
+      "retain": [
+        "現有102線形發光片",
+        "白色鋼梁、玻璃屋頂與展示櫃"
+      ],
+      "add": [
+        "只有可和原圖梁角錨定時才補少量錐形燈；本輪優先既有線形燈"
+      ],
+      "disable": [
+        "玻璃屋頂自發光",
+        "空間中央懸空泛光點",
+        "通用射燈網格"
+      ]
+    },
+    "coordinateBasis": "Decoded retained GLB world coordinates; not a historical survey"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "number": 17,
+  "title": "光之教會",
+  "architect": "安藤忠雄",
+  "indexUrl": "https://architecture-tours-25-v2.jackylin.chatgpt.site",
+  "bytes": 11661496,
+  "bounds": {
+    "min": [
+      -1.88,
+      -1.16,
+      -6.1526
+    ],
+    "max": [
+      20.1,
+      6.314,
+      3.33
+    ]
+  },
+  "waypoints": [
+    {
+      "source_name": "CAM 01 exterior cross and long wall",
+      "source_scene": "01_DAY_1989_CHAPEL",
+      "type": "exterior",
+      "fov": 31.89,
+      "label": "建築外觀",
+      "position": [
+        -14.0,
+        12.0,
+        19.0
+      ],
+      "target": [
+        9.110000000000001,
+        2.577,
+        -1.4112999999999998
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        -14.0,
+        12.0,
+        19.0
+      ]
+    },
+    {
+      "source_name": "CAM 07 exterior diagonal route",
+      "source_scene": "01_DAY_1989_CHAPEL",
+      "type": "exterior",
+      "fov": 30.51,
+      "label": "建築外觀",
+      "position": [
+        28.0,
+        14.0,
+        -22.0
+      ],
+      "target": [
+        9.110000000000001,
+        2.577,
+        -1.4112999999999998
+      ],
+      "floor_y": null,
+      "eye_height": null,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        28.0,
+        14.0,
+        -22.0
+      ]
+    },
+    {
+      "source_name": "CAM 02 interior light cross",
+      "source_scene": "01_DAY_1989_CHAPEL",
+      "type": "interior",
+      "fov": 55.11,
+      "label": "室內空間",
+      "position": [
+        13.3,
+        1.80012,
+        0.15
+      ],
+      "target": [
+        8.30837,
+        2.08374,
+        0.09328
+      ],
+      "floor_y": 0.1501,
+      "eye_height": 1.65,
+      "clearance_035m": true,
+      "navigation": "walk",
+      "walkable": true,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        13.3,
+        1.75,
+        0.15
+      ]
+    },
+    {
+      "source_name": "CAM 03 diagonal entry",
+      "source_scene": "01_DAY_1989_CHAPEL",
+      "type": "exterior",
+      "fov": 49.55,
+      "label": "入口空間",
+      "position": [
+        21.0,
+        3.6,
+        -7.0
+      ],
+      "target": [
+        9.110000000000001,
+        2.577,
+        -1.4112999999999998
+      ],
+      "floor_y": -1.1751,
+      "eye_height": 4.775,
+      "clearance_035m": false,
+      "navigation": "view",
+      "walkable": false,
+      "navigation_check": "Actual mesh rays: 8 directions at 4 body heights, overhead, 5-point floor support; minimum 0.35 m clearance; tested against decoded final GLB including quantization",
+      "source_position": [
+        21.0,
+        3.6,
+        -7.0
+      ]
+    }
+  ],
+  "focus": "1989禮拜堂、斜牆入口、階梯地坪、十字光",
+  "dimensions": "原平面軸線18.00×6.28 m、淨空17.70×5.90 m；側牆0.38 m、端牆0.25 m、十字縱縫0.20 m、地坪−0.95／+0.15 m。",
+  "uncertainty": "天花6.05 m、屋頂厚、對拉孔直徑32 mm及燈具推定；十二排地坪／長椅不能作法規或製造依據。",
+  "materials": "清水混凝土模板縫、凹孔與深色木材為程序幾何／材質；日夜照明未作經緯度或照度驗證。 網頁版以原始程序材質色彩烘焙小型紋理；三維紋理投影、微表面凹凸與透明陰影為即時效能近似，未量測光學參數。 新版另加 CC0 PBR 外觀參考貼圖、HDR 情境光照及接觸陰影；這些貼圖不是原建物表面的實測掃描，材質類型與色彩依原模型來源保留。 完成全家具支撐與接合修正；局部地坪修補屬教學重建，原參觀動線與空間比例保留",
+  "credit": null,
+  "sources": [
+    {
+      "url": "https://www.ibaraki-kasugaoka-church.jp/e-top.html",
+      "title": "Ibaraki Kasugaoka Church official website"
+    },
+    {
+      "url": "https://archeyes.com/wp-content/uploads/2024/09/Floor-plan-Church-of-Light-by-Tadao-Ando-ArchEyes-.jpg",
+      "title": "Original dimensioned chapel plan 1:50, Tadao Ando Architect & Associates title block; reproduced by ArchEyes"
+    },
+    {
+      "url": "https://archeyes.com/wp-content/uploads/2024/09/Elevation-Church-of-Light-by-Tadao-Ando-ArchEyes-2.jpg",
+      "title": "Plan and longitudinal section, credited Tadao Ando, reproduced by ArchEyes"
+    },
+    {
+      "url": "https://artsandculture.google.com/story/the-church-of-the-light-a-cross-of-light-floating-in-the-dark-tadao-ando-architect-associates/2QVRGQpQrOQ8sQ",
+      "title": "The Church of the Light: A Cross of Light Floating in the Dark"
+    },
+    {
+      "url": "https://archeyes.com/wp-content/uploads/2024/09/Interior-Light-Church-of-Light-by-Tadao-Ando-ArchEyes-Photograph-by-Hiromitsu-Morimoto.jpg",
+      "title": "Interior Light photograph, Hiromitsu Morimoto"
+    },
+    {
+      "url": "https://www.archiweb.cz/en/b/church-of-light",
+      "title": "Church of Light, Archiweb gallery"
+    },
+    {
+      "title": "Light rough concrete · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/rough_concrete"
+    },
+    {
+      "title": "Pale white maple veneer · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/white_maple_veneer"
+    },
+    {
+      "title": "Fine neutral grey gravel · ambientCG · CC0",
+      "url": "https://ambientcg.com/view?id=Gravel043"
+    },
+    {
+      "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    {
+      "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+      "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+    }
+  ],
+  "interiorLights": [
+    {
+      "name": "Interior diffuse daylight bounce",
+      "type": "AREA",
+      "position": [
+        9.0,
+        5.72,
+        -0.0
+      ],
+      "color": [
+        0.8999999761581421,
+        0.949999988079071,
+        1.0
+      ],
+      "energy": 180.0
+    }
+  ],
+  "legacyUrl": "https://architecture-light-17.jackylin.chatgpt.site",
+  "version": 2,
+  "modelRevision": {
+    "path": "model-overrides/17-light/model.glb",
+    "source_sha256": "6f6fe6def1001c74c63ef3f8c547826b39ba032703e45d6f2668c710a43fa838",
+    "sha256": "2bb35def51a112ae6fe8f87b47677544580a05713bb2985dbad1e039c34c939f",
+    "reason": "完成全家具支撐與接合修正；局部地坪修補屬教學重建，原參觀動線與空間比例保留"
+  },
+  "pbrProfiles": {
+    "PBR | silky form-tied concrete": {
+      "kind": "mineral",
+      "historicalFamily": "concrete",
+      "texture": "concrete",
+      "useColor": false,
+      "metalness": 0,
+      "roughness": 0.95,
+      "normalScale": 0.22
+    },
+    "PBR | dark joint backing": {
+      "kind": "preserve",
+      "historicalFamily": "dark_recess"
+    },
+    "PBR | clear glazing IOR 1.50": {
+      "kind": "glass",
+      "historicalFamily": "clear_glazing",
+      "roughness": 0.045,
+      "transmission": 0.98,
+      "thickness": 0.006
+    },
+    "PBR | charcoal painted steel": {
+      "kind": "paint",
+      "historicalFamily": "painted_metal",
+      "metalness": 0,
+      "roughness": 0.36000001430511475
+    },
+    "PBR | black stained scaffold timber": {
+      "kind": "wood",
+      "historicalFamily": "black_stained_timber",
+      "texture": "pale_veneer",
+      "useColor": false,
+      "roughness": 0.9,
+      "normalScale": 0.18,
+      "rotation": 90
+    },
+    "PBR | entrance paving": {
+      "kind": "mineral",
+      "historicalFamily": "paving_stone",
+      "texture": "concrete",
+      "useColor": false,
+      "normalScale": 0.18,
+      "roughness": 0.95
+    },
+    "PBR | gravel base": {
+      "kind": "mineral",
+      "historicalFamily": "aggregate_gravel",
+      "texture": "gravel",
+      "metalness": 0,
+      "roughness": 1,
+      "normalScale": 0.4
+    },
+    "PBR | warm opal diffuser": {
+      "kind": "preserve",
+      "historicalFamily": "emissive_diffuser"
+    }
+  }
+}

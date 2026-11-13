@@ -1,0 +1,592 @@
+{
+  "summary": "主沙龍保留漩渦曲面天花，補入修復研究支持的分層黑金框／玻璃垂飾燈；不採修復前非原作的太陽圓盤燈。",
+  "era": "1904–1906 Gaudí改建",
+  "ceiling": "主廳漩渦狀連續曲面天花，燈位在渦旋中心；不是平板或格柵頂。；修復團隊辨識原天花為木肋／木吊件支撐的金屬網，加天然水泥與石灰灰泥；餐廳部分天花曾改造，修復層與原物須區分。",
+  "confidence": "天花：高；燈具形態：高；修復／原作分辨：高；光度：未取得",
+  "sources": [
+    {
+      "title": "Criteria for intervention in the restoration of the main floor of Antoni Gaudí’s Casa Batlló",
+      "url": "https://riunet.upv.es/server/api/core/bitstreams/0821ca30-1fbf-4d21-b274-1d40af129473/content",
+      "evidence": "印刷頁102–103圖5/6、109圖14；原燈／非原燈、天花工法與修復分層"
+    },
+    {
+      "title": "Inside Casa Batlló",
+      "url": "https://www.casabatllo.es/en/antoni-gaudi/casa-batllo/inside/",
+      "evidence": "修復後主廳與閣樓照片"
+    },
+    {
+      "title": "The Restoration",
+      "url": "https://www.casabatllo.es/en/restoration/",
+      "evidence": "2018–2019主樓層修復、2020燈具等工藝修復"
+    }
+  ],
+  "notes": [
+    "主廳的曲面天花與原燈形式可由修復研究支持。",
+    "2020修復團隊論文圖5/6清楚區分恢復原燈後與先前非原燈；2025官方室內照片顯示垂飾式中央燈。",
+    "常見舊照片的扁平、太陽般圓盤燈，論文明確列為非原燈；不能把舊旅遊照直接當1906原狀。",
+    "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+    "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+    "主沙龍燈在既有渦旋幾何中心約(0.317,9.2,-3.46)m下方；三層與垂飾數是可辨識形式的簡化，不是修復圖紙複製。餐廳與閣樓未因資料不全加上推測性spot。"
+  ],
+  "emissiveMaterials": [],
+  "lights": [
+    {
+      "type": "point",
+      "position": [
+        0.317,
+        8.72,
+        -3.46
+      ],
+      "color": "#ffdfb5",
+      "intensity": 130,
+      "distance": 11,
+      "shadow": true
+    }
+  ],
+  "additions": [
+    {
+      "type": "cylinder",
+      "position": [
+        0.317,
+        9.23,
+        -3.46
+      ],
+      "radius": 0.12,
+      "height": 0.035,
+      "color": "#33271b"
+    },
+    {
+      "type": "torus",
+      "position": [
+        0.317,
+        9.03,
+        -3.46
+      ],
+      "radius": 0.46,
+      "tube": 0.017,
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "color": "#594122"
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.777,
+        8.959999999999999,
+        -3.46
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.742,
+        8.959999999999999,
+        -3.284
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.6423,
+        8.959999999999999,
+        -3.1347
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.493,
+        8.959999999999999,
+        -3.035
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.317,
+        8.959999999999999,
+        -3
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.141,
+        8.959999999999999,
+        -3.035
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -0.0083,
+        8.959999999999999,
+        -3.1347
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -0.108,
+        8.959999999999999,
+        -3.284
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -0.143,
+        8.959999999999999,
+        -3.46
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -0.108,
+        8.959999999999999,
+        -3.636
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -0.0083,
+        8.959999999999999,
+        -3.7853
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.141,
+        8.959999999999999,
+        -3.885
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.317,
+        8.959999999999999,
+        -3.92
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.493,
+        8.959999999999999,
+        -3.885
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.6423,
+        8.959999999999999,
+        -3.7853
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.742,
+        8.959999999999999,
+        -3.636
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "torus",
+      "position": [
+        0.317,
+        8.84,
+        -3.46
+      ],
+      "radius": 0.34,
+      "tube": 0.017,
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "color": "#594122"
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.657,
+        8.77,
+        -3.46
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.6114,
+        8.77,
+        -3.29
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.487,
+        8.77,
+        -3.1656
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.317,
+        8.77,
+        -3.12
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.147,
+        8.77,
+        -3.1656
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.0226,
+        8.77,
+        -3.29
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -0.023,
+        8.77,
+        -3.46
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.0226,
+        8.77,
+        -3.63
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.147,
+        8.77,
+        -3.7544
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.317,
+        8.77,
+        -3.8
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.487,
+        8.77,
+        -3.7544
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.6114,
+        8.77,
+        -3.63
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "torus",
+      "position": [
+        0.317,
+        8.65,
+        -3.46
+      ],
+      "radius": 0.22,
+      "tube": 0.017,
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "color": "#594122"
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.537,
+        8.58,
+        -3.46
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.4855,
+        8.58,
+        -3.3186
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.3552,
+        8.58,
+        -3.2433
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.207,
+        8.58,
+        -3.2695
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.1103,
+        8.58,
+        -3.3848
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.1103,
+        8.58,
+        -3.5352
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.207,
+        8.58,
+        -3.6505
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.3552,
+        8.58,
+        -3.6767
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    },
+    {
+      "type": "sphere",
+      "position": [
+        0.4855,
+        8.58,
+        -3.6014
+      ],
+      "radius": 0.046,
+      "color": "#eee9d7",
+      "emissive": "#ffdfb5",
+      "emissiveIntensity": 1.6,
+      "castShadow": false
+    }
+  ],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  }
+}

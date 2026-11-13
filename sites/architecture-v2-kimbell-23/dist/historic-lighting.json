@@ -1,0 +1,611 @@
+{
+  "era": "1972原Kahn館；不混入2013 Piano館",
+  "ceiling": "連續清水混凝土擺線拱頂，拱頂中央狹長壓克力天窗；下方懸掛穿孔鋁翼反光板，將日光反射到拱面。",
+  "confidence": {
+    "ceiling": "高",
+    "fixture_type": "高：原建軌道照明文字明證",
+    "fixture_positions": "高：反光板支架軸線；沿軌燈頭數量與間距為推估"
+  },
+  "sources": [
+    {
+      "title": "Kimbell官方Kahn館建築",
+      "url": "https://kimbellart.org/art-architecture/architecture/kahn-building",
+      "evidence": "1972、擺線拱頂與自然光反射裝置。"
+    },
+    {
+      "title": "IESNY Richard Kelly Works官方檔案展覽冊",
+      "url": "https://iesnyc.starchapter.com/images/downloads/Richard_Kelly_Grant/rk_works_may07.pdf",
+      "evidence": "2007檔案展覽冊印刷頁11–12：初案、最終軌道照明與取消的線形光源。"
+    }
+  ],
+  "summary": "保留擺線拱頂與不發光鋁翼；依1972實施的反光板支架軌道，補少量對準既有展牆的燈頭示意。",
+  "notes": [
+    "IESNY／Richard Kelly官方檔案展覽冊明確記載：原擬沿反光板下緣加小型線形電光源照亮反光板的方案因預算取消；實施的是整合在反光板支架的軌道照明。不得把未建成線形上照方案當原建。",
+    "燈泡及展覽射燈可隨展覽更新；本輪只復現1972可證實的軌道型態，未主張特定現代LED燈具品牌或原始色溫。",
+    "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+    "原案沿反光板下緣的線形上照方案因預算取消，未在本版復造。",
+    "本輪8個燈頭只作既有8面展牆的局部示意，不是全館燈具總數或1972固定展陳；軌道沿用模型，燈頭間距、朝向及光學為教學推估。",
+    "直接光依相機所在樓層選樣，以減少無投影面光穿過樓板；這是視點樓層剔除，不是真實遮蔽或光線穿透計算。遠處燈具外觀仍保留。"
+  ],
+  "emissiveMaterials": [],
+  "lights": [
+    {
+      "type": "spot",
+      "position": [
+        -12.5972,
+        4.5955,
+        -25.29782
+      ],
+      "direction": [
+        -0.67858,
+        -0.73453,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 160,
+      "distance": 11,
+      "angle": 28,
+      "penumbra": 0.55,
+      "shadow": true,
+      "name": "Exhibition panel 1 — existing rail / illustrative head",
+      "cameraYMin": 0,
+      "cameraYMax": 5.45
+    },
+    {
+      "type": "spot",
+      "position": [
+        -12.5972,
+        4.5955,
+        -40.84361
+      ],
+      "direction": [
+        -0.67858,
+        -0.73453,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 160,
+      "distance": 11,
+      "angle": 28,
+      "penumbra": 0.55,
+      "shadow": true,
+      "name": "Exhibition panel 2 — existing rail / illustrative head",
+      "cameraYMin": 0,
+      "cameraYMax": 5.45
+    },
+    {
+      "type": "spot",
+      "position": [
+        -5.73946,
+        4.59581,
+        -20.74443
+      ],
+      "direction": [
+        0.27418,
+        -0.73192,
+        -0.62379
+      ],
+      "color": "#fff0da",
+      "intensity": 160,
+      "distance": 11,
+      "angle": 28,
+      "penumbra": 0.55,
+      "shadow": true,
+      "name": "Exhibition panel 3 — existing rail / illustrative head",
+      "cameraYMin": 0,
+      "cameraYMax": 5.45
+    },
+    {
+      "type": "spot",
+      "position": [
+        -12.5972,
+        4.5955,
+        39.92897
+      ],
+      "direction": [
+        -0.67858,
+        -0.73453,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 160,
+      "distance": 11,
+      "angle": 28,
+      "penumbra": 0.55,
+      "shadow": true,
+      "name": "Exhibition panel 4 — existing rail / illustrative head",
+      "cameraYMin": 0,
+      "cameraYMax": 5.45
+    },
+    {
+      "type": "spot",
+      "position": [
+        -12.5972,
+        4.5955,
+        24.38421
+      ],
+      "direction": [
+        -0.67858,
+        -0.73453,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 160,
+      "distance": 11,
+      "angle": 28,
+      "penumbra": 0.55,
+      "shadow": true,
+      "name": "Exhibition panel 5 — existing rail / illustrative head",
+      "cameraYMin": 0,
+      "cameraYMax": 5.45
+    },
+    {
+      "type": "spot",
+      "position": [
+        -5.73946,
+        4.59581,
+        44.48339
+      ],
+      "direction": [
+        0.27418,
+        -0.73192,
+        -0.62379
+      ],
+      "color": "#fff0da",
+      "intensity": 160,
+      "distance": 11,
+      "angle": 28,
+      "penumbra": 0.55,
+      "shadow": true,
+      "name": "Exhibition panel 6 — existing rail / illustrative head",
+      "cameraYMin": 0,
+      "cameraYMax": 5.45
+    },
+    {
+      "type": "spot",
+      "position": [
+        3.41189,
+        4.57048,
+        22.25005
+      ],
+      "direction": [
+        0.33266,
+        -0.94305,
+        0
+      ],
+      "color": "#fff0da",
+      "intensity": 160,
+      "distance": 11,
+      "angle": 28,
+      "penumbra": 0.55,
+      "shadow": true,
+      "name": "Exhibition panel 7 — existing rail / illustrative head",
+      "cameraYMin": 0,
+      "cameraYMax": 5.45
+    },
+    {
+      "type": "spot",
+      "position": [
+        12.54921,
+        4.59581,
+        45.70188
+      ],
+      "direction": [
+        0.27418,
+        -0.73192,
+        -0.62379
+      ],
+      "color": "#fff0da",
+      "intensity": 160,
+      "distance": 11,
+      "angle": 28,
+      "penumbra": 0.55,
+      "shadow": true,
+      "name": "Exhibition panel 8 — existing rail / illustrative head",
+      "cameraYMin": 0,
+      "cameraYMax": 5.45
+    }
+  ],
+  "additions": [
+    {
+      "type": "cylinder",
+      "name": "Track support 1 — estimate",
+      "position": [
+        -12.515770439771721,
+        4.798643655499573,
+        -25.297822504348886
+      ],
+      "radius": 0.018,
+      "height": 0.11,
+      "color": "#999b99",
+      "metalness": 0.65,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track spotlight head 1 — estimate",
+      "position": [
+        -12.51577,
+        4.68364,
+        -25.29782
+      ],
+      "rotation": [
+        0,
+        0,
+        -42.73240416401252
+      ],
+      "radius": 0.075,
+      "height": 0.18,
+      "color": "#b7b8b2",
+      "metalness": 0.5,
+      "collision": false
+    },
+    {
+      "type": "sphere",
+      "name": "Spotlight lens 1 — estimate",
+      "position": [
+        -12.5782,
+        4.61607,
+        -25.29782
+      ],
+      "radius": 0.06,
+      "color": "#fff4e1",
+      "emissive": "#fff0d8",
+      "emissiveIntensity": 1.5,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track support 2 — estimate",
+      "position": [
+        -12.515770439771721,
+        4.798643655499573,
+        -40.84360789819026
+      ],
+      "radius": 0.018,
+      "height": 0.11,
+      "color": "#999b99",
+      "metalness": 0.65,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track spotlight head 2 — estimate",
+      "position": [
+        -12.51577,
+        4.68364,
+        -40.84361
+      ],
+      "rotation": [
+        0,
+        0,
+        -42.73240416401252
+      ],
+      "radius": 0.075,
+      "height": 0.18,
+      "color": "#b7b8b2",
+      "metalness": 0.5,
+      "collision": false
+    },
+    {
+      "type": "sphere",
+      "name": "Spotlight lens 2 — estimate",
+      "position": [
+        -12.5782,
+        4.61607,
+        -40.84361
+      ],
+      "radius": 0.06,
+      "color": "#fff4e1",
+      "emissive": "#fff0d8",
+      "emissiveIntensity": 1.5,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track support 3 — estimate",
+      "position": [
+        -5.772362437818537,
+        4.798643655499573,
+        -20.66957304605243
+      ],
+      "radius": 0.018,
+      "height": 0.11,
+      "color": "#999b99",
+      "metalness": 0.65,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track spotlight head 3 — estimate",
+      "position": [
+        -5.77236,
+        4.68364,
+        -20.66957
+      ],
+      "rotation": [
+        40.43961721904063,
+        0,
+        15.913237432092115
+      ],
+      "radius": 0.075,
+      "height": 0.18,
+      "color": "#b7b8b2",
+      "metalness": 0.5,
+      "collision": false
+    },
+    {
+      "type": "sphere",
+      "name": "Spotlight lens 3 — estimate",
+      "position": [
+        -5.74714,
+        4.61631,
+        -20.72696
+      ],
+      "radius": 0.06,
+      "color": "#fff4e1",
+      "emissive": "#fff0d8",
+      "emissiveIntensity": 1.5,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track support 4 — estimate",
+      "position": [
+        -12.515770439771721,
+        4.798643655499573,
+        39.92896816919462
+      ],
+      "radius": 0.018,
+      "height": 0.11,
+      "color": "#999b99",
+      "metalness": 0.65,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track spotlight head 4 — estimate",
+      "position": [
+        -12.51577,
+        4.68364,
+        39.92897
+      ],
+      "rotation": [
+        0,
+        0,
+        -42.73240416401252
+      ],
+      "radius": 0.075,
+      "height": 0.18,
+      "color": "#b7b8b2",
+      "metalness": 0.5,
+      "collision": false
+    },
+    {
+      "type": "sphere",
+      "name": "Spotlight lens 4 — estimate",
+      "position": [
+        -12.5782,
+        4.61607,
+        39.92897
+      ],
+      "radius": 0.06,
+      "color": "#fff4e1",
+      "emissive": "#fff0d8",
+      "emissiveIntensity": 1.5,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track support 5 — estimate",
+      "position": [
+        -12.515770439771721,
+        4.798643655499573,
+        24.384212775048066
+      ],
+      "radius": 0.018,
+      "height": 0.11,
+      "color": "#999b99",
+      "metalness": 0.65,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track spotlight head 5 — estimate",
+      "position": [
+        -12.51577,
+        4.68364,
+        24.38421
+      ],
+      "rotation": [
+        0,
+        0,
+        -42.73240416401252
+      ],
+      "radius": 0.075,
+      "height": 0.18,
+      "color": "#b7b8b2",
+      "metalness": 0.5,
+      "collision": false
+    },
+    {
+      "type": "sphere",
+      "name": "Spotlight lens 5 — estimate",
+      "position": [
+        -12.5782,
+        4.61607,
+        24.38421
+      ],
+      "radius": 0.06,
+      "color": "#fff4e1",
+      "emissive": "#fff0d8",
+      "emissiveIntensity": 1.5,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track support 6 — estimate",
+      "position": [
+        -5.772362437818537,
+        4.798643655499573,
+        44.55824762718589
+      ],
+      "radius": 0.018,
+      "height": 0.11,
+      "color": "#999b99",
+      "metalness": 0.65,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track spotlight head 6 — estimate",
+      "position": [
+        -5.77236,
+        4.68364,
+        44.55825
+      ],
+      "rotation": [
+        40.439617219040585,
+        0,
+        15.913237432092123
+      ],
+      "radius": 0.075,
+      "height": 0.18,
+      "color": "#b7b8b2",
+      "metalness": 0.5,
+      "collision": false
+    },
+    {
+      "type": "sphere",
+      "name": "Spotlight lens 6 — estimate",
+      "position": [
+        -5.74714,
+        4.61631,
+        44.50086
+      ],
+      "radius": 0.06,
+      "color": "#fff4e1",
+      "emissive": "#fff0d8",
+      "emissiveIntensity": 1.5,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track support 7 — estimate",
+      "position": [
+        3.371974852748192,
+        4.798643655499573,
+        22.250053407391583
+      ],
+      "radius": 0.018,
+      "height": 0.11,
+      "color": "#999b99",
+      "metalness": 0.65,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track spotlight head 7 — estimate",
+      "position": [
+        3.37197,
+        4.68364,
+        22.25005
+      ],
+      "rotation": [
+        0,
+        0,
+        19.430350584001566
+      ],
+      "radius": 0.075,
+      "height": 0.18,
+      "color": "#b7b8b2",
+      "metalness": 0.5,
+      "collision": false
+    },
+    {
+      "type": "sphere",
+      "name": "Spotlight lens 7 — estimate",
+      "position": [
+        3.40258,
+        4.59688,
+        22.25005
+      ],
+      "radius": 0.06,
+      "color": "#fff4e1",
+      "emissive": "#fff0d8",
+      "emissiveIntensity": 1.5,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track support 8 — estimate",
+      "position": [
+        12.51631214331492,
+        4.798643655499573,
+        45.77673726615192
+      ],
+      "radius": 0.018,
+      "height": 0.11,
+      "color": "#999b99",
+      "metalness": 0.65,
+      "collision": false
+    },
+    {
+      "type": "cylinder",
+      "name": "Track spotlight head 8 — estimate",
+      "position": [
+        12.51631,
+        4.68364,
+        45.77674
+      ],
+      "rotation": [
+        40.439617219040585,
+        0,
+        15.91323743209211
+      ],
+      "radius": 0.075,
+      "height": 0.18,
+      "color": "#b7b8b2",
+      "metalness": 0.5,
+      "collision": false
+    },
+    {
+      "type": "sphere",
+      "name": "Spotlight lens 8 — estimate",
+      "position": [
+        12.54154,
+        4.61631,
+        45.71935
+      ],
+      "radius": 0.06,
+      "color": "#fff4e1",
+      "emissive": "#fff0d8",
+      "emissiveIntensity": 1.5,
+      "collision": false
+    }
+  ],
+  "maxActiveLights": {
+    "high": 12,
+    "low": 8
+  },
+  "researchRecord": {
+    "building": "Kimbell Art Museum Kahn Building｜Louis I. Kahn、Richard Kelly",
+    "originalLighting": "IESNY／Richard Kelly官方檔案展覽冊明確記載：原擬沿反光板下緣加小型線形電光源照亮反光板的方案因預算取消；實施的是整合在反光板支架的軌道照明。不得把未建成線形上照方案當原建。",
+    "laterConditions": "燈泡及展覽射燈可隨展覽更新；本輪只復現1972可證實的軌道型態，未主張特定現代LED燈具品牌或原始色溫。",
+    "modelActions": {
+      "retain": [
+        "PBR | perforated reflector aluminium | physical transparency ma",
+        "現有brushed anodised aluminium軌道細長元件"
+      ],
+      "add": [
+        "附於細軌下的最簡短筒燈頭，間距與光學為教學推估"
+      ],
+      "disable": [
+        "整片鋁翼自發光",
+        "虛構未建成線形上照燈",
+        "拱頂均勻嵌燈陣列"
+      ]
+    },
+    "coordinateBasis": "Decoded retained GLB world coordinates; not a historical survey"
+  }
+}

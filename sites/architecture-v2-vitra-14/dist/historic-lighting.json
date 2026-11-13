@@ -1,0 +1,375 @@
+{
+  "summary": "裸露混凝土與平面切縫維持；依Hadid原文的車庫地槽照明，在模型5條車道方向補低位線槽，不冒稱原尺寸。",
+  "era": {
+    "original": "1991–1993，1993完成",
+    "restoration_or_current": "後轉作展覽／活動空間"
+  },
+  "ceiling": "外露鋼筋混凝土的斜面、折面與長跨懸挑，無一般吊頂；部分需保溫空間有抹灰。",
+  "confidence": {
+    "ceiling": "高",
+    "linear_integrated_lighting": "高，一手作者1994文獻",
+    "garage_floor_slots": "高，作者明確說明",
+    "model_slot_coordinates": "教學定位"
+  },
+  "sources": [
+    {
+      "title": "Zaha Hadid：Vitra Fire Station，Ars Electronica archive 1994",
+      "url": "https://webarchive.ars.electronica.art/en/archiv_files/19941/E1994a_064.pdf",
+      "evidence": "作者本人Lighting Scheme節明確說全部照明整合為平面切縫線光，並說車庫以地面切槽界定車道；前節描述混凝土與懸挑。",
+      "kind": "官方／一手資料"
+    },
+    {
+      "title": "Zaha Hadid Foundation：Vitra Fire Station",
+      "url": "https://www.zhfoundation.com/collections/vitra-fire-station/",
+      "evidence": "原設計檔案、1993 Christian Richters攝影及設計年代。",
+      "kind": "官方／一手資料"
+    },
+    {
+      "title": "Vitra：Fire Station architecture",
+      "url": "https://www.vitra.com/en-pt/campus/architecture/architecture-fire-station",
+      "evidence": "官方業主資料，確認原消防用途及其後展覽用途。",
+      "kind": "官方／一手資料"
+    }
+  ],
+  "notes": [
+    "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+    "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+    "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+    "現行展覽設備可能為後加，不能挪用為1993原設計。",
+    "維持裸露混凝土，禁止加一般格柵吊頂或spot網格。",
+    "1994建築師一手文字明確說照明以切縫線而非點整合，車庫由地面切槽界定車道。光源技術、色溫與功率沒有確證。",
+    "模型11條既有發光線全在高處，不能稱為原設計車庫地槽；本版保留幾何、停用原高處發光。",
+    "5條新增地槽採模型五條平行車道線的XZ主軸投影，以原線長92%為初始範圍，再裁切至既有地坪內；後兩條槽端另內退0.1m。深度、寬度與地面位置仍為教學近似，不是原圖逐線測繪。",
+    "每條地槽以3個低位直接點光樣本近似分布光源；不是裸露點燈或一般天花spot網格，也沒有不可見反向光假造GI。"
+  ],
+  "emissiveMaterials": [],
+  "lights": [
+    {
+      "type": "point",
+      "position": [
+        -1.48393,
+        0.05,
+        -9.14947
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 1; sample -0.33"
+    },
+    {
+      "type": "point",
+      "position": [
+        0.68354,
+        0.05,
+        -6.1519
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 1; sample 0"
+    },
+    {
+      "type": "point",
+      "position": [
+        2.85101,
+        0.05,
+        -3.15433
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 1; sample 0.33"
+    },
+    {
+      "type": "point",
+      "position": [
+        3.68063,
+        0.05,
+        -9.14947
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 2; sample -0.33"
+    },
+    {
+      "type": "point",
+      "position": [
+        5.8481,
+        0.05,
+        -6.1519
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 2; sample 0"
+    },
+    {
+      "type": "point",
+      "position": [
+        8.01557,
+        0.05,
+        -3.15433
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 2; sample 0.33"
+    },
+    {
+      "type": "point",
+      "position": [
+        8.84519,
+        0.05,
+        -9.14947
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 3; sample -0.33"
+    },
+    {
+      "type": "point",
+      "position": [
+        11.01266,
+        0.05,
+        -6.1519
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 3; sample 0"
+    },
+    {
+      "type": "point",
+      "position": [
+        13.18013,
+        0.05,
+        -3.15433
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 3; sample 0.33"
+    },
+    {
+      "type": "point",
+      "position": [
+        13.96492,
+        0.05,
+        -9.21146
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 4; sample -0.33"
+    },
+    {
+      "type": "point",
+      "position": [
+        16.04538,
+        0.05,
+        -6.33423
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 4; sample 0"
+    },
+    {
+      "type": "point",
+      "position": [
+        18.12584,
+        0.05,
+        -3.457
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 4; sample 0.33"
+    },
+    {
+      "type": "point",
+      "position": [
+        19.03484,
+        0.05,
+        -9.34234
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 5; sample -0.33"
+    },
+    {
+      "type": "point",
+      "position": [
+        20.93161,
+        0.05,
+        -6.71915
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 5; sample 0"
+    },
+    {
+      "type": "point",
+      "position": [
+        22.82838,
+        0.05,
+        -4.09596
+      ],
+      "color": "#ffe6bf",
+      "intensity": 28,
+      "distance": 14,
+      "shadow": true,
+      "name": "Floor slot 5; sample 0.33"
+    }
+  ],
+  "additions": [
+    {
+      "type": "linear",
+      "name": "Teaching floor slot 1; Hadid 1994 strategy reference",
+      "position": [
+        0.68354,
+        0.012,
+        -6.1519
+      ],
+      "size": [
+        11.2094,
+        0.02,
+        0.06
+      ],
+      "rotation": [
+        0,
+        -54.13017,
+        0
+      ],
+      "color": "#deded7",
+      "emissive": "#ffedce",
+      "emissiveIntensity": 2.4,
+      "castShadow": false,
+      "collision": false
+    },
+    {
+      "type": "linear",
+      "name": "Teaching floor slot 2; Hadid 1994 strategy reference",
+      "position": [
+        5.8481,
+        0.012,
+        -6.1519
+      ],
+      "size": [
+        11.2094,
+        0.02,
+        0.06
+      ],
+      "rotation": [
+        0,
+        -54.13017,
+        0
+      ],
+      "color": "#deded7",
+      "emissive": "#ffedce",
+      "emissiveIntensity": 2.4,
+      "castShadow": false,
+      "collision": false
+    },
+    {
+      "type": "linear",
+      "name": "Teaching floor slot 3; Hadid 1994 strategy reference",
+      "position": [
+        11.01266,
+        0.012,
+        -6.1519
+      ],
+      "size": [
+        11.2094,
+        0.02,
+        0.06
+      ],
+      "rotation": [
+        0,
+        -54.13017,
+        0
+      ],
+      "color": "#deded7",
+      "emissive": "#ffedce",
+      "emissiveIntensity": 2.4,
+      "castShadow": false,
+      "collision": false
+    },
+    {
+      "type": "linear",
+      "name": "Teaching floor slot 4; Hadid 1994 strategy reference",
+      "position": [
+        16.04538,
+        0.012,
+        -6.33423
+      ],
+      "size": [
+        10.75941,
+        0.02,
+        0.06
+      ],
+      "rotation": [
+        0,
+        -54.13017,
+        0
+      ],
+      "color": "#deded7",
+      "emissive": "#ffedce",
+      "emissiveIntensity": 2.4,
+      "castShadow": false,
+      "collision": false
+    },
+    {
+      "type": "linear",
+      "name": "Teaching floor slot 5; Hadid 1994 strategy reference",
+      "position": [
+        20.93161,
+        0.012,
+        -6.71915
+      ],
+      "size": [
+        9.8094,
+        0.02,
+        0.06
+      ],
+      "rotation": [
+        0,
+        -54.13017,
+        0
+      ],
+      "color": "#deded7",
+      "emissive": "#ffedce",
+      "emissiveIntensity": 2.4,
+      "castShadow": false,
+      "collision": false
+    }
+  ],
+  "maxActiveLights": {
+    "high": 16,
+    "low": 8
+  },
+  "researchStatus": {
+    "record": "historical-lighting-research-1.0",
+    "checked_geometry": "CPU Three GLTFLoader + Meshopt; world transforms retained",
+    "photometry": "teaching estimates only",
+    "gpu_visual_acceptance": false
+  }
+}

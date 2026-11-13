@@ -1,0 +1,49 @@
+塔塞爾住宅
+120秒／1280×720／12fps／設計概念動畫
+非比例教學重構；動畫變換是分析編排，不代表歷史設計或施工順序。
+
+0–12秒｜兩個屋段
+讀懂街屋問題，先看平面深度
+前後屋段沿原軸短距離分開再合回，對照窄面寬與進深｜教學重構，非歷史設計／施工順序；光線為定性示意
+
+12–28秒｜錯層接合
+相同樓層名稱未必等於相同高度
+外牆以剖切平面退去，前後樓板分組升降到各自原位；地面基準線不動｜教學重構，非歷史設計／施工順序；光線為定性示意
+
+28–46秒｜七階轉場
+小高差已能改變到達感受
+七階踏面依位置逐一顯現，橙色路徑連續抬升至冬園與樓梯；不改原模型踏級尺寸｜教學重構，非歷史設計／施工順序；光線為定性示意
+
+46–64秒｜挖出光心
+採光井與動線共同使用中央空間
+側牆退去，保留樓梯、玻璃頂與原有中央空隙；黃色線條向下示意入光方向｜教學重構，非歷史設計／施工順序；光線為定性示意
+
+64–82秒｜纖細支承
+纖細支承與扶手，構造和裝飾分層閱讀
+鐵柱、梁與扶手逐步顯現；曲線不全是承重構件，觸摸與步行也參與整體設計｜教學重構，非施工順序
+
+82–102秒｜前後穿透
+空間的連續來自可穿越與可看見的關係
+上層樓板暫退，以俯視角對照入口、中央樓梯與橙色前後路徑｜教學重構，非歷史設計／施工順序；光線為定性示意
+
+102–120秒｜重組街屋
+樓梯、錯層與光共同連接空間
+可見、可走與容易使用須分開檢驗；可及性、安全與維護需尺寸及使用資料
+
+資料來源
+ICOMOS evaluation, Horta Houses, No. 1005, 2000
+https://whc.unesco.org/document/151511
+Urban Brussels — Hôtel Tassel architectural inventory
+https://monument.heritage.brussels/fr/Bruxelles_Extension_Sud/Rue_Paul_Emile_Janson/6/15890
+Le Document 34, 1925 — ground and first floor plans
+https://monument.heritage.brussels/medias/buildings/10006103_0006_W01.jpg
+Original Horta longitudinal section, reproduced from Loyer et al. 1986 p.18
+https://histoirearchitecture19.uqam.ca/wp-content/uploads/2022/04/plan-hotel-tassel-autorisation-condtruction-copie.jpg
+
+新版教學簡報對照
+01_維克多霍塔_50分鐘_圖像分析更新版_v4.pptx
+參照頁碼：4、5、6、7、8、19、20、21、24、25、28
+
+圖像與分析說明
+畫面為重新建立的教學性三維示意；幾何分解、移動、箭頭與光線符號是分析方法，不是原建築的歷史施工或設計過程。
+未經測繪校準，不能用於施工、無障礙合規、結構、照度或性能判定。

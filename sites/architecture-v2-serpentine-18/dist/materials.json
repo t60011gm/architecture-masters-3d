@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "purpose": "Reusable CC0 PBR surface and HDR lighting library for architecture viewers; historic material selection must be determined separately.",
+  "license_verification": {
+    "Poly Haven": {
+      "url": "https://polyhaven.com/license",
+      "verified_at": "2026-10-16",
+      "summary": "Official license grants CC0 for downloaded HDRIs, textures and models; redistribution and commercial use allowed."
+    },
+    "ambientCG": {
+      "url": "https://docs.ambientcg.com/license/",
+      "verified_at": "2026-10-16",
+      "summary": "Official license grants CC0 1.0 Universal for downloadable asset files; redistribution and commercial use allowed."
+    }
+  },
+  "mapping_guidance": [
+    "Treat scene units as metres, or apply explicit model-units-to-metres conversion.",
+    "Repeat physical texture tile sizes from tile_size_m; for a planar face, repeat=(physical width/tile width,physical height/tile height).",
+    "World-space/triplanar mapping avoids UV distortion, but orient timber grain and masonry manually to match construction.",
+    "Only basecolor uses sRGB; roughness and normals are non-color data. RoughnessMap reads green channel in Three.js.",
+    "All texture normal maps are OpenGL +Y. Use normalScale as a preview-tuned multiplier, not a measured height.",
+    "No metallic maps are needed for these dielectric surfaces. Keep metalness=0. White painted steel is a separate painted dielectric material.",
+    "Use separately authored smooth physical materials for glass, polished metal and painted steel, not these diffuse scans.",
+    "Load only the materials used by a model. Do not eagerly load every variant or the entire library."
+  ],
+  "materials": [
+    {
+      "id": "grass",
+      "label": "Short natural green lawn",
+      "source_provider": "ambientCG",
+      "source_asset_id": "Grass001",
+      "source_url": "https://ambientcg.com/view?id=Grass001",
+      "source_metadata_url": "https://ambientcg.com/api/v2/full_json?id=Grass001",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "license_deed_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "tile_size_m": [
+        1.4,
+        1.4
+      ],
+      "tile_size_source": "Official asset page approximate dimensions; ambientCG API centimetres converted to metres",
+      "creation_method_from_official_page": "Procedural",
+      "authors": [
+        "Lennart Demes / ambientCG"
+      ],
+      "recommended_normal_scale": [
+        0.4,
+        0.4
+      ],
+      "metalness": 0,
+      "variants": {
+        "web_compact": {
+          "basecolor": {
+            "path": "textures/grass/web-compact/basecolor.webp",
+            "color_space": "sRGB",
+            "sample_channels": "RGB",
+            "three_material_slot": "map"
+          },
+          "roughness": {
+            "path": "textures/grass/web-compact/roughness.webp",
+            "color_space": "NoColorSpace",
+            "sample_channels": "G",
+            "three_material_slot": "roughnessMap"
+          },
+          "normal": {
+            "path": "textures/grass/web-compact/normal.webp",
+            "color_space": "NoColorSpace",
+            "sample_channels": "RGB",
+            "three_material_slot": "normalMap",
+            "convention": "OpenGL +Y, tangent space"
+          }
+        }
+      },
+      "notes": [
+        "Actual reusable CC0 PBR lawn asset, not a site-specific procedural shader. Official source describes procedural creation; do not claim it is a measured scan of the Farnsworth meadow.",
+        "A flat plane cannot provide individual grass silhouettes. Keep this as ground detail; use restrained normal strength and avoid glossy wet-looking roughness.",
+        "Tile at the documented 1.4 m scale, with low-frequency colour variation if needed to hide repetition across the large meadow."
+      ],
+      "default_1k_byte_size": 4926168,
+      "basecolor_mean_srgb": [
+        0.267207,
+        0.358889,
+        0.158204
+      ],
+      "basecolor_mean_linear_srgb": [
+        0.060315,
+        0.109109,
+        0.02263
+      ],
+      "web_compact_byte_size": 1317130,
+      "web_compact_notes": [
+        "Colour and scalar roughness retain native resolution.",
+        "Normals are 512px wide (linen 512x513 to preserve aspect), vector averaged and normalized, then encoded losslessly.",
+        "Physical tile size and all material channel/color-space conventions match the original.",
+        "This variant is an optional bandwidth tradeoff; original 1k maps remain available."
+      ]
+    },
+    {
+      "id": "gravel",
+      "label": "Fine neutral grey gravel",
+      "source_provider": "ambientCG",
+      "source_asset_id": "Gravel043",
+      "source_url": "https://ambientcg.com/view?id=Gravel043",
+      "source_metadata_url": "https://ambientcg.com/api/v2/full_json?id=Gravel043",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "license_deed_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "tile_size_m": [
+        1.6,
+        1.6
+      ],
+      "tile_size_source": "Official asset page approximate dimensions; ambientCG API centimetres converted to metres",
+      "creation_method_from_official_page": "Surface Photogrammetry",
+      "authors": [
+        "Lennart Demes / ambientCG"
+      ],
+      "recommended_normal_scale": [
+        0.5,
+        0.5
+      ],
+      "metalness": 0,
+      "variants": {
+        "web_compact": {
+          "basecolor": {
+            "path": "textures/gravel/web-compact/basecolor.webp",
+            "color_space": "sRGB",
+            "sample_channels": "RGB",
+            "three_material_slot": "map"
+          },
+          "roughness": {
+            "path": "textures/gravel/web-compact/roughness.webp",
+            "color_space": "NoColorSpace",
+            "sample_channels": "G",
+            "three_material_slot": "roughnessMap"
+          },
+          "normal": {
+            "path": "textures/gravel/web-compact/normal.webp",
+            "color_space": "NoColorSpace",
+            "sample_channels": "RGB",
+            "three_material_slot": "normalMap",
+            "convention": "OpenGL +Y, tangent space"
+          }
+        }
+      },
+      "notes": [
+        "Fine granular grey gravel appearance reference. Not a scan of the historic roof aggregate.",
+        "Keep 1.6 m physical repeat and restrained normal strength. Roof coverage should not turn into oversized coarse rocks."
+      ],
+      "default_1k_byte_size": 4730382,
+      "basecolor_mean_srgb": [
+        0.41902,
+        0.422281,
+        0.406463
+      ],
+      "basecolor_mean_linear_srgb": [
+        0.155748,
+        0.157139,
+        0.144403
+      ],
+      "web_compact_byte_size": 1260108,
+      "web_compact_notes": [
+        "Colour and scalar roughness retain native resolution.",
+        "Normals are 512px wide (linen 512x513 to preserve aspect), vector averaged and normalized, then encoded losslessly.",
+        "Physical tile size and all material channel/color-space conventions match the original.",
+        "This variant is an optional bandwidth tradeoff; original 1k maps remain available."
+      ]
+    },
+    {
+      "id": "linen",
+      "label": "Fine linen weave detail",
+      "source_provider": "Poly Haven",
+      "source_asset_id": "rough_linen",
+      "source_url": "https://polyhaven.com/a/rough_linen",
+      "source_metadata_url": "https://api.polyhaven.com/info/rough_linen",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_deed_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "tile_size_m": [
+        0.270708,
+        0.2713
+      ],
+      "tile_size_source": "Poly Haven dimensions field, millimetres converted to metres",
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "recommended_normal_scale": [
+        0.18,
+        0.18
+      ],
+      "metalness": 0,
+      "variants": {
+        "web_compact": {
+          "roughness": {
+            "path": "textures/linen/web-compact/roughness.webp",
+            "color_space": "NoColorSpace",
+            "sample_channels": "G",
+            "three_material_slot": "roughnessMap"
+          },
+          "normal": {
+            "path": "textures/linen/web-compact/normal.webp",
+            "color_space": "NoColorSpace",
+            "sample_channels": "RGB",
+            "three_material_slot": "normalMap",
+            "convention": "OpenGL +Y, tangent space"
+          }
+        }
+      },
+      "notes": [
+        "Surface-detail-only set: use existing furniture colour. No basecolor map is supplied.",
+        "Apply documented physical scale; subtle normal response is enough for fine upholstery detail.",
+        "Source is named Rough Linen, with a fine crosshatch weave across an approximately 27 cm tile. It is a woven-fabric appearance reference, not historical fibre verification."
+      ],
+      "surface_detail_only": true,
+      "default_1k_byte_size": 2000568,
+      "web_compact_byte_size": 767446,
+      "web_compact_notes": [
+        "Colour and scalar roughness retain native resolution.",
+        "Normals are 512px wide (linen 512x513 to preserve aspect), vector averaged and normalized, then encoded losslessly.",
+        "Physical tile size and all material channel/color-space conventions match the original.",
+        "This variant is an optional bandwidth tradeoff; original 1k maps remain available."
+      ]
+    }
+  ],
+  "environments": [
+    {
+      "id": "daylight",
+      "label": "Neutral daylight, partly cloudy sky",
+      "source_provider": "Poly Haven",
+      "source_asset_id": "kloofendal_48d_partly_cloudy_puresky",
+      "source_url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+      "source_metadata_url": "https://api.polyhaven.com/info/kloofendal_48d_partly_cloudy_puresky",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_deed_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "authors": {
+        "Greg Zaal": "Original",
+        "Jarod Guest": "Sky edits"
+      },
+      "color_space": "LinearSRGBColorSpace",
+      "mapping": "EquirectangularReflectionMapping",
+      "variants": {
+        "1k": {
+          "path": "environments/daylight_1k.hdr"
+        }
+      },
+      "notes": [
+        "Use RGBELoader and PMREMGenerator.fromEquirectangular for image-based lighting.",
+        "Do not apply an sRGB transfer function to the HDR radiance data.",
+        "Align separate directional sun with the visible HDR sun to avoid contradictory shadows.",
+        "Primary source reports 5400 K white balance and 21 EV dynamic range. Sky-only scene avoids trees or buildings visibly conflicting with the architecture."
+      ],
+      "radiance_validation": {
+        "decoded": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "rgb_min": 0.04296875,
+        "rgb_max": 61184.0,
+        "luminance_max": 60449.79296875,
+        "luminance_median": 0.21522733569145203,
+        "brightest_pixel_top_left_xy": [
+          609,
+          119
+        ],
+        "brightest_pixel_top_left_uv": [
+          0.59521484375,
+          0.2333984375
+        ],
+        "decoding": "Conventional Radiance RGBE decode (2^(exponent-128)/256). Use radiance_analysis for the exact Three.js HDRLoader (/255) statistics; difference is 0.392%."
+      },
+      "radiance_analysis": {
+        "source_path": "environments/daylight_1k.hdr",
+        "width": 1024,
+        "height": 512,
+        "decoding": "Linear RGB, Three.js 0.186.1 HDRLoader FloatType convention: RGBE scale=2^(exponent-128)/255",
+        "luminance_definition": "Rec.709 / linear sRGB weights [0.2126, 0.7152, 0.0722]; relative radiance, not claimed as absolute cd/m2",
+        "pixel_luminance": {
+          "median": 0.2160713725490196,
+          "p90": 0.6803372549019607,
+          "p95": 0.8742054901960784,
+          "p99": 1.5594185882352962,
+          "p99_9": 7.9385935058827,
+          "p99_99": 54.987741906702375,
+          "mean": 0.6766803017864975,
+          "min": 0.060045,
+          "max": 60686.85000784314
+        },
+        "solid_angle_weighted_luminance": {
+          "median": 0.24699764705882352,
+          "p90": 0.6474423529411765,
+          "p95": 0.8038430049885503,
+          "p99": 1.423550023263659,
+          "p99_9": 8.144112484877612,
+          "p99_99": 57.505712813224285,
+          "mean": 0.6943225973668037,
+          "min": 0.060045,
+          "max": 60686.85000784314
+        },
+        "upper_hemisphere_pixel_luminance": {
+          "median": 0.34635999999999995,
+          "p90": 0.8742054901960784,
+          "p95": 1.116878588235294,
+          "p99": 2.071429647058829,
+          "p99_9": 13.10087475451443,
+          "p99_99": 83.39627552124665,
+          "mean": 1.150022843767802,
+          "min": 0.08368843137254903,
+          "max": 60686.85000784314
+        },
+        "upper_hemisphere_solid_angle_weighted_luminance": {
+          "median": 0.3404391787370905,
+          "p90": 0.795263243005757,
+          "p95": 0.9884159200642668,
+          "p99": 2.0216863675909464,
+          "p99_9": 13.866841026865911,
+          "p99_99": 88.4899445477972,
+          "mean": 1.1633316247547936,
+          "min": 0.08368843137254903,
+          "max": 60686.85000784314
+        },
+        "max_rgb": 61423.93725490196,
+        "brightest_pixel": {
+          "top_left_xy": [
+            609,
+            119
+          ],
+          "top_left_uv": [
+            0.59521484375,
+            0.2333984375
+          ],
+          "three_equirect_uv": [
+            0.59521484375,
+            0.7666015625
+          ],
+          "direction_to_light_xyz": [
+            0.553042299746689,
+            0.7430079521351217,
+            0.37693951471670634
+          ],
+          "elevation_degrees": 47.98828125,
+          "longitude_degrees_from_positive_x_toward_positive_z": 34.27734375,
+          "assumptions": "Three.js equirectUv mapping; HDRLoader flipY=true; no environmentRotation/backgroundRotation. Rotate this vector with the environment when applying scene rotation. Position a shadow light along this vector relative to its target."
+        },
+        "localized_sun_cap_diagnostic": {
+          "method": "No source edits. Diagnostic only: within 2 degrees of brightest pixel, scale RGB uniformly only where luminance exceeds the 95th-percentile luminance of the 2–5 degree surrounding annulus. All other pixels remain numerically unchanged.",
+          "cap_luminance": 28.478090039215676,
+          "annulus_luminance": {
+            "median": 5.448326274509804,
+            "p90": 21.54789898039216,
+            "p95": 28.478090039215676,
+            "p99": 45.78700348235292,
+            "p99_9": 56.99121428078446,
+            "p99_99": 57.80146119278424,
+            "mean": 9.040050839215688,
+            "min": 1.5539450980392155,
+            "max": 57.891488627450975
+          },
+          "affected_pixel_count": 67,
+          "affected_solid_angle_sr": 0.0017062258101212353,
+          "removed_rgb_integral_radiance_times_solid_angle": [
+            4.378734689255883,
+            4.411959879374811,
+            4.01447520331992
+          ],
+          "removed_rgb_irradiance_normal_facing_sun": [
+            4.378677735479586,
+            4.411902559188945,
+            4.014420261534212
+          ],
+          "removed_luminance_irradiance_normal_facing_sun": 4.376140739777664,
+          "residual_solid_angle_weighted_luminance": {
+            "median": 0.24699764705882352,
+            "p90": 0.6474423529411765,
+            "p95": 0.8038430049885503,
+            "p99": 1.423550023263659,
+            "p99_9": 8.144112484877612,
+            "p99_99": 28.478090039215676,
+            "mean": 0.34607584063468655,
+            "min": 0.060045,
+            "max": 57.891488627450975
+          },
+          "interpretation": "The removed RGB solid-angle integral approximates replacement directional-light incident irradiance in the same relative linear units; scale by chosen environment intensity. This is a measured starting point, not an absolute photometric calibration. Use the same target renderer output pipeline to compare."
+        }
+      }
+    },
+    {
+      "id": "warm",
+      "label": "Warm late-afternoon landscape",
+      "source_provider": "Poly Haven",
+      "source_asset_id": "kiara_7_late-afternoon",
+      "source_url": "https://polyhaven.com/a/kiara_7_late-afternoon",
+      "source_metadata_url": "https://api.polyhaven.com/info/kiara_7_late-afternoon",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_deed_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "authors": {
+        "Greg Zaal": "All"
+      },
+      "color_space": "LinearSRGBColorSpace",
+      "mapping": "EquirectangularReflectionMapping",
+      "variants": {
+        "1k": {
+          "path": "environments/warm_1k.hdr"
+        }
+      },
+      "notes": [
+        "Use RGBELoader and PMREMGenerator.fromEquirectangular for image-based lighting.",
+        "Do not apply an sRGB transfer function to the HDR radiance data.",
+        "Align separate directional sun with the visible HDR sun to avoid contradictory shadows."
+      ],
+      "radiance_validation": {
+        "decoded": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "rgb_min": 0.00061798095703125,
+        "rgb_max": 305152.0,
+        "luminance_max": 265063.21875,
+        "luminance_median": 0.09123281389474869,
+        "brightest_pixel_top_left_xy": [
+          631,
+          231
+        ],
+        "brightest_pixel_top_left_uv": [
+          0.61669921875,
+          0.4521484375
+        ],
+        "decoding": "Conventional Radiance RGBE decode (2^(exponent-128)/256). Use radiance_analysis for the exact Three.js HDRLoader (/255) statistics; difference is 0.392%."
+      },
+      "radiance_analysis": {
+        "source_path": "environments/warm_1k.hdr",
+        "width": 1024,
+        "height": 512,
+        "decoding": "Linear RGB, Three.js 0.186.1 HDRLoader FloatType convention: RGBE scale=2^(exponent-128)/255",
+        "luminance_definition": "Rec.709 / linear sRGB weights [0.2126, 0.7152, 0.0722]; relative radiance, not claimed as absolute cd/m2",
+        "pixel_luminance": {
+          "median": 0.09159058823529412,
+          "p90": 0.2799450980392157,
+          "p95": 0.40814980392156863,
+          "p99": 1.0219159529411768,
+          "p99_9": 5.021374826666755,
+          "p99_99": 50.33083830704334,
+          "mean": 1.5059112094202958,
+          "min": 0.0009624004289215685,
+          "max": 266102.68280470587
+        },
+        "solid_angle_weighted_luminance": {
+          "median": 0.1084813725490196,
+          "p90": 0.34410849987337166,
+          "p95": 0.5199764705882353,
+          "p99": 1.3333500273491345,
+          "p99_9": 7.013038645956074,
+          "p99_99": 94.19163684961356,
+          "mean": 2.2856074977690604,
+          "min": 0.0009624004289215685,
+          "max": 266102.68280470587
+        },
+        "upper_hemisphere_pixel_luminance": {
+          "median": 0.10002588235294117,
+          "p90": 0.3940258823529411,
+          "p95": 0.597469882352941,
+          "p99": 1.5625980078431398,
+          "p99_9": 8.796365402353265,
+          "p99_99": 132.36265480022587,
+          "mean": 2.909658385933871,
+          "min": 0.005607738970588235,
+          "max": 266102.68280470587
+        },
+        "upper_hemisphere_solid_angle_weighted_luminance": {
+          "median": 0.14745550258801124,
+          "p90": 0.5167709219869588,
+          "p95": 0.752362489465848,
+          "p99": 2.070980701097169,
+          "p99_9": 14.615371675575501,
+          "p99_99": 220.90733637143578,
+          "mean": 4.472206473250479,
+          "min": 0.005607738970588235,
+          "max": 266102.68280470587
+        },
+        "max_rgb": 306348.67450980394,
+        "brightest_pixel": {
+          "top_left_xy": [
+            631,
+            231
+          ],
+          "top_left_uv": [
+            0.61669921875,
+            0.4521484375
+          ],
+          "three_equirect_uv": [
+            0.61669921875,
+            0.5478515625
+          ],
+          "direction_to_light_xyz": [
+            0.7346280795750129,
+            0.14976453467732162,
+            0.6617342131496708
+          ],
+          "elevation_degrees": 8.613281250000005,
+          "longitude_degrees_from_positive_x_toward_positive_z": 42.01171875,
+          "assumptions": "Three.js equirectUv mapping; HDRLoader flipY=true; no environmentRotation/backgroundRotation. Rotate this vector with the environment when applying scene rotation. Position a shadow light along this vector relative to its target."
+        },
+        "localized_sun_cap_diagnostic": {
+          "method": "No source edits. Diagnostic only: within 2 degrees of brightest pixel, scale RGB uniformly only where luminance exceeds the 95th-percentile luminance of the 2–5 degree surrounding annulus. All other pixels remain numerically unchanged.",
+          "cap_luminance": 19.618472156862744,
+          "annulus_luminance": {
+            "median": 6.45163294117647,
+            "p90": 15.812783686274507,
+            "p95": 19.618472156862744,
+            "p99": 24.64105135686273,
+            "p99_9": 26.722891520000147,
+            "p99_99": 27.531613387294076,
+            "mean": 8.237759627880349,
+            "min": 3.073019607843137,
+            "max": 27.62147137254902
+          },
+          "affected_pixel_count": 95,
+          "affected_solid_angle_sr": 0.003536815394148881,
+          "removed_rgb_integral_radiance_times_solid_angle": [
+            30.066641288947057,
+            26.244096520128323,
+            15.781305892329023
+          ],
+          "removed_rgb_irradiance_normal_facing_sun": [
+            30.066182072371586,
+            26.243692780781906,
+            15.781060613443923
+          ],
+          "removed_luminance_irradiance_normal_facing_sun": 26.300951961692068,
+          "residual_solid_angle_weighted_luminance": {
+            "median": 0.1084813725490196,
+            "p90": 0.34410849987337166,
+            "p95": 0.5199764705882353,
+            "p99": 1.3333500273491345,
+            "p99_9": 7.013038645956074,
+            "p99_99": 19.618472156862765,
+            "mean": 0.19261208471014635,
+            "min": 0.0009624004289215685,
+            "max": 27.62147137254902
+          },
+          "interpretation": "The removed RGB solid-angle integral approximates replacement directional-light incident irradiance in the same relative linear units; scale by chosen environment intensity. This is a measured starting point, not an absolute photometric calibration. Use the same target renderer output pipeline to compare."
+        }
+      }
+    }
+  ]
+}
